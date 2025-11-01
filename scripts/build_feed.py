@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 import json
 import time
-from typing import Any, Dict, List, Tuple, Optional
+from typing import Any, Dict, List, Tuple, Optional, Iterable
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -98,23 +98,58 @@ def _extract_refs(cve: Dict) -> List[Dict[str, str]]:
         out.append({"title": str(title), "url": str(url)})
     return out
 
+# ---- ここから堅牢な vendor/product 抽出 ----
+def _iter_nodes(configurations: Any) -> Iterable[Dict]:
+    """
+    configurations が dict の場合と list の場合の両方に対応して nodes を列挙。
+    """
+    if isinstance(configurations, dict):
+        nodes = configurations.get("nodes") or []
+        for n in nodes:
+            if isinstance(n, dict):
+                yield n
+    elif isinstance(configurations, list):
+        for cfg in configurations:
+            if isinstance(cfg, dict):
+                nodes = cfg.get("nodes") or []
+                for n in nodes:
+                    if isinstance(n, dict):
+                        yield n
+
+def _walk_nodes(nodes: Iterable[Dict]) -> Iterable[Dict]:
+    """
+    再帰的に nodes を深掘りして、すべてのノードを列挙。
+    """
+    for node in nodes:
+        yield node
+        children = node.get("children") or []
+        for child in children:
+            if isinstance(child, dict):
+                # child 自体を「node」として再帰
+                for n in _walk_nodes([child]):
+                    yield n
+
 def _extract_vendor_product(cve: Dict) -> Tuple[str, str]:
     """
-    CPE からざっくり vendor/product を1件だけ抽出（存在すれば）
+    NVD 2.0 から vendor/product をざっくり抽出（CPE 名称を最初の1件だけ拝借）。
+    configurations のトップが dict/list どちらでも動くようにし、
+    nodes の入れ子(children)も再帰的に探索。
     """
     configs = cve.get("configurations") or {}
-    nodes = configs.get("nodes") or []
-    for node in nodes:
+    for node in _walk_nodes(_iter_nodes(configs)):
+        # v2.0は 'cpeMatch' キー（単数 'cpeMatch' ）
         matches = node.get("cpeMatch") or []
         for m in matches:
             cpe = m.get("criteria") or m.get("cpe23Uri") or ""
-            parts = cpe.split(":")
             # cpe:2.3:a:vendor:product:version:...
+            parts = cpe.split(":")
             if len(parts) >= 5:
                 vendor = parts[3].replace("_", " ")
                 product = parts[4].replace("_", " ")
-                return vendor, product
+                if vendor or product:
+                    return vendor, product
     return "", ""
+# ---- ここまで ----
 
 def fetch_nvd(days: int, max_per_page: int = RESULTS_PER_PAGE, retry: int = 3, backoff: float = 1.5) -> List[Dict]:
     """
@@ -147,7 +182,7 @@ def fetch_nvd(days: int, max_per_page: int = RESULTS_PER_PAGE, retry: int = 3, b
                 resp.raise_for_status()
                 data = resp.json()
                 break
-            except Exception as e:
+            except Exception:
                 if attempt >= retry:
                     raise
                 time.sleep(backoff ** attempt)
@@ -174,7 +209,6 @@ def fetch_nvd(days: int, max_per_page: int = RESULTS_PER_PAGE, retry: int = 3, b
                 summary = descs[0].get("value") or ""
 
             published = _normalize_to_utc_str(c.get("published") or c.get("publishedDate"))
-
             vendor, product = _extract_vendor_product(c)
             cvss = _extract_cvss(c)
             refs = _extract_refs(c)
