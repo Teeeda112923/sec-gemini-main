@@ -1,785 +1,6 @@
 {
-  "generatedAt": "2025-11-01T15:48:19Z",
+  "generatedAt": "2025-11-02T00:30:31Z",
   "items": [
-    {
-      "cve": "CVE-2025-56154",
-      "title": "htmly v3.0.8 is vulnerable to Cross Site Scripting (XSS) in the /author/:name endpoint of the affected application. The ",
-      "summary": "htmly v3.0.8 is vulnerable to Cross Site Scripting (XSS) in the /author/:name endpoint of the affected application. The name parameter is not properly sanitized before being reflected in the HTML response, allowing attackers to inject arbitrary JavaScript payloads.",
-      "vendor": "htmly",
-      "product": "htmly",
-      "published": "2025-10-02T16:15:34Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/akinerkisa/28e97fa132b1a98cff5d05a79b437901"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/danpros/htmly/releases/tag/v3.0.9#:~:text=Security%20fixes%20found%20in%20version%203.0.8"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-56161",
-      "title": "YOSHOP 2.0 allows unauthenticated information disclosure via comment-list API endpoints in the Goods module. The Comment",
-      "summary": "YOSHOP 2.0 allows unauthenticated information disclosure via comment-list API endpoints in the Goods module. The Comment model eagerly loads the related User model without field filtering; because User.php defines no $hidden or $visible attributes, sensitive fields (bcrypt password hash, mobile number, pay_money, expend_money.) are exposed in JSON responses. Route names vary per deployment (e.g. /api/goods.pinglun/list), but all call the same vulnerable model logic.",
-      "vendor": "yiovo",
-      "product": "firefly mall",
-      "published": "2025-10-02T16:15:34Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gitee.com/xany/yoshop2.0"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ZyWAC/CVE-Disclosures/blob/6b337a44934ffe948275995e9b79158e97c78fc4/2025/YOSHOP2.0/CVE-2025-56161.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-56162",
-      "title": "YOSHOP 2.0 suffers from an unauthenticated SQL injection in the goodsIds parameter of the /api/goods/listByIds endpoint.",
-      "summary": "YOSHOP 2.0 suffers from an unauthenticated SQL injection in the goodsIds parameter of the /api/goods/listByIds endpoint. The getListByIds function concatenates user input into orderRaw('field(goods_id, ...)'), allowing attackers to: (a) enumerate or modify database data, including dumping admin password hashes; (b) write web-shell files or invoke xp_cmdshell, leading to remote code execution on servers configured with sufficient DB privileges.",
-      "vendor": "yiovo",
-      "product": "firefly mall",
-      "published": "2025-10-02T16:15:35Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gitee.com/xany/yoshop2.0"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ZyWAC/CVE-Disclosures/blob/6b337a44934ffe948275995e9b79158e97c78fc4/2025/YOSHOP2.0/CVE-2025-56162.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-57305",
-      "title": "VitaraCharts 5.3.5 is vulnerable to Server-Side Request Forgery in fileLoader.jsp.",
-      "summary": "VitaraCharts 5.3.5 is vulnerable to Server-Side Request Forgery in fileLoader.jsp.",
-      "vendor": "vitaracharts",
-      "product": "vitaracharts",
-      "published": "2025-10-02T16:15:35Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "http://vitaracharts.com"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.mattz.io/posts/cve-2025-57305/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-60660",
-      "title": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the mac parameter in the fromAdvSetMacMtuWan func",
-      "summary": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the mac parameter in the fromAdvSetMacMtuWan function.",
-      "vendor": "tenda",
-      "product": "ac18 firmware",
-      "published": "2025-10-02T16:15:38Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://drive.google.com/file/d/1YTKUiYXMsaAEoasx7xbQxy2tsrC5E3Ew/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-60662",
-      "title": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanSpeed parameter in the fromAdvSetMacMtuWan",
-      "summary": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanSpeed parameter in the fromAdvSetMacMtuWan function.",
-      "vendor": "tenda",
-      "product": "ac18 firmware",
-      "published": "2025-10-02T16:15:38Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://drive.google.com/file/d/1-XpZmT_Yw5JtygQJ6HZBRnC5IjlAnLQO/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-34208",
-      "title": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store user passwords u",
-      "summary": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store user passwords using unsalted SHA-512 hashes with a fall-back to unsalted SHA-1. The hashing is performed via PHP's `hash()` function in multiple files (server_write_requests_users.php, update_database.php, legacy/Login.php, tests/Unit/Api/IdpControllerTest.php). No per-user salt is used and the fast hash algorithms are unsuitable for password storage. An attacker who obtains the password database can recover cleartext passwords via offline dictionary or rainbow table attacks. The vulnerable code also contains logic that migrates legacy SHA-1 hashes to SHA-512 on login, further exposing users still on the old hash. This vulnerability was partially resolved, but still present within the legacy authentication platform.",
-      "vendor": "vasion",
-      "product": "virtual appliance application",
-      "published": "2025-10-02T17:16:05Z",
-      "cvss": 8.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://help.printerlogic.com/saas/Print/Security/Security-Bulletins.htm"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://help.printerlogic.com/va/Print/Security/Security-Bulletins.htm"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html#va-incorrect-encryption-algorithms-password"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.vulncheck.com/advisories/vasion-print-printerlogic-insecure-password-hashing"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html#va-incorrect-encryption-algorithms-password"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-34210",
-      "title": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store a large number o",
-      "summary": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store a large number of sensitive credentials (database passwords, MySQL root password, SaaS keys, Portainer admin password, etc.) in cleartext files that are world-readable. Any local user - or any process that can read the host filesystem - can retrieve all of these secrets in plain text, leading to credential theft and full compromise of the appliance. The vendor does not consider this to be a security vulnerability as this product \"follows a shared responsibility model, where administrators are expected to configure persistent storage encryption.\"",
-      "vendor": "vasion",
-      "product": "virtual appliance application",
-      "published": "2025-10-02T17:16:05Z",
-      "cvss": 9.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://help.printerlogic.com/saas/Print/Security/Security-Bulletins.htm"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://help.printerlogic.com/va/Print/Security/Security-Bulletins.htm"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html#va-readable-passwords"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.vulncheck.com/advisories/vasion-print-printerlogic-readble-cleartext-passwords"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html#va-readable-passwords"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59403",
-      "title": "The Flock Safety Android Collins application (aka com.flocksafety.android.collins) 6.35.31 for Android lacks authenticat",
-      "summary": "The Flock Safety Android Collins application (aka com.flocksafety.android.collins) 6.35.31 for Android lacks authentication. It is responsible for the camera feed on Falcon, Sparrow, and Bravo devices, but exposes administrative API endpoints on port 8080 without authentication. Endpoints include but are not limited to: /reboot, /logs, /crashpack, and /adb/enable. This results in multiple impacts including denial of service (DoS) via /reboot, information disclosure via /logs, and remote code execution (RCE) via /adb/enable. The latter specifically results in adb being started over TCP without debugging confirmation, providing an attacker in the LAN/WLAN with shell access.",
-      "vendor": "flocksafety",
-      "product": "flock safety",
-      "published": "2025-10-02T17:16:05Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/2025/09/27/fly-by-device-2-the-falcon-sparrow-gated-wireless-rce-camera-feed-dos-information-disclosure-and-more/"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/wp-content/uploads/2025/09/Root-from-the-Coop-Device-3_-Root-Shell-on-Flock-Safetys-Bravo-Compute-Box-GainSec.pdf"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products/license-plate-readers"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59405",
-      "title": "The Flock Safety Peripheral com.flocksafety.android.peripheral application 7.38.3 for Android (installed on Falcon and S",
-      "summary": "The Flock Safety Peripheral com.flocksafety.android.peripheral application 7.38.3 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) contains a cleartext DataDog API key within in its codebase. Because application binaries can be trivially decompiled or inspected, attackers can recover the OAuth secret without special privileges. This secret is intended to remain confidential and should never be embedded directly in client-side software.",
-      "vendor": "flocksafety",
-      "product": "flock safety",
-      "published": "2025-10-02T17:16:06Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/2025/09/27/fly-by-device-2-the-falcon-sparrow-gated-wireless-rce-camera-feed-dos-information-disclosure-and-more/"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/wp-content/uploads/2025/09/Root-from-the-Coop-Device-3_-Root-Shell-on-Flock-Safetys-Bravo-Compute-Box-GainSec.pdf"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products/license-plate-readers"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59406",
-      "title": "The Flock Safety Pisco com.flocksafety.android.pisco application 6.21.11 for Android (installed on Falcon and Sparrow Li",
-      "summary": "The Flock Safety Pisco com.flocksafety.android.pisco application 6.21.11 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) has a cleartext Auth0 client secret in its codebase. Because application binaries can be trivially decompiled or inspected, attackers can recover this OAuth secret without special privileges. This secret is intended to remain confidential and should never be embedded directly in client-side software.",
-      "vendor": "flocksafety",
-      "product": "flock safety",
-      "published": "2025-10-02T17:16:06Z",
-      "cvss": 6.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/2025/09/27/fly-by-device-2-the-falcon-sparrow-gated-wireless-rce-camera-feed-dos-information-disclosure-and-more/"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/wp-content/uploads/2025/09/Root-from-the-Coop-Device-3_-Root-Shell-on-Flock-Safetys-Bravo-Compute-Box-GainSec.pdf"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products/license-plate-readers"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59407",
-      "title": "The Flock Safety DetectionProcessing com.flocksafety.android.objects application 6.35.33 for Android (installed on Falco",
-      "summary": "The Flock Safety DetectionProcessing com.flocksafety.android.objects application 6.35.33 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) bundles a Java Keystore (flock_rye.bks) along with its hardcoded password (flockhibiki17) in its code. The keystore contains a private key.",
-      "vendor": "flocksafety",
-      "product": "flock safety",
-      "published": "2025-10-02T17:16:07Z",
-      "cvss": 9.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/2025/09/27/fly-by-device-2-the-falcon-sparrow-gated-wireless-rce-camera-feed-dos-information-disclosure-and-more/"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/wp-content/uploads/2025/09/Root-from-the-Coop-Device-3_-Root-Shell-on-Flock-Safetys-Bravo-Compute-Box-GainSec.pdf"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products/license-plate-readers"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59409",
-      "title": "Flock Safety Falcon and Sparrow License Plate Readers OPM1.171019.026 ship with development Wi-Fi credentials (test_flck",
-      "summary": "Flock Safety Falcon and Sparrow License Plate Readers OPM1.171019.026 ship with development Wi-Fi credentials (test_flck) stored in cleartext in production firmware.",
-      "vendor": "flocksafety",
-      "product": "license plate reader firmware",
-      "published": "2025-10-02T17:16:08Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/2025/09/27/fly-by-device-2-the-falcon-sparrow-gated-wireless-rce-camera-feed-dos-information-disclosure-and-more/"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gainsec.com/wp-content/uploads/2025/09/Root-from-the-Coop-Device-3_-Root-Shell-on-Flock-Safetys-Bravo-Compute-Box-GainSec.pdf"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.flocksafety.com/products/license-plate-readers"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-60661",
-      "title": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the cloneType parameter in the fromAdvSetMacMtuWa",
-      "summary": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the cloneType parameter in the fromAdvSetMacMtuWan function.",
-      "vendor": "tenda",
-      "product": "ac18 firmware",
-      "published": "2025-10-02T17:16:08Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://drive.google.com/file/d/10bqMY1XighOBZ5D_Q8GtWFwhmxSN2GJw/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-60663",
-      "title": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanMTU parameter in the fromAdvSetMacMtuWan f",
-      "summary": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanMTU parameter in the fromAdvSetMacMtuWan function.",
-      "vendor": "tenda",
-      "product": "ac18 firmware",
-      "published": "2025-10-02T17:16:09Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://drive.google.com/file/d/1co536tsEdPANFHsvhBvay0_FOMCA4R6r/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-56019",
-      "title": "An insecure permission vulnerability exists in the Agasta Easytouch+ version 9.3.97 The device allows unauthorized mobil",
-      "summary": "An insecure permission vulnerability exists in the Agasta Easytouch+ version 9.3.97 The device allows unauthorized mobile applications to connect via Bluetooth Low Energy (BLE) without authentication. Once an unauthorized connection is established, legitimate applications are unable to connect, causing a denial of service. The attack requires proximity to the device, making it exploitable from an adjacent network location.",
-      "vendor": "agasta",
-      "product": "easy touch plus firmware",
-      "published": "2025-10-02T18:15:46Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/Yashodhanvivek/Agatsa-EasyTouch-Plus---CVE-2025-56019/blob/main/input.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-32942",
-      "title": "SSH Tectia Server before 6.6.6 sometimes allows attackers to read and alter a user's session traffic.",
-      "summary": "SSH Tectia Server before 6.6.6 sometimes allows attackers to read and alter a user's session traffic.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T19:15:30Z",
-      "cvss": 7.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://info.ssh.com/tectia-vulnerability-cve-2025-32942"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-49090",
-      "title": "The Matrix specification before 1.16 (i.e., with a room version before 12 and State Resolution before 2.1) has deficient",
-      "summary": "The Matrix specification before 1.16 (i.e., with a room version before 12 and State Resolution before 2.1) has deficient state resolution.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T19:15:31Z",
-      "cvss": 7.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/Nheko-Reborn/nheko/issues/1931"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/matrix-org/matrix-spec/releases/tag/v1.16"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://matrix.org/blog/2025/08/project-hydra-improving-state-res/"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://matrix.org/blog/2025/08/security-release/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-54315",
-      "title": "The Matrix specification before 1.16 (i.e., with a room version before 12) lacks create event uniqueness.",
-      "summary": "The Matrix specification before 1.16 (i.e., with a room version before 12) lacks create event uniqueness.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T19:15:31Z",
-      "cvss": 7.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/matrix-org/matrix-spec/releases/tag/v1.16"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://matrix.org/blog/2025/08/project-hydra-improving-state-res/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59835",
-      "title": "LangBot is a global IM bot platform designed for LLMs. In versions 4.1.0 up to but not including 4.3.5, authorized attac",
-      "summary": "LangBot is a global IM bot platform designed for LLMs. In versions 4.1.0 up to but not including 4.3.5, authorized attackers can exploit the /api/v1/files/documents interface to perform arbitrary file uploads. Since this interface does not strictly restrict the storage directory of files on the server, it is possible to upload dangerous files to specific system directories. This is fixed in version 4.3.5.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T19:15:31Z",
-      "cvss": 8.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/langbot-app/LangBot/pull/1691"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/langbot-app/LangBot/releases/tag/v4.3.5"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/langbot-app/LangBot/security/advisories/GHSA-7j3j-qj83-9qv4"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-10653",
-      "title": "An unauthenticated debug port may allow access to the device file system.",
-      "summary": "An unauthenticated debug port may allow access to the device file system.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T20:15:31Z",
-      "cvss": 8.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "ics-cert@hq.dhs.gov",
-          "url": "https://support.raise3d.com/"
-        },
-        {
-          "title": "ics-cert@hq.dhs.gov",
-          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-275-01"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-54086",
-      "title": "CVE-2025-54086 is an excess permissions vulnerability in the\nWarehouse component of Absolute Secure Access prior to vers",
-      "summary": "CVE-2025-54086 is an excess permissions vulnerability in the\nWarehouse component of Absolute Secure Access prior to version 14.10. Attackers\nwith access to the local file system can read the Java keystore file. The\nattack complexity is low, there are no attack requirements, the privileges\nrequired are low and no user interaction is required. Impact to confidentiality\nis low, there is no impact to integrity or availability.",
-      "vendor": "absolute",
-      "product": "secure access",
-      "published": "2025-10-02T20:15:32Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "SecurityResponse@netmotionsoftware.com",
-          "url": "https://www.absolute.com/platform/security-information/vulnerability-archive/cve-2025-54086"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-54087",
-      "title": "CVE-2025-54087 is a server-side request forgery\nvulnerability in Secure Access prior to version 14.10. Attackers with\nad",
-      "summary": "CVE-2025-54087 is a server-side request forgery\nvulnerability in Secure Access prior to version 14.10. Attackers with\nadministrative privileges can publish a crafted test HTTP request originating\nfrom the Secure Access server. The attack complexity is high, there are no\nattack requirements, and user interaction is required. There is no direct\nimpact to confidentiality, integrity, or availability. There is a low severity\nsubsequent system impact to integrity.",
-      "vendor": "absolute",
-      "product": "secure access",
-      "published": "2025-10-02T20:15:32Z",
-      "cvss": 1.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "SecurityResponse@netmotionsoftware.com",
-          "url": "https://www.absolute.com/platform/security-information/vulnerability-archive/cve-2025-54087"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61595",
-      "title": "MANTRA is a purpose-built RWA Layer 1 Blockchain, capable of adherence to real world regulatory requirements. Versions 4",
-      "summary": "MANTRA is a purpose-built RWA Layer 1 Blockchain, capable of adherence to real world regulatory requirements. Versions 4.0.1 and below do not enforce the tx gas limit in its send hooks. Send hooks can spend more gas than what remains in tx, combined with recursive calls in the wasm contract, potentially amplifying the gas consumption exponentially. This is fixed in version 4.0.2.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T20:15:35Z",
-      "cvss": 8.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/MANTRA-Chain/mantrachain/commit/30d36c46e9823b56b8f0dcbb66e980ca5df284e4"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/MANTRA-Chain/mantrachain/security/advisories/GHSA-qwvm-wqq8-8j69"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61603",
-      "title": "WeGIA is a Web manager for charitable institutions. Versions 3.4.12 and below include an SQL Injection vulnerability whi",
-      "summary": "WeGIA is a Web manager for charitable institutions. Versions 3.4.12 and below include an SQL Injection vulnerability which was identified in the /controle/control.php endpoint, specifically in the descricao parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.",
-      "vendor": "wegia",
-      "product": "wegia",
-      "published": "2025-10-02T20:15:35Z",
-      "cvss": 9.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/commit/84958eed73741a544859eea297908db3b83b3833"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-v8hm-pq8g-c7j4"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-v8hm-pq8g-c7j4"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61604",
-      "title": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Cross-S",
-      "summary": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Cross-Site Request Forgery (CSRF) vulnerability. The delete operation for the Almoxarifado entity is exposed via HTTP GET without CSRF protection, allowing a third-party site to trigger the action using the victim’s authenticated session. This issue is fixed in version 3.5.0.",
-      "vendor": "wegia",
-      "product": "wegia",
-      "published": "2025-10-02T20:15:35Z",
-      "cvss": 7.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/commit/839de09798f61c9a76043bb2c4b3063d310c5aed"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-59hm-4m9h-ch3m"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-59hm-4m9h-ch3m"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-54088",
-      "title": "CVE-2025-54088 is an open-redirect vulnerability in Secure\nAccess prior to version 14.10. Attackers with access to the c",
-      "summary": "CVE-2025-54088 is an open-redirect vulnerability in Secure\nAccess prior to version 14.10. Attackers with access to the console can\nredirect victims to an arbitrary URL. The attack complexity is low, attack\nrequirements are present, no privileges are required, and users must actively\nparticipate in the attack. Impact to confidentiality is low and there is no\nimpact to integrity or availability. There are high severity impacts to\nconfidentiality, integrity, availability in subsequent systems.",
-      "vendor": "absolute",
-      "product": "secure access",
-      "published": "2025-10-02T21:16:00Z",
-      "cvss": 5.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "SecurityResponse@netmotionsoftware.com",
-          "url": "https://www.absolute.com/platform/security-information/vulnerability-archive/cve-2025-54088"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-54089",
-      "title": "CVE-2025-54089 is a cross-site scripting vulnerability in versions\nof secure access prior to 14.10. Attackers with admin",
-      "summary": "CVE-2025-54089 is a cross-site scripting vulnerability in versions\nof secure access prior to 14.10. Attackers with administrative access to the\nconsole can interfere with another administrator’s access to the console. The\nattack complexity is low; there are no attack requirements. Privileges required\nto execute the attack are high and the victim must actively participate in the\nattack sequence. There is no impact to confidentiality or availability, there\nis a low impact to integrity.",
-      "vendor": "absolute",
-      "product": "secure access",
-      "published": "2025-10-02T21:16:00Z",
-      "cvss": 4.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "SecurityResponse@netmotionsoftware.com",
-          "url": "https://www.absolute.com/platform/security-information/vulnerability-archive/cve-2025-54089"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61605",
-      "title": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an SQL In",
-      "summary": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an SQL Injection vulnerability which was identified in the /pet/profile_pet.php endpoint, specifically in the id_pet parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.",
-      "vendor": "wegia",
-      "product": "wegia",
-      "published": "2025-10-02T21:16:01Z",
-      "cvss": 9.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/commit/176733543c9b6762bef5ddec7c9c555f76fafa1d"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-8963-9833-gpx7"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-8963-9833-gpx7"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61606",
-      "title": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an Open R",
-      "summary": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an Open Redirect vulnerability, identified in the control.php endpoint, specifically in the nextPage parameter (metodo=listarUmnomeClasse=FuncionarioControle). This vulnerability allows attackers to redirect users to arbitrary external domains, enabling phishing campaigns, malicious payload distribution, or user credential theft. This issue is fixed in version 3.5.0.",
-      "vendor": "wegia",
-      "product": "wegia",
-      "published": "2025-10-02T21:16:01Z",
-      "cvss": 4.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/commit/85051ad14b1e7fa14116e74a90c0bd5480b2ec84"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-m64v-hm7q-33wr"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-m64v-hm7q-33wr"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61665",
-      "title": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Broken ",
-      "summary": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Broken Access Control vulnerability, identified in the get_relatorios_socios.php endpoint. This vulnerability allows unauthenticated attackers to directly access sensitive personal and financial information of members without requiring authentication or authorization. This issue is fixed in version 3.5.0.",
-      "vendor": "wegia",
-      "product": "wegia",
-      "published": "2025-10-02T21:16:01Z",
-      "cvss": 8.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/commit/828f23a6a760a52b8bb8bfd583cc2b23c42da51e"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-62wp-6qmh-6p5f"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/LabRedesCefetRJ/WeGIA/security/advisories/GHSA-62wp-6qmh-6p5f"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61600",
-      "title": "Stalwart is a mail and collaboration server. Versions 0.13.3 and below contain an unbounded memory allocation vulnerabil",
-      "summary": "Stalwart is a mail and collaboration server. Versions 0.13.3 and below contain an unbounded memory allocation vulnerability in the IMAP protocol parser which allows remote attackers to exhaust server memory, potentially triggering the system's out-of-memory (OOM) killer and causing a denial of service. The CommandParser implementation enforces size limits on its dynamic buffer in most parsing states, but several state handlers omit these validation checks. This issue is fixed in version 0.13.4. A workaround for this issue is to implement rate limiting and connection monitoring at the network level, however this does not provide complete protection.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T22:15:38Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/stalwartlabs/stalwart/commit/a8e631e881bded8128358732f18e02ca94a4e677"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/stalwartlabs/stalwart/releases/tag/v0.13.4"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/stalwartlabs/stalwart/security/advisories/GHSA-8jqj-qj5p-v5rr"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61666",
-      "title": "Traccar is an open source GPS tracking system. Default installs of Traccar on Windows between versions 6.1-  6.8.1 and n",
-      "summary": "Traccar is an open source GPS tracking system. Default installs of Traccar on Windows between versions 6.1-  6.8.1 and non default installs between versions 5.8 - 6.0 are vulnerable to unauthenticated local file inclusion attacks which can lead to leakage of passwords or any file on the file system including the Traccar configuration file. Versions 5.8 - 6.0 are only vulnerable if <entry key='web.override'>./override</entry> is set in the configuration file. Versions 6.1 - 6.8.1 are vulnerable by default as the web override is enabled by default. The vulnerable code is removed in version 6.9.0.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T22:15:38Z",
-      "cvss": 8.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/traccar/traccar/blob/v6.8.1/src/main/java/org/traccar/web/DefaultOverrideServlet.java"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/traccar/traccar/security/advisories/GHSA-hprc-rph8-fj87"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://projectblack.io/blog/jetty-addpath-lfi"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61668",
-      "title": "Volto is a ReactJS-based frontend for the Plone Content Management System. Versions 16.34.0 and below, 17.0.0 through 17",
-      "summary": "Volto is a ReactJS-based frontend for the Plone Content Management System. Versions 16.34.0 and below, 17.0.0 through 17.22.1, 18.0.0 through 18.27.1, and 19.0.0-alpha.1 through 19.0.0-alpha.5, an anonymous user could cause the NodeJS server part of Volto to quit with an error when visiting a specific URL. This issue is fixed in versions 16.34.1, 17.22.2, 18.27.2 and 19.0.0-alpha.6.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T22:15:38Z",
-      "cvss": 8.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "http://github.com/plone/volto/releases/tag/18.27.2"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/plone/volto/commit/58d9f82d2d50ca9a87edbe16fed91762e57c109c"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/plone/volto/pull/7412"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/plone/volto/pull/7413"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/plone/volto/releases/tag/16.34.1"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/plone/volto/releases/tag/17.22.2"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/plone/volto/releases/tag/19.0.0-alpha.6"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/plone/volto/security/advisories/GHSA-m8rj-ppph-mj33"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-10895",
-      "title": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-10-02T23:15:30Z",
-      "cvss": null,
-      "exploited": false,
-      "references": []
-    },
     {
       "cve": "CVE-2025-11241",
       "title": "The Yoast SEO Premium plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions 25.7 to 25.9 due to ",
@@ -68190,7 +67411,15 @@
         },
         {
           "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2025q4/018337.html"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
           "url": "https://shimo.im/docs/1d3aMVMmNmiLjg3g"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.openwall.com/lists/oss-security/2025/10/27/1"
         }
       ]
     },
@@ -89312,6 +88541,86 @@
         {
           "title": "psirt@us.ibm.com",
           "url": "https://www.ibm.com/support/pages/node/7249915"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-12599",
+      "title": "Multiple Devices are Sharing the Same Secrets for SDKSocket (TCP/5000).This issue affects BLU-IC2: through 1.19.5; BLU-I",
+      "summary": "Multiple Devices are Sharing the Same Secrets for SDKSocket (TCP/5000).This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-11-01T19:15:38Z",
+      "cvss": 10.0,
+      "exploited": false,
+      "references": [
+        {
+          "title": "a0340c66-c385-4f8b-991b-3d05f6fd5220",
+          "url": "https://azure-access.com/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-12600",
+      "title": "Web UI Malfunction when setting unexpected locale via API.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1",
+      "summary": "Web UI Malfunction when setting unexpected locale via API.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-11-01T19:15:38Z",
+      "cvss": 10.0,
+      "exploited": false,
+      "references": [
+        {
+          "title": "a0340c66-c385-4f8b-991b-3d05f6fd5220",
+          "url": "https://azure-access.com/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-12601",
+      "title": "Denial of Service Due to SlowLoris.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "summary": "Denial of Service Due to SlowLoris.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-11-01T19:15:38Z",
+      "cvss": 10.0,
+      "exploited": false,
+      "references": [
+        {
+          "title": "a0340c66-c385-4f8b-991b-3d05f6fd5220",
+          "url": "https://azure-access.com/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-12602",
+      "title": "/etc/avahi/services/z9.service can be Arbitrarily Written.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1",
+      "summary": "/etc/avahi/services/z9.service can be Arbitrarily Written.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-11-01T19:15:38Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "a0340c66-c385-4f8b-991b-3d05f6fd5220",
+          "url": "https://azure-access.com/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-12603",
+      "title": "/etc/timezone can be Arbitrarily Written.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "summary": "/etc/timezone can be Arbitrarily Written.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-11-01T19:15:39Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "a0340c66-c385-4f8b-991b-3d05f6fd5220",
+          "url": "https://azure-access.com/security-advisories"
         }
       ]
     }
