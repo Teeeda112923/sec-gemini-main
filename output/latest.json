@@ -1,2559 +1,6 @@
 {
-  "generatedAt": "2025-12-07T00:32:56Z",
+  "generatedAt": "2025-12-08T00:30:31Z",
   "items": [
-    {
-      "cve": "CVE-2025-48985",
-      "title": "A vulnerability in Vercel’s AI SDK has been fixed in versions 5.0.52, 5.1.0-beta.9, and 6.0.0-beta. This issue may have ",
-      "summary": "A vulnerability in Vercel’s AI SDK has been fixed in versions 5.0.52, 5.1.0-beta.9, and 6.0.0-beta. This issue may have allowed users to bypass filetype whitelists when uploading files. All users are encouraged to upgrade.\r\n\r\nMore details: https://vercel.com/changelog/cve-2025-48985-input-validation-bypass-on-ai-sdk",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T01:15:36Z",
-      "cvss": 3.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "support@hackerone.com",
-          "url": "https://github.com/vercel/ai/commit/930399bb9839a8baf3d349614106d78268775eed"
-        },
-        {
-          "title": "support@hackerone.com",
-          "url": "https://vercel.com/changelog/cve-2025-48985-input-validation-bypass-on-ai-sdk"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-52662",
-      "title": "A vulnerability in Nuxt DevTools has been fixed in version **2.6.4***. This issue may have allowed Nuxt auth token extra",
-      "summary": "A vulnerability in Nuxt DevTools has been fixed in version **2.6.4***. This issue may have allowed Nuxt auth token extraction via XSS under certain configurations. All users are encouraged to upgrade.\r\n\r\nMore details: https://vercel.com/changelog/cve-2025-52662-xss-on-nuxt-devtools",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T01:15:36Z",
-      "cvss": 6.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "support@hackerone.com",
-          "url": "https://github.com/nuxt/devtools/commit/7cadbbe9"
-        },
-        {
-          "title": "support@hackerone.com",
-          "url": "https://vercel.com/changelog/cve-2025-52662-xss-on-nuxt-devtools"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-11546",
-      "title": "CLUSTERPRO X for Linux 4.0, 4.1, 4.2, 5.0, 5.1 and 5.2 and EXPRESSCLUSTER X for Linux 4.0, 4.1, 4.2, 5.0, 5.1 and 5.2, C",
-      "summary": "CLUSTERPRO X for Linux 4.0, 4.1, 4.2, 5.0, 5.1 and 5.2 and EXPRESSCLUSTER X for Linux 4.0, 4.1, 4.2, 5.0, 5.1 and 5.2, CLUSTERPRO X SingleServerSafe for Linux 4.0, 4.1, 4.2, 5.0, 5.1 and 5.2, EXPRESSCLUSTER X SingleServerSafe for Linux 4.0, 4.1, 4.2, 5.0, 5.1 and 5.2 allows an attacker sends specially crafted network packets to the product, arbitrary OS commands may be executed without authentication.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T02:15:34Z",
-      "cvss": 9.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt-info@cyber.jp.nec.com",
-          "url": "https://jpn.nec.com/security-info/secinfo/nv25-006_en.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-5483",
-      "title": "The LC Wizard plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check in the ghl-wi",
-      "summary": "The LC Wizard plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check in the ghl-wizard/inc/wp_user.php file in versions 1.2.10 to 1.3.0. This makes it possible for unauthenticated attackers to create new user accounts with the administrator role when the PRO functionality is enabled.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T04:15:46Z",
-      "cvss": 8.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset/3366906"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/42dcc302-b543-42c7-99fa-605f017beb1a?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64180",
-      "title": "Manager-io/Manager is accounting software. In Manager Desktop and Server versions 25.11.1.3085 and below, a critical vul",
-      "summary": "Manager-io/Manager is accounting software. In Manager Desktop and Server versions 25.11.1.3085 and below, a critical vulnerability permits unauthorized access to internal network resources. The flaw lies in the fundamental design of the DNS validation mechanism. A Time-of-Check Time-of-Use (TOCTOU) condition that allows attackers to bypass network isolation and access internal services, cloud metadata endpoints, and protected network segments. The Desktop edition requires no authentication; the Server edition requires only standard authentication. This issue is fixed in version 25.11.1.3086.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T04:15:46Z",
-      "cvss": 10.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/Manager-io/Manager/security/advisories/GHSA-j2xj-xhph-p74j"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64184",
-      "title": "Dosage is a comic strip downloader and archiver. When downloading comic images in versions 3.1 and below, Dosage constru",
-      "summary": "Dosage is a comic strip downloader and archiver. When downloading comic images in versions 3.1 and below, Dosage constructs target file names from different aspects of the remote comic (page URL, image URL, page content, etc.). While the basename is properly stripped of directory-traversing characters, the file extension is taken from the HTTP Content-Type header. This allows a remote attacker (or a Man-in-the-Middle, if the comic is served over HTTP) to write arbitrary files outside the target directory (if additional conditions are met). This issue is fixed in version 3.2.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T04:15:46Z",
-      "cvss": 8.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/webcomics/dosage/commit/336a9684191604bc49eed7296b74bd582151181e"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/webcomics/dosage/security/advisories/GHSA-4vcx-3pj3-44m7"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64187",
-      "title": "OctoPrint provides a web interface for controlling consumer 3D printers. Versions 1.11.3 and below are affected by a vul",
-      "summary": "OctoPrint provides a web interface for controlling consumer 3D printers. Versions 1.11.3 and below are affected by a vulnerability that allows injection of arbitrary HTML and JavaScript into Action Command notifications and prompts popups generated by the printer. An attacker who successfully convinces a victim to print a specially crafted file could exploit this issue to disrupt ongoing prints, extract information (including sensitive configuration settings, if the targeted user has the necessary permissions for that), or perform other actions on behalf of the targeted user within the OctoPrint instance. This issue is fixed in version 1.11.4.",
-      "vendor": "octoprint",
-      "product": "octoprint",
-      "published": "2025-11-07T04:15:47Z",
-      "cvss": 4.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/OctoPrint/OctoPrint/commit/9112e07b1085f4c1ee9eefc67985809251057a44"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/OctoPrint/OctoPrint/security/advisories/GHSA-crvm-xjhm-9h29"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64323",
-      "title": "kgateway is a Cloud-Native API and AI Gateway. Versions 2.0.4 and below and 2.1.0-agw-cel-rbac through 2.1.0-rc.2 lack a",
-      "summary": "kgateway is a Cloud-Native API and AI Gateway. Versions 2.0.4 and below and 2.1.0-agw-cel-rbac through 2.1.0-rc.2 lack authentication, allowing any client with unrestricted network access to the xDS port to retrieve potentially sensitive configuration data including certificate data, backend service information, routing rules, and cluster metadata. This issue is solved in versions 2.0.5 and 2.1.0.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T04:15:47Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kgateway-dev/kgateway/issues/10651"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kgateway-dev/kgateway/pull/12471"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kgateway-dev/kgateway/pull/12535"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kgateway-dev/kgateway/security/advisories/GHSA-4766-x535-jw3r"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64328",
-      "title": "FreePBX Endpoint Manager is a module for managing telephony endpoints in FreePBX systems. In versions 17.0.2.36 and abov",
-      "summary": "FreePBX Endpoint Manager is a module for managing telephony endpoints in FreePBX systems. In versions 17.0.2.36 and above before 17.0.3, the filestore module within the Administrative interface is vulnerable to a post-authentication command injection by an authenticated known user via the testconnection -> check_ssh_connect() function. An attacker can leverage this vulnerability to obtain remote access to the system as an asterisk user. This issue is fixed in version 17.0.3.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T04:15:47Z",
-      "cvss": 8.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/FreePBX/filestore/blob/f0e3983059271efd80b483ec823310ef19a59013/drivers/SSH/testconnection.php#L2"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/FreePBX/security-reporting/security/advisories/GHSA-vm9p-46mv-5xvw"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://www.freepbx.org/watch-what-we-do-with-security-fixes-%f0%9f%91%80"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12352",
-      "title": "The Gravity Forms plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in th",
-      "summary": "The Gravity Forms plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the copy_post_image() function in all versions up to, and including, 2.9.20. This makes it possible for unauthenticated attackers to upload arbitrary files on the affected site's server which may make remote code execution possible. This only impacts sites that have allow_url_fopen set to `On`, the post creation form enabled along with a file upload field for the post",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T05:15:57Z",
-      "cvss": 9.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://github.com/pronamic/gravityforms/blob/06de1b7e169e4f073e9d0d491e17b89365b48c20/forms_model.php#L5451C26-L5451C41"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://github.com/pronamic/gravityforms/blob/06de1b7e169e4f073e9d0d491e17b89365b48c20/includes/fields/class-gf-field-fileupload.php#L306"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/42525101-6196-40b9-90e7-c7f1886ef247?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-4519",
-      "title": "The IDonate – Blood Donation, Request And Donor Management System plugin for WordPress is vulnerable to Privilege Escala",
-      "summary": "The IDonate – Blood Donation, Request And Donor Management System plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check on the idonate_donor_password() function in versions 2.1.5 to 2.1.9. This makes it possible for authenticated attackers, with Subscriber-level access and above, to initiate a password reset for any user (including administrators) and elevate their privileges for full site takeover.",
-      "vendor": "themeatelier",
-      "product": "idonate",
-      "published": "2025-11-07T05:16:04Z",
-      "cvss": 8.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/idonate/tags/2.1.9/src/Helpers/DonorFunctions.php#L410"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset/3334424/idonate/tags/2.1.10/src/Helpers/DonorFunctions.php?old=3279142&old_path=idonate%2Ftags%2F2.1.9%2Fsrc%2FHelpers%2FDonorFunctions.php"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://wordpress.org/plugins/idonate/#developers"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/596aef67-582a-4506-bae9-c7be1899e47a?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-4522",
-      "title": "The IDonate – Blood Donation, Request And Donor Management System plugin for WordPress is vulnerable to Insecure Direct ",
-      "summary": "The IDonate – Blood Donation, Request And Donor Management System plugin for WordPress is vulnerable to Insecure Direct Object Reference via the admin_post_donor_delete() function in versions 2.0.0 to 2.1.9. By supplying an arbitrary user_id parameter value to the wp_delete_user() function, authenticated attackers, with Subscriber-level access and above could delete arbitrary user accounts, including those of administrators.",
-      "vendor": "themeatelier",
-      "product": "idonate",
-      "published": "2025-11-07T05:16:04Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/idonate/tags/2.1.9/src/Admin/Admin.php#L75"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/idonate/tags/2.1.9/src/Helpers/DonorFunctions.php#L658"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset/3334424/idonate/tags/2.1.10/src/Helpers/DonorFunctions.php?old=3279142&old_path=idonate%2Ftags%2F2.1.9%2Fsrc%2FHelpers%2FDonorFunctions.php"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://wordpress.org/plugins/idonate/#developers"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/bb0625ec-5ac9-4896-ac11-87fc9287f68a?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64329",
-      "title": "containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 thro",
-      "summary": "containerd is an open-source container runtime. Versions 1.7.28 and below, 2.0.0-beta.0 through 2.0.6, 2.1.0-beta.0 through 2.1.4, and 2.2.0-beta.0 through 2.2.0-rc.1 contain a bug in the CRI Attach implementation where a user can exhaust memory on the host due to goroutine leaks. This issue is fixed in versions 1.7.29, 2.0.7, 2.1.5 and 2.2.0. To workaround this vulnerability, users can set up an admission controller to control accesses to pods/attach resources.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T05:16:08Z",
-      "cvss": 6.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/containerd/containerd/commit/083b53cd6f19b5de7717b0ce92c11bdf95e612df"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/containerd/containerd/security/advisories/GHSA-m6hq-p25p-ffr2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64336",
-      "title": "ClipBucket v5 is an open source video sharing platform. In versions 5.5.2-#146 and below, the Manage Photos feature is v",
-      "summary": "ClipBucket v5 is an open source video sharing platform. In versions 5.5.2-#146 and below, the Manage Photos feature is vulnerable to stored Cross-site Scripting (XSS). An authenticated regular user can upload a photo with a malicious Photo Title containing HTML/JavaScript code. While the payload does not execute in the user-facing photo gallery or detail pages, it is rendered unsafely in the Admin → Manage Photos section, resulting in JavaScript execution in the administrator’s browser. This issue is fixed in version 5.5.2-#147.",
-      "vendor": "oxygenz",
-      "product": "clipbucket",
-      "published": "2025-11-07T05:16:08Z",
-      "cvss": 7.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/MacWarrior/clipbucket-v5/commit/8e3cf79ce2721fbebde68a05a9a1a6319f086bcc"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/MacWarrior/clipbucket-v5/releases/tag/5.5.2-%23147"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/MacWarrior/clipbucket-v5/security/advisories/GHSA-hjc2-5329-j49w"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64338",
-      "title": "Rejected reason: This CVE is a duplicate of another CVE.",
-      "summary": "Rejected reason: This CVE is a duplicate of another CVE.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T05:16:10Z",
-      "cvss": null,
-      "exploited": false,
-      "references": []
-    },
-    {
-      "cve": "CVE-2025-12520",
-      "title": "The WP Airbnb Review Slider plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all ",
-      "summary": "The WP Airbnb Review Slider plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 4.2 due to insufficient URL validation that allows users to pull in a malicious HTML file. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T06:15:33Z",
-      "cvss": 4.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://cyberresearchhub.com/"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://cyberresearchhub.com/cve-2025-12520/"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset?old_path=/wp-airbnb-review-slider/tags/4.2&new_path=/wp-airbnb-review-slider/tags/4.3&sfp_email=&sfph_mail="
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6082f25f-b060-431b-a18c-65899851bf3b?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12527",
-      "title": "The Page & Post Notes plugin for WordPress is vulnerable to unauthorized modification of notes due to a missing capabili",
-      "summary": "The Page & Post Notes plugin for WordPress is vulnerable to unauthorized modification of notes due to a missing capability check on the 'yydev_notes_save_dashboard_data' function in all versions up to, and including, 1.3.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to modify notes.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T06:15:33Z",
-      "cvss": 4.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/page-post-notes/trunk/include/insert-to-db.php"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/page-post-notes/trunk/index.php#L85"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3389236%40page-post-notes&new=3389236%40page-post-notes&sfp_email=&sfph_mail="
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/93dadc33-cabf-4701-97ca-861ad90597fb?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64339",
-      "title": "ClipBucket v5 is an open source video sharing platform. In versions 5.5.2-#146 and below, the Manage Playlists feature i",
-      "summary": "ClipBucket v5 is an open source video sharing platform. In versions 5.5.2-#146 and below, the Manage Playlists feature is vulnerable to stored Cross-site Scripting (XSS),specifically in the Playlist Name field. An authenticated low-privileged user can create a playlist with a malicious name containing HTML/JavaScript code, which is rendered unescaped on playlist detail and listing pages. This results in arbitrary JavaScript execution in every viewer’s browser, including administrators. This issue is fixed in version 5.5.2-#147.",
-      "vendor": "oxygenz",
-      "product": "clipbucket",
-      "published": "2025-11-07T06:15:33Z",
-      "cvss": 7.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/MacWarrior/clipbucket-v5/commit/8e3cf79ce2721fbebde68a05a9a1a6319f086bcc"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/MacWarrior/clipbucket-v5/security/advisories/GHSA-c695-m4g4-v3fv"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64343",
-      "title": "(conda) Constructor is a tool that enables users to create installers for conda package collections. In versions 3.12.2 ",
-      "summary": "(conda) Constructor is a tool that enables users to create installers for conda package collections. In versions 3.12.2 and below, the  installation directory inherits permissions from its parent directory. Outside of restricted directories, the permissions are very permissive and often allow write access by authenticated users. Any logged in user can make modifications during the installation for both single-user and all-user installations. This constitutes a local attack vector if the installation is in a directory local users have access to. For single-user installations in a shared directory, these permissions persist after the installation. This issue is fixed in version 3.13.0.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T06:15:33Z",
-      "cvss": 7.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/conda/constructor/commit/c368383710a7c2b81ad1b0ecb9724b38d3577447"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/conda/constructor/releases/tag/3.13.0"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/conda/constructor/security/advisories/GHSA-vvpr-2qg4-2mrq"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64346",
-      "title": "archives is a Go library for extracting archives (tar, zip, etc.). Version 1.0.0 does not prevent a malicious user to fe",
-      "summary": "archives is a Go library for extracting archives (tar, zip, etc.). Version 1.0.0 does not prevent a malicious user to feed a specially crafted archive to the library causing RCE, modification of files or other malignancies in the context of whatever the user is running this library as, through the program that imports it. Severity depends on user permissions, environment and how arbitrary archives are passed. This issue is fixed in version 1.0.1.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T06:15:33Z",
-      "cvss": 6.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/jaredallard/archives/commit/3bddec7bd3f38afbe97ae61d1c8a8487e9ea4ef1"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/jaredallard/archives/security/advisories/GHSA-j95m-rcjp-q69h"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-10966",
-      "title": "curl's code for managing SSH connections when SFTP was done using the wolfSSH\npowered backend was flawed and missed host",
-      "summary": "curl's code for managing SSH connections when SFTP was done using the wolfSSH\npowered backend was flawed and missed host verification mechanisms.\n\nThis prevents curl from detecting MITM attackers and more.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T08:15:39Z",
-      "cvss": 4.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "2499f714-1537-4658-8207-48ae4bb9eae9",
-          "url": "https://curl.se/docs/CVE-2025-10966.html"
-        },
-        {
-          "title": "2499f714-1537-4658-8207-48ae4bb9eae9",
-          "url": "https://curl.se/docs/CVE-2025-10966.json"
-        },
-        {
-          "title": "2499f714-1537-4658-8207-48ae4bb9eae9",
-          "url": "https://hackerone.com/reports/3355218"
-        },
-        {
-          "title": "af854a3a-2127-422b-91ae-364da2661108",
-          "url": "http://www.openwall.com/lists/oss-security/2025/11/05/2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-46413",
-      "title": "Use of password hash with insufficient computational effort issue exists in BUFFALO Wi-Fi router 'WSR-1800AX4 series'. W",
-      "summary": "Use of password hash with insufficient computational effort issue exists in BUFFALO Wi-Fi router 'WSR-1800AX4 series'. When WPS is enabled, PIN code and/or Wi-Fi password may be obtained by an attacker.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T09:15:38Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "vultures@jpcert.or.jp",
-          "url": "https://jvn.jp/en/jp/JVN13754005/"
-        },
-        {
-          "title": "vultures@jpcert.or.jp",
-          "url": "https://www.buffalo.jp/news/detail/20251107-01.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-10870",
-      "title": "SQL injection vulnerability in DIAL's CentrosNet v2.64. Allows an attacker to retrieve, create, update, and delete datab",
-      "summary": "SQL injection vulnerability in DIAL's CentrosNet v2.64. Allows an attacker to retrieve, create, update, and delete databases by sending POST and GET requests with the 'ultralogin' parameter in '/centrosnet/ultralogin.php'.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T10:15:38Z",
-      "cvss": 9.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve-coordination@incibe.es",
-          "url": "https://www.incibe.es/en/incibe-cert/notices/aviso/sql-injection-dials-centrosnet"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-10968",
-      "title": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'), CWE - 564 - SQL Injection: Hiberna",
-      "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'), CWE - 564 - SQL Injection: Hibernate vulnerability in GG Soft Software Services Inc. PaperWork allows Blind SQL Injection, SQL Injection.This issue affects PaperWork: from 6.1.0.9390 before 6.1.0.9398.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T13:15:38Z",
-      "cvss": 8.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "iletisim@usom.gov.tr",
-          "url": "https://www.usom.gov.tr/bildirim/tr-25-0381"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12853",
-      "title": "A vulnerability was determined in SourceCodester Best House Rental Management System 1.0. This affects the function dele",
-      "summary": "A vulnerability was determined in SourceCodester Best House Rental Management System 1.0. This affects the function delete_house of the file /admin_class.php. Executing manipulation of the argument ID can lead to sql injection. The attack may be performed from remote. The exploit has been publicly disclosed and may be utilized.",
-      "vendor": "mayurik",
-      "product": "best house rental management system",
-      "published": "2025-11-07T13:15:38Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/Cashbeebee/CVE/issues/2"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331499"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331499"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679152"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://www.sourcecodester.com/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12854",
-      "title": "A vulnerability was identified in newbee-mall-plus up to 2.4.1. This vulnerability affects the function executeSeckill o",
-      "summary": "A vulnerability was identified in newbee-mall-plus up to 2.4.1. This vulnerability affects the function executeSeckill of the file /seckillExecution/. The manipulation of the argument userid leads to authorization bypass. It is possible to initiate the attack remotely. The attack is considered to have high complexity. It is stated that the exploitability is difficult. The exploit is publicly available and might be used.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T13:15:39Z",
-      "cvss": 6.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/Hwwg/cve/issues/4"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331500"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331500"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679281"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12855",
-      "title": "A security flaw has been discovered in code-projects Responsive Hotel Site 1.0. This issue affects some unknown processi",
-      "summary": "A security flaw has been discovered in code-projects Responsive Hotel Site 1.0. This issue affects some unknown processing of the file /admin/newsletterdel.php. The manipulation of the argument eid results in sql injection. It is possible to launch the attack remotely. The exploit has been released to the public and may be exploited.",
-      "vendor": "fabian",
-      "product": "responsive hotel site",
-      "published": "2025-11-07T14:15:49Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://code-projects.org/"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/AmengDream/CVE/blob/main/Responsive_Hotel_Site/newsletterdel-sql-injection/report.md"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331501"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331501"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679743"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/AmengDream/CVE/blob/main/Responsive_Hotel_Site/newsletterdel-sql-injection/report.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12856",
-      "title": "A weakness has been identified in code-projects Responsive Hotel Site 1.0. Impacted is an unknown function of the file /",
-      "summary": "A weakness has been identified in code-projects Responsive Hotel Site 1.0. Impacted is an unknown function of the file /admin/reservation.php. This manipulation of the argument email causes sql injection. The attack can be initiated remotely. The exploit has been made available to the public and could be exploited.",
-      "vendor": "fabian",
-      "product": "responsive hotel site",
-      "published": "2025-11-07T14:15:49Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://code-projects.org/"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/AmengDream/CVE/blob/main/Responsive_Hotel_Site/reservation-sql-injection/report.md"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331502"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331502"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679744"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/AmengDream/CVE/blob/main/Responsive_Hotel_Site/reservation-sql-injection/report.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12857",
-      "title": "A security vulnerability has been detected in code-projects Responsive Hotel Site 1.0. The affected element is an unknow",
-      "summary": "A security vulnerability has been detected in code-projects Responsive Hotel Site 1.0. The affected element is an unknown function of the file /admin/roombook.php. Such manipulation of the argument rid leads to sql injection. The attack can be launched remotely. The exploit has been disclosed publicly and may be used.",
-      "vendor": "fabian",
-      "product": "responsive hotel site",
-      "published": "2025-11-07T14:15:49Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://code-projects.org/"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/AmengDream/CVE/blob/main/Responsive_Hotel_Site/roombook-sql-injection/report.md"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331503"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331503"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679745"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-34299",
-      "title": "Monsta FTP versions 2.11 and earlier contain a vulnerability that allows unauthenticated arbitrary file uploads. This fl",
-      "summary": "Monsta FTP versions 2.11 and earlier contain a vulnerability that allows unauthenticated arbitrary file uploads. This flaw enables attackers to execute arbitrary code by uploading a specially crafted file from a malicious (S)FTP server.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T14:15:49Z",
-      "cvss": 9.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://labs.watchtowr.com/whats-that-coming-over-the-hill-monsta-ftp-remote-code-execution-cve-2025-34299/"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.monstaftp.com/notes/"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.vulncheck.com/advisories/monsta-ftp-unauthenticated-arbitrary-file-upload"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12859",
-      "title": "A vulnerability has been found in DedeBIZ up to 6.3.2. This impacts an unknown function of the file /admin/templets_one_",
-      "summary": "A vulnerability has been found in DedeBIZ up to 6.3.2. This impacts an unknown function of the file /admin/templets_one_edit.php. The manipulation of the argument ids leads to sql injection. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used.",
-      "vendor": "dedebiz",
-      "product": "dedebiz",
-      "published": "2025-11-07T15:15:39Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/ZZCTD/zz_test/issues/1"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331506"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331506"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679106"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/ZZCTD/zz_test/issues/1"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12860",
-      "title": "A vulnerability was found in DedeBIZ up to 6.3.2. Affected is an unknown function of the file /admin/freelist_main.php. ",
-      "summary": "A vulnerability was found in DedeBIZ up to 6.3.2. Affected is an unknown function of the file /admin/freelist_main.php. The manipulation of the argument orderby results in sql injection. The attack can be executed remotely. The exploit has been made public and could be used.",
-      "vendor": "dedebiz",
-      "product": "dedebiz",
-      "published": "2025-11-07T15:15:40Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/ZZCTD/zz_test/issues/2"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331507"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331507"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679111"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/ZZCTD/zz_test/issues/2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12861",
-      "title": "A vulnerability was determined in DedeBIZ up to 6.3.2. Affected by this vulnerability is an unknown functionality of the",
-      "summary": "A vulnerability was determined in DedeBIZ up to 6.3.2. Affected by this vulnerability is an unknown functionality of the file /admin/spec_add.php. This manipulation of the argument flags[] causes sql injection. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized.",
-      "vendor": "dedebiz",
-      "product": "dedebiz",
-      "published": "2025-11-07T16:15:38Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/ZZCTD/zz_test/issues/3"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331508"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331508"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679692"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/ZZCTD/zz_test/issues/3"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-47207",
-      "title": "A NULL pointer dereference vulnerability has been reported to affect several product versions. If a remote attacker gain",
-      "summary": "A NULL pointer dereference vulnerability has been reported to affect several product versions. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:38Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-52425",
-      "title": "An SQL injection vulnerability has been reported to affect QuMagie. A remote attacker can exploit the vulnerability to e",
-      "summary": "An SQL injection vulnerability has been reported to affect QuMagie. A remote attacker can exploit the vulnerability to execute unauthorized code or commands.\n\nWe have already fixed the vulnerability in the following versions:\nQuMagie 2.7.0 and later",
-      "vendor": "qnap",
-      "product": "qumagie",
-      "published": "2025-11-07T16:15:38Z",
-      "cvss": 9.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-33"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-52865",
-      "title": "A NULL pointer dereference vulnerability has been reported to affect File Station 5. If a remote attacker gains a user a",
-      "summary": "A NULL pointer dereference vulnerability has been reported to affect File Station 5. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:38Z",
-      "cvss": 1.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-53408",
-      "title": "A NULL pointer dereference vulnerability has been reported to affect File Station 5. If a remote attacker gains a user a",
-      "summary": "A NULL pointer dereference vulnerability has been reported to affect File Station 5. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:39Z",
-      "cvss": 1.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-53409",
-      "title": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a r",
-      "summary": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:39Z",
-      "cvss": 4.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-53410",
-      "title": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a r",
-      "summary": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:39Z",
-      "cvss": 4.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-53411",
-      "title": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a r",
-      "summary": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a remote attacker gains an administrator account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:39Z",
-      "cvss": 1.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-53412",
-      "title": "A NULL pointer dereference vulnerability has been reported to affect File Station 5. If a remote attacker gains a user a",
-      "summary": "A NULL pointer dereference vulnerability has been reported to affect File Station 5. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:39Z",
-      "cvss": 0.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-53413",
-      "title": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a r",
-      "summary": "An allocation of resources without limits or throttling vulnerability has been reported to affect File Station 5. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:39Z",
-      "cvss": 4.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-54167",
-      "title": "A cross-site scripting (XSS) vulnerability has been reported to affect Notification Center. If a remote attacker gains a",
-      "summary": "A cross-site scripting (XSS) vulnerability has been reported to affect Notification Center. If a remote attacker gains an administrator account, they can then exploit the vulnerability to bypass security mechanisms or read application data.\n\nWe have already fixed the vulnerability in the following versions:\nNotification Center 2.1.0.3443 and later\nNotification Center 1.9.2.3163 and later\nNotification Center 3.0.0.3466 and later",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T16:15:40Z",
-      "cvss": 7.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-40"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-54168",
-      "title": "A cross-site scripting (XSS) vulnerability has been reported to affect QuLog Center. If a remote attacker gains an admin",
-      "summary": "A cross-site scripting (XSS) vulnerability has been reported to affect QuLog Center. If a remote attacker gains an administrator account, they can then exploit the vulnerability to bypass security mechanisms or read application data.\n\nWe have already fixed the vulnerability in the following version:\nQuLog Center 1.8.2.923 ( 2025/08/27 ) and later",
-      "vendor": "qnap",
-      "product": "qulog center",
-      "published": "2025-11-07T16:15:40Z",
-      "cvss": 2.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-42"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-57706",
-      "title": "A cross-site scripting (XSS) vulnerability has been reported to affect File Station 5. If a remote attacker gains a user",
-      "summary": "A cross-site scripting (XSS) vulnerability has been reported to affect File Station 5. If a remote attacker gains a user account, they can then exploit the vulnerability to bypass security mechanisms or read application data.\n\nWe have already fixed the vulnerability in the following version:\nFile Station 5 5.5.6.5018 and later",
-      "vendor": "qnap",
-      "product": "file station",
-      "published": "2025-11-07T16:15:40Z",
-      "cvss": 2.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-38"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-57712",
-      "title": "A path traversal vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, the",
-      "summary": "A path traversal vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to read the contents of unexpected files or system data.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.3 ( 2025/08/28 ) and later",
-      "vendor": "qnap",
-      "product": "qsync central",
-      "published": "2025-11-07T16:15:40Z",
-      "cvss": 4.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-41"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58463",
-      "title": "A relative path traversal vulnerability has been reported to affect Download Station. If a remote attacker gains an admi",
-      "summary": "A relative path traversal vulnerability has been reported to affect Download Station. If a remote attacker gains an administrator account, they can then exploit the vulnerability to read the contents of unexpected files or system data.\n\nWe have already fixed the vulnerability in the following versions:\nDownload Station 5.10.0.305 ( 2025/09/16 ) and later\nDownload Station 5.10.0.304 ( 2025/09/08 ) and later",
-      "vendor": "qnap",
-      "product": "download station",
-      "published": "2025-11-07T16:15:40Z",
-      "cvss": 2.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-37"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58464",
-      "title": "A relative path traversal vulnerability has been reported to affect QuMagie. If a remote attacker, they can then exploit",
-      "summary": "A relative path traversal vulnerability has been reported to affect QuMagie. If a remote attacker, they can then exploit the vulnerability to read the contents of unexpected files or system data.\n\nWe have already fixed the vulnerability in the following version:\nQuMagie 2.7.3 and later",
-      "vendor": "qnap",
-      "product": "qumagie",
-      "published": "2025-11-07T16:15:41Z",
-      "cvss": 7.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-43"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58465",
-      "title": "A cross-site scripting (XSS) vulnerability has been reported to affect Download Station. If a remote attacker gains a us",
-      "summary": "A cross-site scripting (XSS) vulnerability has been reported to affect Download Station. If a remote attacker gains a user account, they can then exploit the vulnerability to bypass security mechanisms or read application data.\n\nWe have already fixed the vulnerability in the following versions:\nDownload Station 5.10.0.305 ( 2025/09/16 ) and later\nDownload Station 5.10.0.304 ( 2025/09/08 ) and later",
-      "vendor": "qnap",
-      "product": "download station",
-      "published": "2025-11-07T16:15:41Z",
-      "cvss": 2.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-37"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58469",
-      "title": "A cross-site request forgery (CSRF) vulnerability has been reported to affect QuLog Center. The remote attackers can the",
-      "summary": "A cross-site request forgery (CSRF) vulnerability has been reported to affect QuLog Center. The remote attackers can then exploit the vulnerability to gain privileges or hijack user identities.\n\nWe have already fixed the vulnerability in the following version:\nQuLog Center 1.8.2.927 ( 2025/09/17 ) and later",
-      "vendor": "qnap",
-      "product": "qulog center",
-      "published": "2025-11-07T16:15:41Z",
-      "cvss": 1.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@qnapsecurity.com.tw",
-          "url": "https://www.qnap.com/en/security-advisory/qsa-25-42"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63686",
-      "title": "There is an arbitrary file download vulnerability in GuoMinJim PersonManage thru commit 5a02b1ab208feacf3a34fc123c938116",
-      "summary": "There is an arbitrary file download vulnerability in GuoMinJim PersonManage thru commit 5a02b1ab208feacf3a34fc123c9381162afbaa95 (2020-11-23) in the document query function under the Download Center menu in the PersonManage system.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T16:15:42Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/LockeTom/95b2a47f2dcb27e62690754993a4c7cd"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/GuoMinJim/PersonManage/issues/10"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63687",
-      "title": "An issue was discovered in rymcu forest thru commit f782e85 (2025-09-04) in function doBefore in file src/main/java/com/",
-      "summary": "An issue was discovered in rymcu forest thru commit f782e85 (2025-09-04) in function doBefore in file src/main/java/com/rymcu/forest/core/service/security/AuthorshipAspect.java, allowing authorized attackers to delete arbitrary users posts.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T16:15:42Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/LockeTom/564d5be6b75bb64d120daed96d74ec9c"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/rymcu/forest/issues/193"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63689",
-      "title": "Multiple SQL injection vulnerabilitites in ycf1998 money-pos system before commit 11f276bd20a41f089298d804e43cb1c39d041e",
-      "summary": "Multiple SQL injection vulnerabilitites in ycf1998 money-pos system before commit 11f276bd20a41f089298d804e43cb1c39d041e59 (2025-09-14) allows a remote attacker to execute arbitrary code via the orderby parameter",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T16:15:42Z",
-      "cvss": 10.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/LockeTom/2ed0f3751c88542f48b7c230468d2a46"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ycf1998/money-pos/issues/3"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63690",
-      "title": "In pig-mesh Pig versions 3.8.2 and below, when setting up scheduled tasks in the Quartz management function under the sy",
-      "summary": "In pig-mesh Pig versions 3.8.2 and below, when setting up scheduled tasks in the Quartz management function under the system management module, it is possible to execute any Java class with a parameterless constructor and its methods with parameter type String through reflection. At this time, the eval method in Tomcat's built-in class jakarta.el.ELProcessor can be used to execute commands, leading to a remote code execution vulnerability.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T16:15:42Z",
-      "cvss": 9.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/LockeTom/vulnerability/blob/main/md/pig_Remote_Code_Execution_Vulnerability.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/pig-mesh/pig/issues/1199"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63691",
-      "title": "In pig-mesh In Pig version 3.8.2 and below, within the Token Management function under the System Management module, the",
-      "summary": "In pig-mesh In Pig version 3.8.2 and below, within the Token Management function under the System Management module, the token query interface (/api/admin/sys-token/page) has an improper permission verification issue, which leads to information leakage. This interface can be called by any user who has completed login authentication, and it returns the plaintext authentication Tokens of all users currently logged in to the system. As a result, ordinary users can obtain the administrator's authentication Token through this interface, thereby forging an administrator account, gaining the system's management permissions, and taking over the system.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T16:15:42Z",
-      "cvss": 9.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/LockeTom/vulnerability/blob/main/md/pig_Information_disclosure_vulnerability.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/pig-mesh/pig/issues/1202"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63783",
-      "title": "A Broken Object Level Authorization (BOLA) vulnerability was discovered in the tRPC project mutation APIs (update, delet",
-      "summary": "A Broken Object Level Authorization (BOLA) vulnerability was discovered in the tRPC project mutation APIs (update, delete, add/remove tag) of the Onlook web application 0.2.32. The vulnerability exists because the API fails to verify the ownership or membership of the currently authenticated user for the requested project ID. An authenticated attacker can send a malicious request containing another user's project ID to unlawfully modify, delete, or manipulate tags on that project, which can severely compromise data integrity and availability.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T16:15:42Z",
-      "cvss": 7.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://blog.soohyun.tech/CVE-2025-63783-IDOR-in-Onlook-27a557175d2e8061a3dbc931da53f095"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://tossbank.notion.site/IDOR-in-onlook-27a557175d2e8061a3dbc931da53f095"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12862",
-      "title": "A vulnerability was identified in projectworlds Online Notes Sharing Platform 1.0. Affected by this issue is some unknow",
-      "summary": "A vulnerability was identified in projectworlds Online Notes Sharing Platform 1.0. Affected by this issue is some unknown functionality of the file /dashboard/userprofile.php. Such manipulation of the argument image leads to unrestricted upload. The attack may be performed from remote. The exploit is publicly available and might be used.",
-      "vendor": "projectworlds",
-      "product": "online notes sharing platform",
-      "published": "2025-11-07T17:15:47Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/K1nakoo/cve/blob/main/tmp74/report.md"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331509"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331509"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.679802"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/K1nakoo/cve/blob/main/tmp74/report.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-3222",
-      "title": "Improper Authentication vulnerability in GE Vernova Smallworld on Windows, Linux allows Authentication Abuse.This issue ",
-      "summary": "Improper Authentication vulnerability in GE Vernova Smallworld on Windows, Linux allows Authentication Abuse.This issue affects Smallworld: 5.3.3 and prior versions for Linux, and 5.3.4. and prior versions for Windows.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T17:15:47Z",
-      "cvss": 9.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "GEPowerCVD@ge.com",
-          "url": "https://www.gevernova.com/content/dam/cyber_security/global/en_US/pdfs/SecurityAdvisory_ImproperAuthentication_SWMFS.pdf"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-57698",
-      "title": "AstrBot Project v3.5.22 contains a directory traversal vulnerability. The handler function install_plugin_upload of the ",
-      "summary": "AstrBot Project v3.5.22 contains a directory traversal vulnerability. The handler function install_plugin_upload of the interface '/plugin/install-upload' parses the filename from the request body provided by the user, and directly uses the filename to assign to file_path without checking the validity of the filename. The variable file_path is then passed as a parameter to the function `file.save`, so that the file in the request body can be saved to any location in the file system through directory traversal.",
-      "vendor": "astrbot",
-      "product": "astrbot",
-      "published": "2025-11-07T17:15:47Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/DYX217/vulnerability-explore/blob/main/2/README.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63784",
-      "title": "An Open Redirect vulnerability exists in the OAuth callback handler in file onlook/apps/web/client/src/app/auth/callback",
-      "summary": "An Open Redirect vulnerability exists in the OAuth callback handler in file onlook/apps/web/client/src/app/auth/callback/route.ts in Onlook web application 0.2.32. The vulnerability occurs because the application trusts the X-Forwarded-Host header value without proper validation when constructing a redirect URL. A remote attacker can send a manipulated X-Forwarded-Host header to redirect an authenticated user to an arbitrary external website under their control, which can be exploited for phishing attacks.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T17:15:47Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://blog.soohyun.tech/CVE-2025-63784-Open-Redirect-in-Onlook-27e557175d2e80ac8641fab59dc36021"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://tossbank.notion.site/Open-Redirect-in-onlook-27e557175d2e80ac8641fab59dc36021"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63785",
-      "title": "A DOM-based Cross-Site Scripting (XSS) vulnerability exists in the text editor feature of the Onlook web application 0.2",
-      "summary": "A DOM-based Cross-Site Scripting (XSS) vulnerability exists in the text editor feature of the Onlook web application 0.2.32. This vulnerability occurs because user-supplied input is not properly sanitized before being directly injected into the DOM via innerHTML when editing a text element. An attacker can exploit this to inject malicious HTML and script code, which is then executed within the context of the preview iframe, allowing for the execution of arbitrary scripts in the user's session.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T17:15:47Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://blog.soohyun.tech/CVE-2025-63785-DOM-XSS-in-Onlook-27e557175d2e80e1b210c75b77952115"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://tossbank.notion.site/DOM-XSS-in-onlook-27e557175d2e80e1b210c75b77952115"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-7719",
-      "title": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in GE Vernova Smallworld on",
-      "summary": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in GE Vernova Smallworld on Windows, Linux allows File Manipulation.This issue affects Smallworld: 5.3.5. and previous versions.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T17:15:47Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "GEPowerCVD@ge.com",
-          "url": "https://www.gevernova.com/content/dam/cyber_security/global/en_US/pdfs/SecurityAdvisory_ArbitraryFileOps_SWMFS.pdf"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12829",
-      "title": "An uninitialized stack read issue exists in Amazon Ion-C versions <v1.1.4 that may allow a threat actor to craft data an",
-      "summary": "An uninitialized stack read issue exists in Amazon Ion-C versions <v1.1.4 that may allow a threat actor to craft data and serialize it to Ion text in such a way that sensitive data in memory could be exposed through UTF-8 escape sequences. To mitigate this issue, users should upgrade to version v1.1.4.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T18:15:35Z",
-      "cvss": 6.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "ff89ba41-3aa1-4d27-914a-91399e9639e5",
-          "url": "https://aws.amazon.com/security/security-bulletins/AWS-2025-027/"
-        },
-        {
-          "title": "ff89ba41-3aa1-4d27-914a-91399e9639e5",
-          "url": "https://github.com/amazon-ion/ion-c/releases/tag/v1.1.4"
-        },
-        {
-          "title": "ff89ba41-3aa1-4d27-914a-91399e9639e5",
-          "url": "https://github.com/amazon-ion/ion-c/security/advisories/GHSA-7mgf-6x73-5h7r"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12858",
-      "title": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All r",
-      "summary": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T18:15:35Z",
-      "cvss": null,
-      "exploited": false,
-      "references": []
-    },
-    {
-      "cve": "CVE-2025-12873",
-      "title": "A security flaw has been discovered in Campcodes School File Management 1.0. This affects an unknown part of the file /a",
-      "summary": "A security flaw has been discovered in Campcodes School File Management 1.0. This affects an unknown part of the file /admin/update_user.php. Performing manipulation of the argument user_id results in sql injection. It is possible to initiate the attack remotely. The exploit has been released to the public and may be exploited.",
-      "vendor": "campcodes",
-      "product": "school file management system",
-      "published": "2025-11-07T18:15:36Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/YYYGdd/CVE/issues/1"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331510"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331510"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.680854"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://www.campcodes.com/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-57697",
-      "title": "AstrBot Project v3.5.22 has an arbitrary file read vulnerability in function _encode_image_bs64. Since the _encode_image",
-      "summary": "AstrBot Project v3.5.22 has an arbitrary file read vulnerability in function _encode_image_bs64. Since the _encode_image_bs64 function defined in entities.py opens the image specified by the user in the request body and returns the image content as a base64-encoded string without checking the legitimacy of the image path, attackers can construct a series of malicious URLs to read any specified file, resulting in sensitive data leakage.",
-      "vendor": "astrbot",
-      "product": "astrbot",
-      "published": "2025-11-07T18:15:36Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/DYX217/vulnerability-explore/blob/main/1/README.md"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63713",
-      "title": "Cross-Site Scripting (XSS) vulnerability in SourceCodester \"MatchMaster\" 1.0 allows remote attackers to inject arbitrary",
-      "summary": "Cross-Site Scripting (XSS) vulnerability in SourceCodester \"MatchMaster\" 1.0 allows remote attackers to inject arbitrary web script or HTML via crafted input in the custom test creation feature. The vulnerability exists because the application fails to properly sanitize user-supplied input in test titles and matching pair items before rendering them in the DOM during test execution.",
-      "vendor": "remyandrade",
-      "product": "matching type test",
-      "published": "2025-11-07T18:15:36Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/floccocam-cpu/CVE-Research-2025/blob/main/CVE-2025-63713/README7.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/javascript/18431/matching-type-test-using-html-css-and-javascript-source-code.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63714",
-      "title": "Cross-Site Scripting (XSS) vulnerability in SourceCodester User Account Generator 1.0 allows remote attackers to execute",
-      "summary": "Cross-Site Scripting (XSS) vulnerability in SourceCodester User Account Generator 1.0 allows remote attackers to execute arbitrary JavaScript code in the context of the user's browser session via crafted input in the Username Prefix field. The vulnerability exists due to improper sanitization of user-supplied input when rendering generated account data to the DOM, allowing persistent injection of malicious HTML elements that execute when clicked by users.",
-      "vendor": "remyandrade",
-      "product": "modern user account generator",
-      "published": "2025-11-07T18:15:36Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/floccocam-cpu/CVE-Research-2025/blob/main/CVE-2025-63714/README10.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/javascript/18430/modern-user-account-generator-using-html-css-and-javascript-source-code.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63716",
-      "title": "The SourceCodester Leads Manager Tool v1.0 is vulnerable to Cross-Site Request Forgery (CSRF) attacks that allow unautho",
-      "summary": "The SourceCodester Leads Manager Tool v1.0 is vulnerable to Cross-Site Request Forgery (CSRF) attacks that allow unauthorized state-changing operations. The application lacks CSRF protection mechanisms such as anti-CSRF tokens or same-origin verification for critical endpoints.",
-      "vendor": "rems",
-      "product": "leads manager tool",
-      "published": "2025-11-07T18:15:36Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/floccocam-cpu/CVE-Research-2025/blob/main/CVE-2025-63716/README5.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/php/17510/leads-manager-tool-using-php-and-mysql-source-code.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63718",
-      "title": "A SQL injection vulnerability exists in the SourceCodester PQMS (Patient Queue Management System) 1.0 in the api_patient",
-      "summary": "A SQL injection vulnerability exists in the SourceCodester PQMS (Patient Queue Management System) 1.0 in the api_patient_schedule.php endpoint. The appointmentID parameter is not properly sanitized, allowing attackers to execute arbitrary SQL commands.",
-      "vendor": "pamzey",
-      "product": "patients waiting area queue management system",
-      "published": "2025-11-07T18:15:36Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/floccocam-cpu/CVE-Research-2025/blob/main/CVE-2025-63718/README8.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/php/18348/patients-waiting-area-queue-management-system.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64347",
-      "title": "Apollo Router Core is a configurable Rust graph router written to run a federated supergraph using Apollo Federation 2. ",
-      "summary": "Apollo Router Core is a configurable Rust graph router written to run a federated supergraph using Apollo Federation 2. Versions 1.61.12-rc.0 and below and 2.8.1-rc.0 allow unauthorized access to protected data through schema elements with access control directives (@authenticated, @requiresScopes, and @policy) that were renamed via @link imports. Router did not enforce renamed access control directives on schema elements (e.g. fields and types), allowing queries to bypass those element-level access controls. This issue is fixed in versions 1.61.12 and 2.8.1.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T18:15:37Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/apollographql/router/commit/78e4b20a2fc26cc5f141aa47992ed85375266a2b"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/apollographql/router/security/advisories/GHSA-g8jh-vg5j-4h3f"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64430",
-      "title": "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. In versions 4.2.",
-      "summary": "Parse Server is an open source backend that can be deployed to any infrastructure that can run Node.js. In versions 4.2.0 through 7.5.3, and 8.0.0 through 8.3.1-alpha.1, there is a Server-Side Request Forgery (SSRF) vulnerability in the file upload functionality when trying to upload a Parse.File with uri parameter, allowing execution of an arbitrary URI. The vulnerability stems from a file upload feature in which Parse Server retrieves the file data from a URI that is provided in the request. A request to the provided URI is executed, but the response is not stored in Parse Server's file storage as the server crashes upon receiving the response. This issue is fixed in versions 7.5.4 and 8.4.0-alpha.1.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T18:15:37Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/parse-community/parse-server/commit/8bbe3efbcf4a3b66f4a8db9bfb18cd98c050db51"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/parse-community/parse-server/commit/97763863b72689a29ad7a311dfb590c3e3c50585"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/parse-community/parse-server/pull/9903"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/parse-community/parse-server/pull/9904"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/parse-community/parse-server/security/advisories/GHSA-x4qj-2f4q-r4rx"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-9458",
-      "title": "A maliciously crafted PRT file, when parsed through certain Autodesk products, can force a Memory Corruption vulnerabili",
-      "summary": "A maliciously crafted PRT file, when parsed through certain Autodesk products, can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to execute arbitrary code in the context of the current process.",
-      "vendor": "autodesk",
-      "product": "shared components",
-      "published": "2025-11-07T18:15:37Z",
-      "cvss": 7.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@autodesk.com",
-          "url": "https://www.autodesk.com/products/autodesk-access/overview"
-        },
-        {
-          "title": "psirt@autodesk.com",
-          "url": "https://www.autodesk.com/trust/security-advisories/adsk-sa-2025-0019"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2024-47118",
-      "title": "IBM Db2 10.5.0 through 10.5.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNI",
-      "summary": "IBM Db2 10.5.0 through 10.5.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as the server may crash under certain conditions with a specially crafted query.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:15:45Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250473"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12890",
-      "title": "Improper handling of  malformed Connection Request with the interval set to be 1 (which supposed to be illegal) and the ",
-      "summary": "Improper handling of  malformed Connection Request with the interval set to be 1 (which supposed to be illegal) and the chM 0x7CFFFFFFFF triggers a crash. The peripheral will not be connectable after it.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T19:15:46Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "vulnerabilities@zephyrproject.org",
-          "url": "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-8hrf-pfww-83v9"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-2534",
-      "title": "IBM Db2 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes ",
-      "summary": "IBM Db2 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) is vulnerable to a denial of service as the server may crash under certain conditions with a specially crafted query.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:15:46Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250472"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-33012",
-      "title": "IBM Db2 10.5.0 through 10.5.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux coul",
-      "summary": "IBM Db2 10.5.0 through 10.5.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux could allow an authenticated user to regain access after account lockout due to password use after expiration date.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:15:46Z",
-      "cvss": 6.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250469"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-36006",
-      "title": "IBM Db2 10.5.0 through 10.5.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNI",
-      "summary": "IBM Db2 10.5.0 through 10.5.11, 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow an authenticated user to cause a denial due to the improper release of resources after use.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:16:23Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250479"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-36008",
-      "title": "IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) could",
-      "summary": "IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow an authenticated user to cause a denial of service due to improper allocation of resources.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:16:23Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250482"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-36131",
-      "title": "IBM Db2 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes ",
-      "summary": "IBM Db2 11.1.0 through 11.1.4.7, 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) clpplus command exposes user credentials to the terminal which could be obtained by a third party with physical access to the system.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:16:24Z",
-      "cvss": 4.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250484"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-36135",
-      "title": "IBM Sterling B2B Integrator 6.0.0.0 through 6.1.2.7_1, 6.2.0.0 through 6.2.0.5, and 6.2.1.0 and IBM Sterling File Gatewa",
-      "summary": "IBM Sterling B2B Integrator 6.0.0.0 through 6.1.2.7_1, 6.2.0.0 through 6.2.0.5, and 6.2.1.0 and IBM Sterling File Gateway 6.0.0.0 through 6.1.2.7_1, 6.2.0.0 through 6.2.0.5, and 6.2.1.0 is vulnerable to cross-site scripting. This vulnerability allows an authenticated user to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T19:16:24Z",
-      "cvss": 5.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250509"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-36136",
-      "title": "IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes DB2 Connect Server) could",
-      "summary": "IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes DB2 Connect Server) could allow a local user to cause a denial of service due to the database monitor script incorrectly detecting that the instance is still starting under specific conditions.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:16:24Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250485"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-36185",
-      "title": "IBM Db2 12.1.0 through 12.1.2 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow a local user to caus",
-      "summary": "IBM Db2 12.1.0 through 12.1.2 for Linux, UNIX and Windows (includes Db2 Connect Server) could allow a local user to cause a denial of service due to improper neutralization of special elements in data query logic.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:16:24Z",
-      "cvss": 6.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250487"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-36186",
-      "title": "IBM Db2 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) under specific configurations co",
-      "summary": "IBM Db2 12.1.0 through 12.1.3 for Linux, UNIX and Windows (includes Db2 Connect Server) under specific configurations could allow a local user to execute malicious code that escalate their privileges to root due to execution of unnecessary privileges operated at a higher than minimum level.",
-      "vendor": "ibm",
-      "product": "db2",
-      "published": "2025-11-07T19:16:24Z",
-      "cvss": 7.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@us.ibm.com",
-          "url": "https://www.ibm.com/support/pages/node/7250486"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-61261",
-      "title": "A reflected cross-site scripting (XSS) vulnerability in CKeditor v46.1.0 & Angular v18.0.0 allows attackers to execute a",
-      "summary": "A reflected cross-site scripting (XSS) vulnerability in CKeditor v46.1.0 & Angular v18.0.0 allows attackers to execute arbitrary code in the context of a user's browser via injecting a crafted payload.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T19:16:25Z",
-      "cvss": 5.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ckeditor/ckeditor5/releases/tag/v46.1.0"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://senscybersecurity.nl/cve-2025-61261-explained/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63717",
-      "title": "The change password functionality at /pet_grooming/admin/change_pass.php in SourceCodester Pet Grooming Management Softw",
-      "summary": "The change password functionality at /pet_grooming/admin/change_pass.php in SourceCodester Pet Grooming Management Software 1.0 is vulnerable to Cross-Site Request Forgery (CSRF) attacks. The application does not implement adequate anti-CSRF tokens or same-site cookie restrictions, allowing attackers to trick authenticated users into unknowingly changing their passwords.",
-      "vendor": "mayurik",
-      "product": "pet grooming management software",
-      "published": "2025-11-07T19:16:26Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/floccocam-cpu/CVE-Research-2025/blob/main/CVE-2025-63717/README6.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/php/18340/pet-grooming-management-software-download.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64431",
-      "title": "Zitadel is an open source identity management platform. Versions 4.0.0-rc.1 through 4.6.2 are vulnerable to secure Direc",
-      "summary": "Zitadel is an open source identity management platform. Versions 4.0.0-rc.1 through 4.6.2 are vulnerable to secure Direct Object Reference (IDOR) attacks through its V2Beta API, allowing authenticated users with specific administrator roles within one organization to access and modify data belonging to other organizations. Note that this vulnerability is limited to organization-level data (name, domains, metadata). No other related data (such as users, projects, applications, etc.) is affected. This issue is fixed in version 4.6.3.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T19:16:26Z",
-      "cvss": 8.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/zitadel/zitadel/commit/8dcfff97ed52a8b9fc77ecb1f972744f42cff3ed"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/zitadel/zitadel/releases/tag/v4.6.3"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/zitadel/zitadel/security/advisories/GHSA-cpf4-pmr4-w6cx"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64432",
-      "title": "KubeVirt is a virtual machine management add-on for Kubernetes. Versions 1.5.3 and below, and 1.6.0 contained a flawed i",
-      "summary": "KubeVirt is a virtual machine management add-on for Kubernetes. Versions 1.5.3 and below, and 1.6.0 contained a flawed implementation of the Kubernetes aggregation layer's authentication flow which could enable bypass of RBAC controls. It was discovered that the virt-api component fails to correctly authenticate the client when receiving API requests over mTLS. In particular, it fails to validate the CN (Common Name) field in the received client TLS certificates against the set of allowed values defined in the extension-apiserver-authentication configmap. Failre to validate certain fields in the client TLS certificate may allow an attacker to bypass existing RBAC controls by directly communicating with the aggregated API server, impersonating the Kubernetes API server and its aggregator component. This issue is fixed in versions 1.5.3 and 1.6.1.",
-      "vendor": "kubevirt",
-      "product": "kubevirt",
-      "published": "2025-11-07T19:16:26Z",
-      "cvss": 4.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/231dc69723f331dc02f65a31ab4c3d6869f40d6a"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/af2f08a9a186eccc650f87c30ab3e07b669e8b5b"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/b9773bc588e6e18ece896a2dad5336ef7a653074"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/security/advisories/GHSA-38jw-g2qx-4286"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-7700",
-      "title": "A flaw was found in FFmpeg’s ALS audio decoder, where it does not properly check for memory allocation failures. This ca",
-      "summary": "A flaw was found in FFmpeg’s ALS audio decoder, where it does not properly check for memory allocation failures. This can cause the application to crash when processing certain malformed audio files. While it does not lead to data theft or system control, it can be used to disrupt services and cause a denial of service.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T19:16:27Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "secalert@redhat.com",
-          "url": "https://access.redhat.com/security/cve/CVE-2025-7700"
-        },
-        {
-          "title": "secalert@redhat.com",
-          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2380420"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-10230",
-      "title": "A flaw was found in Samba, in the front-end WINS hook handling: NetBIOS names from registration packets are passed to a ",
-      "summary": "A flaw was found in Samba, in the front-end WINS hook handling: NetBIOS names from registration packets are passed to a shell without proper validation or escaping. Unsanitized NetBIOS name data from WINS registration packets are inserted into a shell command and executed by the Samba Active Directory Domain Controller’s wins hook, allowing an unauthenticated network attacker to achieve remote command execution as the Samba process.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T20:15:35Z",
-      "cvss": 10.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "secalert@redhat.com",
-          "url": "https://access.redhat.com/security/cve/CVE-2025-10230"
-        },
-        {
-          "title": "secalert@redhat.com",
-          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2394377"
-        },
-        {
-          "title": "secalert@redhat.com",
-          "url": "https://www.samba.org/samba/history/security.html"
-        },
-        {
-          "title": "af854a3a-2127-422b-91ae-364da2661108",
-          "url": "https://www.vicarius.io/vsociety/posts/cve-2025-10230-detect-samba-vulnerability"
-        },
-        {
-          "title": "af854a3a-2127-422b-91ae-364da2661108",
-          "url": "https://www.vicarius.io/vsociety/posts/cve-2025-10230-mitigate-samba-vulnerability"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63638",
-      "title": "Sourcecodester AI-Powered To-Do List App v1.0 is vulnerable to Cross-Site Scripting (XSS) in the \"Task Title\" and \"Descr",
-      "summary": "Sourcecodester AI-Powered To-Do List App v1.0 is vulnerable to Cross-Site Scripting (XSS) in the \"Task Title\" and \"Description (Optional)\" fields when creating a Task, allowing an attacker to inject arbitrary potentially malicious HTML/JavaScript code that executes in the victim's browser upon clicking the \"Add Task\" button.",
-      "vendor": "remyandrade",
-      "product": "ai-powered to-do list app",
-      "published": "2025-11-07T20:15:37Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ChuckBartowski7/Vulnerability-Research/tree/main/CVE-2025-63638"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/javascript/18421/ai-powered-do-list-app-using-html-css-and-javascript-source-code.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63639",
-      "title": "The chat feature in the application Sourcecodester FAQ Bot with AI Assistant v1.0 is vulnerable to Cross-Site Scripting ",
-      "summary": "The chat feature in the application Sourcecodester FAQ Bot with AI Assistant v1.0 is vulnerable to Cross-Site Scripting (XSS) due to improper handling of user-supplied input. An attacker can inject malicious HTML or JavaScript into chat messages, which executes in the browser of any user viewing the conversation.",
-      "vendor": "remyandrade",
-      "product": "faq bot with ai assistant",
-      "published": "2025-11-07T20:15:38Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ChuckBartowski7/Vulnerability-Research/blob/main/CVE-2025-63639/README.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/javascript/18413/faq-bot-ai-assistant-using-html-css-and-javascript-source-code.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63640",
-      "title": "Sourcecodester Medicine Reminder App v1.0 is vulnerable to Cross-Site Scripting (XSS) in the \"Medicine Name\" and \"Notes ",
-      "summary": "Sourcecodester Medicine Reminder App v1.0 is vulnerable to Cross-Site Scripting (XSS) in the \"Medicine Name\" and \"Notes (Optional)\" fields when creating an \"Upcoming Reminder\", allowing an attacker to inject arbitrary potentially malicious HTML/JavaScript code that executes in the victim's browser upon clicking the \"Save Reminder\" button.",
-      "vendor": "rems",
-      "product": "medicine reminder app",
-      "published": "2025-11-07T20:15:38Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ChuckBartowski7/Vulnerability-Research/blob/main/CVE-2025-63640/README.md"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://www.sourcecodester.com/javascript/18402/medicine-reminder-app-using-html-css-and-javascript-source-code.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12863",
-      "title": "Rejected reason: This CVE was assigned for a libxml2 issue#1012 but later deemed not valid. Ref.: https://gitlab.gnome.o",
-      "summary": "Rejected reason: This CVE was assigned for a libxml2 issue#1012 but later deemed not valid. Ref.: https://gitlab.gnome.org/GNOME/libxml2/-/issues/1012#note_2608283",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T21:15:40Z",
-      "cvss": null,
-      "exploited": false,
-      "references": []
-    },
-    {
-      "cve": "CVE-2025-12875",
-      "title": "A weakness has been identified in mruby 3.4.0. This vulnerability affects the function ary_fill_exec of the file mrbgems",
-      "summary": "A weakness has been identified in mruby 3.4.0. This vulnerability affects the function ary_fill_exec of the file mrbgems/mruby-array-ext/src/array.c. Executing manipulation of the argument start/length can lead to out-of-bounds write. The attack needs to be launched locally. The exploit has been made available to the public and could be exploited. This patch is called 93619f06dd378db6766666b30c08978311c7ec94. It is best practice to apply a patch to resolve this issue.",
-      "vendor": "mruby",
-      "product": "mruby",
-      "published": "2025-11-07T21:15:40Z",
-      "cvss": 4.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/makesoftwaresafe/mruby/commit/93619f06dd378db6766666b30c08978311c7ec94"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/mruby/mruby/issues/6650"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/mruby/mruby/issues/6650#event-20443453808"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://github.com/mruby/mruby/issues/6650#issuecomment-3430851605"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?ctiid.331511"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?id.331511"
-        },
-        {
-          "title": "cna@vuldb.com",
-          "url": "https://vuldb.com/?submit.680879"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/mruby/mruby/issues/6650"
-        },
-        {
-          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
-          "url": "https://github.com/mruby/mruby/issues/6650#issuecomment-3430851605"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12896",
-      "title": "Improper resource management in firmware of some Solidigm DC Products may allow an attacker with local or physical acces",
-      "summary": "Improper resource management in firmware of some Solidigm DC Products may allow an attacker with local or physical access to gain un-authorized access to a locked storage device.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T21:15:40Z",
-      "cvss": 4.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "f946a70c-00eb-42ce-8e9b-634d1f7b5a6f",
-          "url": "https://www.solidigm.com/support-page/support-security.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12902",
-      "title": "Improper resource management in firmware of some Solidigm DC Products may allow an attacker with local or physical acces",
-      "summary": "Improper resource management in firmware of some Solidigm DC Products may allow an attacker with local or physical access to gain un-authorized access to a locked Storage Device or create a Denial of Service.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T21:15:40Z",
-      "cvss": 4.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "f946a70c-00eb-42ce-8e9b-634d1f7b5a6f",
-          "url": "https://www.solidigm.com/support-page/support-security.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63543",
-      "title": "TechStore 1.0 is vulnerable to Cross Site Scripting (XSS) in the /search_results endpoint via the q parameter.",
-      "summary": "TechStore 1.0 is vulnerable to Cross Site Scripting (XSS) in the /search_results endpoint via the q parameter.",
-      "vendor": "nooncarlett",
-      "product": "techstore",
-      "published": "2025-11-07T21:15:41Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/LuigiGrimaldi/5e9e66b12973bddd35f933a6d0cd2730"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63544",
-      "title": "TechStore 1.0 is vulnerable to Cross Site Scripting (XSS) in /order_notes via the id parameter.",
-      "summary": "TechStore 1.0 is vulnerable to Cross Site Scripting (XSS) in /order_notes via the id parameter.",
-      "vendor": "nooncarlett",
-      "product": "techstore",
-      "published": "2025-11-07T21:15:41Z",
-      "cvss": 6.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/LuigiGrimaldi/5e9e66b12973bddd35f933a6d0cd2730"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64439",
-      "title": "LangGraph SQLite Checkpoint is an implementation of LangGraph CheckpointSaver that uses SQLite DB (both sync and async, ",
-      "summary": "LangGraph SQLite Checkpoint is an implementation of LangGraph CheckpointSaver that uses SQLite DB (both sync and async, via aiosqlite). In versions 2.1.2 and below, the JsonPlusSerializer (used as the default serialization protocol for all checkpointing) contains a Remote Code Execution (RCE) vulnerability when deserializing payloads saved in the \"json\" serialization mode. By default, the serializer attempts to use \"msgpack\" for serialization. However, prior to version 3.0 of the checkpointer library, if illegal Unicode surrogate values caused serialization to fail, it would fall back to using the \"json\" mode. This issue is fixed in version 3.0.0.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T21:15:41Z",
-      "cvss": 7.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/langchain-ai/langgraph/blob/c5744f583b11745cd406f3059903e17bbcdcc8ac/libs/checkpoint/langgraph/checkpoint/serde/jsonplus.py"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/langchain-ai/langgraph/commit/c5744f583b11745cd406f3059903e17bbcdcc8ac"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D3.0.0"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/langchain-ai/langgraph/security/advisories/GHSA-wwqv-p2pp-99h5"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64442",
-      "title": "HumHub is an Open Source Enterprise Social Network. Versions below 1.17.4 have a XSS vulnerability in the Meta-Search fe",
-      "summary": "HumHub is an Open Source Enterprise Social Network. Versions below 1.17.4 have a XSS vulnerability in the Meta-Search feature which allows malicious input to be executed in search previews. This issue is fixed in version 1.17.4.",
-      "vendor": "humhub",
-      "product": "humhub",
-      "published": "2025-11-07T21:15:41Z",
-      "cvss": 7.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/humhub/humhub/pull/7814"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/humhub/humhub/releases/tag/v1.17.4"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/humhub/humhub/security/advisories/GHSA-2hgp-33j2-93cc"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64481",
-      "title": "Datasette is an open source multi-tool for exploring and publishing data. In versions 0.65.1 and below and 1.0a0 through",
-      "summary": "Datasette is an open source multi-tool for exploring and publishing data. In versions 0.65.1 and below and 1.0a0 through 1.0a19, deployed instances of Datasette include an open redirect vulnerability. Hits to the path //example.com/foo/bar/ (the trailing slash is required) will redirect the user to https://example.com/foo/bar. This problem has been patched in both Datasette 0.65.2 and 1.0a21. To workaround this issue, if Datasette is running behind a proxy, that proxy could be configured to replace // with / in incoming request URLs.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T21:15:42Z",
-      "cvss": 0.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/simonw/datasette/commit/f257ca6edb64848c3b04b54d41e347c54fe57c05"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/simonw/datasette/issues/2429"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2020-36870",
-      "title": "Various Ruijie Gateway EG and NBR models firmware versions 11.1(6)B9P1 < 11.9(4)B12P1 contain a code execution vulnerabi",
-      "summary": "Various Ruijie Gateway EG and NBR models firmware versions 11.1(6)B9P1 < 11.9(4)B12P1 contain a code execution vulnerability in the EWEB management system that can be abused via front-end functionality. Attackers can exploit front-end code when features such as guest authentication, local server authentication, or screen mirroring are enabled to gain access or execute commands on affected devices. Exploitation evidence was first observed by the Shadowserver Foundation on 2025-02-05 UTC.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T22:15:38Z",
-      "cvss": 9.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.cnvd.org.cn/flaw/show/CNVD-2021-09650"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.ruijie.com.cn/gy/xw-aqtg-gw/86747/"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.ruijie.com.cn/gy/xw-aqtg-zw/85638/"
-        },
-        {
-          "title": "disclosure@vulncheck.com",
-          "url": "https://www.vulncheck.com/advisories/ruijie-networks-eg-and-nbr-series-routers-rce"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12418",
-      "title": "Potential Denial of Service issue in all supported versions of Revenera InstallShield version 2025 R1, 2024 R2, 2023 R2,",
-      "summary": "Potential Denial of Service issue in all supported versions of Revenera InstallShield version 2025 R1, 2024 R2, 2023 R2, and prior. When e.g., a local administrator performs an uninstall, a symlink may get followed on removal of a user writeable configuration directory and induce a Denial of Service as a result. The issue is resolved through the hotfixes InstallShield2025R1-CVE-2025-12418-SecurityPatch, InstallShield2024R2-CVE-2025-12418-SecurityPatch, and InstallShield2023R2-CVE-2025-12418-SecurityPatch.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T22:15:38Z",
-      "cvss": 5.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "PSIRT-CNA@flexerasoftware.com",
-          "url": "https://community.revenera.com/s/article/CVE-2025-12418-Potential-Unintended-File-Deletion-Issue-Caused-by-InstallShield-Suite-Uninstallation-Process"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-60574",
-      "title": "A Local File Inclusion (LFI) vulnerability has been identified in tQuadra CMS 4.2.1117. The issue exists in the \"/styles",
-      "summary": "A Local File Inclusion (LFI) vulnerability has been identified in tQuadra CMS 4.2.1117. The issue exists in the \"/styles/\" path, which fails to properly sanitize user-supplied input. An attacker can exploit this by sending a crafted GET request to retrieve arbitrary files from the underlying system.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T22:15:39Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/jacopoaugelli/CVE-2025-60574"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-63420",
-      "title": "CrushFTP11 before 11.3.7_57 is vulnerable to stored HTML injection in the CrushFTP Admin Panel (Reports / \"Who Created F",
-      "summary": "CrushFTP11 before 11.3.7_57 is vulnerable to stored HTML injection in the CrushFTP Admin Panel (Reports / \"Who Created Folder\"), enabling persistent HTML execution in admin sessions.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T22:15:39Z",
-      "cvss": 4.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/MMAKINGDOM/791d264c27656f0a4aa3c0ae35075e70"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/MMAKINGDOM/CVE-2025-63420/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-37736",
-      "title": "Improper Authorization in Elastic Cloud Enterprise can lead to Privilege Escalation where the built-in readonly user can",
-      "summary": "Improper Authorization in Elastic Cloud Enterprise can lead to Privilege Escalation where the built-in readonly user can call APIs that should not be allowed. The list of APIs that are affected by this issue is:\n\n\n\n\n\npost:/platform/configuration/security/service-accounts\ndelete:/platform/configuration/security/service-accounts/{user_id}\npatch:/platform/configuration/security/service-accounts/{user_id}\npost:/platform/configuration/security/service-accounts/{user_id}/keys\ndelete:/platform/configuration/security/service-accounts/{user_id}/keys/{api_key_id}\npatch:/user\npost:/users\npost:/users/auth/keys\ndelete:/users/auth/keys\ndelete:/users/auth/keys/_all\ndelete:/users/auth/keys/{api_key_id}\ndelete:/users/{user_id}/auth/keys\ndelete:/users/{user_id}/auth/keys/{api_key_id}\ndelete:/users/{user_name}\npatch:/users/{user_name}",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-07T23:15:44Z",
-      "cvss": 8.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@elastic.co",
-          "url": "https://discuss.elastic.co/t/elastic-cloud-enterprise-ece-3-8-3-and-4-0-3-security-update-esa-2025-22/383132"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64433",
-      "title": "KubeVirt is a virtual machine management add-on for Kubernetes. Prior to 1.5.3 and 1.6.1, a vulnerability was discovered",
-      "summary": "KubeVirt is a virtual machine management add-on for Kubernetes. Prior to 1.5.3 and 1.6.1, a vulnerability was discovered that allows a VM to read arbitrary files from the virt-launcher pod's file system. This issue stems from improper symlink handling when mounting PVC disks into a VM. Specifically, if a malicious user has full or partial control over the contents of a PVC, they can create a symbolic link that points to a file within the virt-launcher pod's file system. Since libvirt can treat regular files as block devices, any file on the pod's file system that is symlinked in this way can be mounted into the VM and subsequently read. Although a security mechanism exists where VMs are executed as an unprivileged user with UID 107 inside the virt-launcher container, limiting the scope of accessible resources, this restriction is bypassed due to a second vulnerability. The latter causes the ownership of any file intended for mounting to be changed to the unprivileged user with UID 107 prior to mounting. As a result, an attacker can gain access to and read arbitrary files located within the virt-launcher pod's file system or on a mounted PVC from within the guest VM. This vulnerability is fixed in 1.5.3 and 1.6.1.",
-      "vendor": "kubevirt",
-      "product": "kubevirt",
-      "published": "2025-11-07T23:15:45Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/09eafa068ec01eca0e96ebafeeb9522a878dbf64"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/9dc798cb1efe924a9a2b97b6e016452dec5e3849"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/a81b27d4600cf654274dd197119658382affdb08"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/security/advisories/GHSA-qw6q-3pgr-5cwq"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64434",
-      "title": "KubeVirt is a virtual machine management add-on for Kubernetes. Prior to 1.5.3 and 1.6.1, due to the peer verification l",
-      "summary": "KubeVirt is a virtual machine management add-on for Kubernetes. Prior to 1.5.3 and 1.6.1, due to the peer verification logic in virt-handler (via verifyPeerCert), an attacker who compromises a virt-handler instance, could exploit these shared credentials to impersonate virt-api and execute privileged operations against other virt-handler instances potentially compromising the integrity and availability of the VM managed by it. This vulnerability is fixed in 1.5.3 and 1.6.1.",
-      "vendor": "kubevirt",
-      "product": "kubevirt",
-      "published": "2025-11-07T23:15:45Z",
-      "cvss": 4.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/231dc69723f331dc02f65a31ab4c3d6869f40d6a"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/af2f08a9a186eccc650f87c30ab3e07b669e8b5b"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/b9773bc588e6e18ece896a2dad5336ef7a653074"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/security/advisories/GHSA-ggp9-c99x-54gp"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64435",
-      "title": "KubeVirt is a virtual machine management add-on for Kubernetes. Prior to 1.7.0-beta.0, a logic flaw in the virt-controll",
-      "summary": "KubeVirt is a virtual machine management add-on for Kubernetes. Prior to 1.7.0-beta.0, a logic flaw in the virt-controller allows an attacker to disrupt the control over a running VMI by creating a pod with the same labels as the legitimate virt-launcher pod associated with the VMI. This can mislead the virt-controller into associating the fake pod with the VMI, resulting in incorrect status updates and potentially causing a DoS (Denial-of-Service). This vulnerability is fixed in 1.7.0-beta.0.",
-      "vendor": "kubevirt",
-      "product": "kubevirt",
-      "published": "2025-11-07T23:15:45Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/9a6f4a3a707992038ef705da4cb3bba8c89d36ba"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/security/advisories/GHSA-9m94-w2vq-hcf9"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64436",
-      "title": "KubeVirt is a virtual machine management add-on for Kubernetes. In 1.5.0 and earlier, the permissions granted to the vir",
-      "summary": "KubeVirt is a virtual machine management add-on for Kubernetes. In 1.5.0 and earlier, the permissions granted to the virt-handler service account, such as the ability to update VMI and patch nodes, could be abused to force a VMI migration to an attacker-controlled node. This vulnerability could otherwise allow an attacker to mark all nodes as unschedulable, potentially forcing the migration or creation of privileged pods onto a compromised node.",
-      "vendor": "kubevirt",
-      "product": "kubevirt",
-      "published": "2025-11-07T23:15:46Z",
-      "cvss": 6.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/security/advisories/GHSA-7xgm-5prm-v5gc"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64437",
-      "title": "KubeVirt is a virtual machine management add-on for Kubernetes. In versions before 1.5.3 and 1.6.1, the virt-handler doe",
-      "summary": "KubeVirt is a virtual machine management add-on for Kubernetes. In versions before 1.5.3 and 1.6.1, the virt-handler does not verify whether the launcher-sock is a symlink or a regular file. This oversight can be exploited, for example, to change the ownership of arbitrary files on the host node to the unprivileged user with UID 107 (the same user used by virt-launcher) thus, compromising the CIA (Confidentiality, Integrity and Availability) of data on the host. To successfully exploit this vulnerability, an attacker should be in control of the file system of the virt-launcher pod. This vulnerability is fixed in 1.5.3 and 1.6.1.",
-      "vendor": "kubevirt",
-      "product": "kubevirt",
-      "published": "2025-11-07T23:15:46Z",
-      "cvss": 5.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/3ce9f41c54d04a65f10b23a46771391c00659afb"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/8644dbe0d04784b0bfa8395b91ecbd6001f88f6b"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/commit/f59ca63133f25de8fceb3e2a0e5cc0b7bdb6a265"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kubevirt/kubevirt/security/advisories/GHSA-2r4r-5x78-mvqf"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12905",
-      "title": "Inappropriate implementation in Downloads in Google Chrome on Windows prior to 140.0.7339.80 allowed a remote attacker t",
-      "summary": "Inappropriate implementation in Downloads in Google Chrome on Windows prior to 140.0.7339.80 allowed a remote attacker to bypass Mark of the Web via a crafted HTML page. (Chromium security severity: Low)",
-      "vendor": "google",
-      "product": "chrome",
-      "published": "2025-11-08T00:15:35Z",
-      "cvss": 5.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html"
-        },
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://issues.chromium.org/issues/431309019"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12906",
-      "title": "Inappropriate implementation in Permissions in Google Chrome prior to 140.0.7339.80 allowed a remote attacker to perform",
-      "summary": "Inappropriate implementation in Permissions in Google Chrome prior to 140.0.7339.80 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Low)",
-      "vendor": "google",
-      "product": "chrome",
-      "published": "2025-11-08T00:15:35Z",
-      "cvss": 5.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html"
-        },
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://issues.chromium.org/issues/428455319"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12907",
-      "title": "Insufficient validation of untrusted input in Devtools in Google Chrome prior to 140.0.7339.80 allowed a remote attacker",
-      "summary": "Insufficient validation of untrusted input in Devtools in Google Chrome prior to 140.0.7339.80 allowed a remote attacker to execute arbitrary code via user action in Devtools. (Chromium security severity: Low)",
-      "vendor": "google",
-      "product": "chrome",
-      "published": "2025-11-08T00:15:35Z",
-      "cvss": 8.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html"
-        },
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://issues.chromium.org/issues/427367145"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12908",
-      "title": "Insufficient validation of untrusted input in Downloads in Google Chrome on Android prior to 140.0.7339.80 allowed a rem",
-      "summary": "Insufficient validation of untrusted input in Downloads in Google Chrome on Android prior to 140.0.7339.80 allowed a remote attacker to perform domain spoofing via a crafted HTML page. (Chromium security severity: Low)",
-      "vendor": "google",
-      "product": "chrome",
-      "published": "2025-11-08T00:15:35Z",
-      "cvss": 5.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html"
-        },
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://issues.chromium.org/issues/421511847"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12909",
-      "title": "Insufficient policy enforcement in Devtools in Google Chrome prior to 140.0.7339.80 allowed a remote attacker to leak cr",
-      "summary": "Insufficient policy enforcement in Devtools in Google Chrome prior to 140.0.7339.80 allowed a remote attacker to leak cross-origin data via Devtools. (Chromium security severity: Low)",
-      "vendor": "google",
-      "product": "chrome",
-      "published": "2025-11-08T00:15:35Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html"
-        },
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://issues.chromium.org/issues/361116749"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12910",
-      "title": "Inappropriate implementation in Passkeys in Google Chrome prior to 140.0.7339.80 allowed a local attacker to obtain pote",
-      "summary": "Inappropriate implementation in Passkeys in Google Chrome prior to 140.0.7339.80 allowed a local attacker to obtain potentially sensitive information via debug logs. (Chromium security severity: Low)",
-      "vendor": "google",
-      "product": "chrome",
-      "published": "2025-11-08T00:15:35Z",
-      "cvss": 6.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html"
-        },
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://issues.chromium.org/issues/434977743"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12911",
-      "title": "Inappropriate implementation in Permissions in Google Chrome prior to 140.0.7339.80 allowed a remote attacker to perform",
-      "summary": "Inappropriate implementation in Permissions in Google Chrome prior to 140.0.7339.80 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Low)",
-      "vendor": "google",
-      "product": "chrome",
-      "published": "2025-11-08T00:15:35Z",
-      "cvss": 4.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://chromereleases.googleblog.com/2025/09/stable-channel-update-for-desktop.html"
-        },
-        {
-          "title": "chrome-cve-admin@google.com",
-          "url": "https://issues.chromium.org/issues/423670839"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64485",
-      "title": "CVAT is an open source interactive video and image annotation tool for computer vision. In versions 2.4.0 through 2.48.1",
-      "summary": "CVAT is an open source interactive video and image annotation tool for computer vision. In versions 2.4.0 through 2.48.1, a malicious CVAT user with at least the User global role may create files in the root of the mounted file share, or overwrite existing files. If no file share is mounted, the user will be able to create files in the share directory of the import worker container, potentially filling up disk space. This issue is fixed in version 2.49.0.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-08T00:15:36Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/cvat-ai/cvat/commit/cace877189528a7ed4a224476f4bc0bd5a21d40c"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/cvat-ai/cvat/security/advisories/GHSA-x396-w86c-gf6w"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64486",
-      "title": "calibre is an e-book manager. In versions 8.13.0 and prior, calibre does not validate filenames when handling binary ass",
-      "summary": "calibre is an e-book manager. In versions 8.13.0 and prior, calibre does not validate filenames when handling binary assets in FB2 files, allowing an attacker to write arbitrary files on the filesystem when viewing or converting a malicious FictionBook file. This can be leveraged to achieve arbitrary code execution. This issue is fixed in version 8.14.0.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-08T00:15:36Z",
-      "cvss": 9.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kovidgoyal/calibre/commit/6f94bce214bf7d43c829804db3741afa5e83c0c5"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/kovidgoyal/calibre/security/advisories/GHSA-hpwq-c98h-xp8g"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64488",
-      "title": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. In versions 7.",
-      "summary": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. In versions 7.14.7 and below and 8.0.0-beta.1 through 8.9.0 8.0.0-beta.1, an attacker can craft a malicious call_id that alters the logic of the SQL query or injects arbitrary SQL. An attack can lead to unauthorized data access and data ex-filtration, complete database compromise, and other various issues. This issue is fixed in versions 7.14.8 and 8.9.1.",
-      "vendor": "salesagility",
-      "product": "suitecrm",
-      "published": "2025-11-08T00:15:36Z",
-      "cvss": 8.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/SuiteCRM/SuiteCRM-Core/commit/30277cfe69755f7360a23d4805e06a5c38f14131"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/SuiteCRM/SuiteCRM/commit/40da2845a170832a4e9e9fa0ebe731f8c34de42d"
-        },
-        {
-          "title": "security-advisories@github.com",
-          "url": "https://github.com/SuiteCRM/SuiteCRM/security/advisories/GHSA-5v53-v44q-ww2c"
-        }
-      ]
-    },
     {
       "cve": "CVE-2025-64489",
       "title": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Versions 7.14.",
@@ -42517,8 +39964,8 @@
     },
     {
       "cve": "CVE-2025-13585",
-      "title": "A vulnerability was detected in code-projects COVID Tracking System 1.0. This issue affects some unknown processing of t",
-      "summary": "A vulnerability was detected in code-projects COVID Tracking System 1.0. This issue affects some unknown processing of the file /login.php. The manipulation of the argument code results in sql injection. The attack may be performed from remote. The exploit is now public and may be used.",
+      "title": "A vulnerability was detected in itsourcecode COVID Tracking System 1.0. This issue affects some unknown processing of th",
+      "summary": "A vulnerability was detected in itsourcecode COVID Tracking System 1.0. This issue affects some unknown processing of the file /login.php. The manipulation of the argument code results in sql injection. The attack may be performed from remote. The exploit is now public and may be used.",
       "vendor": "angeljudesuarez",
       "product": "covid tracking system",
       "published": "2025-11-24T06:15:46Z",
@@ -42527,11 +39974,11 @@
       "references": [
         {
           "title": "cna@vuldb.com",
-          "url": "https://code-projects.org/"
+          "url": "https://github.com/beamyou/CVE/issues/4"
         },
         {
           "title": "cna@vuldb.com",
-          "url": "https://github.com/beamyou/CVE/issues/4"
+          "url": "https://itsourcecode.com/"
         },
         {
           "title": "cna@vuldb.com",
@@ -42544,6 +39991,10 @@
         {
           "title": "cna@vuldb.com",
           "url": "https://vuldb.com/?submit.699840"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.701229"
         }
       ]
     },
@@ -52308,6 +49759,10 @@
         {
           "title": "cna@vuldb.com",
           "url": "https://vuldb.com/?submit.691251"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.704314"
         },
         {
           "title": "cna@vuldb.com",
@@ -70625,6 +68080,714 @@
         {
           "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
           "url": "https://git.kernel.org/stable/c/a67a9f99ce1306898d7129a199d42876bc06a0f0"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14182",
+      "title": "A vulnerability has been found in Sobey Media Convergence System 2.0/2.1. This vulnerability affects unknown code of the",
+      "summary": "A vulnerability has been found in Sobey Media Convergence System 2.0/2.1. This vulnerability affects unknown code of the file /sobey-mchEditor/watermark/upload. The manipulation of the argument File leads to path traversal. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T03:15:58Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/hacker-routing/cve/issues/1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334602"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334602"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698561"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14183",
+      "title": "A vulnerability was found in SGAI Space1 NAS N1211DS up to 1.0.915. This issue affects the function GET_FACTORY_INFO/GET",
+      "summary": "A vulnerability was found in SGAI Space1 NAS N1211DS up to 1.0.915. This issue affects the function GET_FACTORY_INFO/GET_USER_INFO of the file /cgi-bin/JSONAPI of the component gsaiagent. The manipulation results in unprotected storage of credentials. The attack can be launched remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T03:15:59Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334603"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334603"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698566"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698567"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.notion.so/2b16cf4e528a8000b30bd543247fa1bd"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.notion.so/2b16cf4e528a80859264db63f2340d7a"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14184",
+      "title": "A vulnerability was determined in SGAI Space1 NAS N1211DS up to 1.0.915. Impacted is the function RENAME_FILE/OPERATE_FI",
+      "summary": "A vulnerability was determined in SGAI Space1 NAS N1211DS up to 1.0.915. Impacted is the function RENAME_FILE/OPERATE_FILE/NGNIX_UPLOAD of the file /cgi-bin/JSONAPI of the component gsaiagent. This manipulation causes command injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T05:15:49Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334604"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334604"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698568"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698569"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698570"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.notion.so/2b16cf4e528a80858abbf62b721a54b0"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.notion.so/2b16cf4e528a80f2ada9dc83651a4013"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14185",
+      "title": "A vulnerability was identified in Yonyou U8 Cloud 5.0/5.0sp/5.1/5.1sp. The affected element is an unknown function of th",
+      "summary": "A vulnerability was identified in Yonyou U8 Cloud 5.0/5.0sp/5.1/5.1sp. The affected element is an unknown function of the file nc/pubitf/erm/mobile/appservice/AppServletService.class. Such manipulation of the argument usercode leads to sql injection. The attack may be launched remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T05:15:59Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/798xuezhiqian-collab/vuln01"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334605"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334605"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698601"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14186",
+      "title": "A security flaw has been discovered in Grandstream GXP1625 1.0.7.4. The impacted element is an unknown function of the f",
+      "summary": "A security flaw has been discovered in Grandstream GXP1625 1.0.7.4. The impacted element is an unknown function of the file /cgi-bin/api.values.post of the component Network Status Page. Performing manipulation of the argument vpn_ip results in basic cross site scripting. Remote exploitation of the attack is possible. The exploit has been released to the public and may be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T08:15:46Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://drive.google.com/file/d/1rsskCaj4TwiaGG9_VYabjnKMP_zAry7L/view?usp=sharing"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334606"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334606"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698650"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14187",
+      "title": "A weakness has been identified in UGREEN DH2100+ up to 5.3.0.251125. This affects the function handler_file_backup_creat",
+      "summary": "A weakness has been identified in UGREEN DH2100+ up to 5.3.0.251125. This affects the function handler_file_backup_create of the file /v1/file/backup/create of the component nas_svr. Executing manipulation of the argument path can lead to buffer overflow. The attack can be executed remotely. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T09:15:48Z",
+      "cvss": 7.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334607"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334607"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698652"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.notion.so/2b16cf4e528a80bbb5fdeff145f110ec"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14188",
+      "title": "A security vulnerability has been detected in UGREEN DH2100+ up to 5.3.0.251125. This impacts the function handler_file_",
+      "summary": "A security vulnerability has been detected in UGREEN DH2100+ up to 5.3.0.251125. This impacts the function handler_file_backup_create of the file /v1/file/backup/create of the component nas_svr. The manipulation of the argument path leads to command injection. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T11:15:47Z",
+      "cvss": 7.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334608"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334608"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.698833"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.notion.so/25e2b76e8e0c80578014fff04a950576"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14189",
+      "title": "A vulnerability was detected in Chanjet CRM up to 20251121. Affected is an unknown function of the file /tools/jxf_dump_",
+      "summary": "A vulnerability was detected in Chanjet CRM up to 20251121. Affected is an unknown function of the file /tools/jxf_dump_table_demo.php. The manipulation of the argument gblOrgID results in sql injection. The attack may be performed from remote. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T12:15:47Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/hacker-routing/cve/issues/2"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/hacker-routing/cve/issues/2#issue-3646348225"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334609"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334609"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699133"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14190",
+      "title": "A flaw has been found in Chanjet TPlus up to 20251121. Affected by this vulnerability is an unknown functionality of the",
+      "summary": "A flaw has been found in Chanjet TPlus up to 20251121. Affected by this vulnerability is an unknown functionality of the file /tplus/ajaxpro/Ufida.T.SM.UIP.MultiCompanySettingController,Ufida.T.SM.UIP.ashx?method=Load. This manipulation of the argument currentAccId causes sql injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T13:15:58Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/hacker-routing/Changjetong-T-/issues/1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/hacker-routing/Changjetong-T-/issues/1#issue-3646765351"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334610"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334610"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699144"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14191",
+      "title": "A vulnerability has been found in UTT 进取 512W up to 1.7.7-171114. Affected by this issue is the function strcpy of the f",
+      "summary": "A vulnerability has been found in UTT 进取 512W up to 1.7.7-171114. Affected by this issue is the function strcpy of the file /goform/formP2PLimitConfig. Such manipulation of the argument except leads to buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T13:15:59Z",
+      "cvss": 7.4,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/DavCloudz/cve/blob/main/UTT/512W/UTT%20512W%20Buffer%20Overflow%20Vulnerability.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/DavCloudz/cve/blob/main/UTT/512W/UTT%20512W%20Buffer%20Overflow%20Vulnerability.md#poc"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334611"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334611"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699220"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14192",
+      "title": "A vulnerability was found in RashminDungrani online-banking up to 2337ad552ea9d385b4e07b90e6f32d011b7c68a2. This affects",
+      "summary": "A vulnerability was found in RashminDungrani online-banking up to 2337ad552ea9d385b4e07b90e6f32d011b7c68a2. This affects an unknown part of the file /site/dist/auth_login.php. Performing manipulation of the argument Username results in sql injection. The attack can be initiated remotely. The exploit has been made public and could be used. Continious delivery with rolling releases is used by this product. Therefore, no version details of affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T14:15:46Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/BrillBigbang/hole-gap/blob/main/online-banking-have-sql.docx"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334612"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334612"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699237"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14193",
+      "title": "A vulnerability was determined in code-projects Employee Profile Management System 1.0. This vulnerability affects unkno",
+      "summary": "A vulnerability was determined in code-projects Employee Profile Management System 1.0. This vulnerability affects unknown code of the file /view_personnel.php. Executing manipulation of the argument per_id can lead to sql injection. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T14:15:47Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://code-projects.org/"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/shenxianyuguitian/employee-management-SQL"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334613"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334613"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699245"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14194",
+      "title": "A vulnerability was identified in code-projects Employee Profile Management System 1.0. This issue affects some unknown ",
+      "summary": "A vulnerability was identified in code-projects Employee Profile Management System 1.0. This issue affects some unknown processing of the file /view_personnel.php. The manipulation of the argument per_address/dr_school/other_school leads to cross site scripting. The attack may be initiated remotely. The exploit is publicly available and might be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T15:15:46Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://code-projects.org/"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/shenxianyuguitian/employee-management-XSS"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334614"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334614"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699246"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14195",
+      "title": "A security flaw has been discovered in code-projects Employee Profile Management System 1.0. Impacted is an unknown func",
+      "summary": "A security flaw has been discovered in code-projects Employee Profile Management System 1.0. Impacted is an unknown function of the file /profiling/add_file_query.php. The manipulation of the argument per_file results in unrestricted upload. The attack may be launched remotely. The exploit has been released to the public and may be exploited.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T15:15:47Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://code-projects.org/"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/shenxianyuguitian/employee-management-UFU"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334615"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334615"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699247"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14196",
+      "title": "A weakness has been identified in H3C Magic B1 up to 100R004. The affected element is the function sub_44de0 of the file",
+      "summary": "A weakness has been identified in H3C Magic B1 up to 100R004. The affected element is the function sub_44de0 of the file /goform/aspForm. This manipulation of the argument param causes buffer overflow. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T16:15:47Z",
+      "cvss": 7.4,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/lin-3-start/lin-cve/blob/main/H3C%20Magic%20B1/H3C%20Magic%20B1.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/lin-3-start/lin-cve/blob/main/H3C%20Magic%20B1/H3C%20Magic%20B1.md#poc"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334616"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334616"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699387"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14197",
+      "title": "A security vulnerability has been detected in Verysync 微力同步 up to 2.21.3. The impacted element is an unknown function of",
+      "summary": "A security vulnerability has been detected in Verysync 微力同步 up to 2.21.3. The impacted element is an unknown function of the file /rest/f/api/resources/f96956469e7be39d of the component Web Administration Module. Such manipulation leads to information disclosure. The attack can be executed remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T16:15:47Z",
+      "cvss": 5.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/jjjjj-zr/jjjjjzr/issues/6"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/jjjjj-zr/jjjjjzr/issues/8"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334617"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334617"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699498"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699537"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14198",
+      "title": "A vulnerability was detected in Verysync 微力同步 2.21.3. This affects an unknown function of the file /safebrowsing/clientr",
+      "summary": "A vulnerability was detected in Verysync 微力同步 2.21.3. This affects an unknown function of the file /safebrowsing/clientreport/download?key=dummytoken of the component Web Administration Module. Performing manipulation results in information disclosure. The attack is possible to be carried out remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T17:15:47Z",
+      "cvss": 5.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/jjjjj-zr/jjjjjzr/issues/7"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334618"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334618"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699533"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14199",
+      "title": "A flaw has been found in Verysync 微力同步 up to 2.21.3. This impacts an unknown function of the file /rest/f/api/resources/",
+      "summary": "A flaw has been found in Verysync 微力同步 up to 2.21.3. This impacts an unknown function of the file /rest/f/api/resources/f96956469e7be39d/tmp/text.txt?override=false of the component Web Administration Module. Executing manipulation can lead to unrestricted upload. The attack may be performed from remote. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T17:15:47Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/jjjjj-zr/jjjjjzr/issues/10"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334619"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334619"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699539"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14200",
+      "title": "A vulnerability has been found in alokjaiswal Hotel-Management-services-using-MYSQL-and-php up to 5f8b60a7aa6c06a5632de5",
+      "summary": "A vulnerability has been found in alokjaiswal Hotel-Management-services-using-MYSQL-and-php up to 5f8b60a7aa6c06a5632de569d4e3f6a8cd82f76f. Affected is an unknown function of the file /usersub.php of the component Request Pending Page. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T18:16:01Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Yh276/h0202/blob/main/Hotel-Management-services-using-MYSQL-and-php%20web%202xxs.docx"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334620"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334620"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699993"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14201",
+      "title": "A vulnerability was found in alokjaiswal Hotel-Management-services-using-MYSQL-and-php up to 5f8b60a7aa6c06a5632de569d4e",
+      "summary": "A vulnerability was found in alokjaiswal Hotel-Management-services-using-MYSQL-and-php up to 5f8b60a7aa6c06a5632de569d4e3f6a8cd82f76f. Affected by this vulnerability is an unknown functionality of the file /dishsub.php. The manipulation of the argument item.name results in cross site scripting. It is possible to launch the attack remotely. The exploit has been made public and could be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T18:16:02Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Yh276/h0202/blob/main/Hotel-Management-services-using-MYSQL-and-php%20web%201%20xxs.docx"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334621"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334621"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.699994"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14203",
+      "title": "A flaw has been found in code-projects Question Paper Generator up to 1.0. This vulnerability affects unknown code of th",
+      "summary": "A flaw has been found in code-projects Question Paper Generator up to 1.0. This vulnerability affects unknown code of the file /selectquestionuser.php. This manipulation of the argument subid causes sql injection. Remote exploitation of the attack is possible. The exploit has been published and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T22:15:48Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://code-projects.org/"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/asd1238525/cve/blob/main/SQL17.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334646"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334646"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.700153"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14204",
+      "title": "A vulnerability has been found in TykoDev cherry-studio-TykoFork 0.1. This issue affects the function redirectToAuthoriz",
+      "summary": "A vulnerability has been found in TykoDev cherry-studio-TykoFork 0.1. This issue affects the function redirectToAuthorization of the file /.well-known/oauth-authorization-server of the component OAuth Server Discovery. Such manipulation of the argument authorizationUrl leads to os command injection. The attack can be executed remotely. The exploit has been disclosed to the public and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-07T23:15:50Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://lavender-bicycle-a5a.notion.site/TokyoTech-RCE-26153a41781f80b6a370d427a6d307f0"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334647"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334647"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.700182"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14205",
+      "title": "A vulnerability was found in code-projects Chamber of Commerce Membership Management System 1.0. Impacted is an unknown ",
+      "summary": "A vulnerability was found in code-projects Chamber of Commerce Membership Management System 1.0. Impacted is an unknown function of the file /membership_profile.php of the component Your Info Handler. Performing manipulation of the argument Full Name/Address/City/State results in cross site scripting. The attack is possible to be carried out remotely. The exploit has been made public and could be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-08T00:15:45Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://code-projects.org/"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.334648"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.334648"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.700421"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.yuque.com/u42535181/pm5nde/ky49h1xg6si9d3m8#zdDXX"
         }
       ]
     }
