@@ -1,247 +1,6 @@
 {
-  "generatedAt": "2025-12-22T00:32:36Z",
+  "generatedAt": "2025-12-23T00:30:22Z",
   "items": [
-    {
-      "cve": "CVE-2025-11186",
-      "title": "The Cookie Notice & Compliance for GDPR / CCPA plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the",
-      "summary": "The Cookie Notice & Compliance for GDPR / CCPA plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's cookies_accepted shortcode in all versions up to, and including, 2.5.8 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T05:15:59Z",
-      "cvss": 6.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/cookie-notice/tags/2.5.7/cookie-notice.php#L1060"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/cookie-notice/tags/2.5.7/cookie-notice.php#L1181"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/19700658-1bef-4e85-a995-d86fff508cdf?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12752",
-      "title": "The Subscriptions & Memberships for PayPal plugin for WordPress is vulnerable to fake payment creation in all versions u",
-      "summary": "The Subscriptions & Memberships for PayPal plugin for WordPress is vulnerable to fake payment creation in all versions up to, and including, 1.1.7. This is due to the plugin not properly verifying the authenticity of an IPN request. This makes it possible for unauthenticated attackers to create fake payment entries that have not actually occurred.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T08:15:42Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/subscriptions-memberships-for-paypal/trunk/includes/public_ipn.php"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3397608%40subscriptions-memberships-for-paypal&new=3397608%40subscriptions-memberships-for-paypal&sfp_email=&sfph_mail="
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/8f706b78-2d67-442c-b7a0-7d7a0fd24b2d?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12877",
-      "title": "The IDonate – Blood Donation, Request And Donor Management System plugin for WordPress is vulnerable to unauthorized mod",
-      "summary": "The IDonate – Blood Donation, Request And Donor Management System plugin for WordPress is vulnerable to unauthorized modification od data due to a missing capability check on the panding_blood_request_action() function in all versions up to, and including, 2.1.15. This makes it possible for unauthenticated attackers to delete arbitrary posts.",
-      "vendor": "themeatelier",
-      "product": "idonate",
-      "published": "2025-11-22T08:15:44Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset/3398056/idonate/trunk/src/Helpers/IDonateAjaxHandler.php?old=3372718&old_path=idonate%2Ftags%2F2.1.13%2Fsrc%2FHelpers%2FIDonateAjaxHandler.php"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset/3400306/idonate/trunk/src/Helpers/IDonateAjaxHandler.php?old=3372718&old_path=idonate%2Ftags%2F2.1.13%2Fsrc%2FHelpers%2FIDonateAjaxHandler.php"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/96bd997f-63d5-47a7-b433-486c1113b44b?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13317",
-      "title": "The Appointment Booking Calendar plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and ",
-      "summary": "The Appointment Booking Calendar plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 1.3.96. This is due to the plugin exposing an unauthenticated booking processing endpoint (cpabc_appointments_check_IPN_verification) that trusts attacker-supplied payment notifications without verifying their origin, authenticity, or requiring proper authorization checks. This makes it possible for unauthenticated attackers to arbitrarily confirm bookings and insert them into the live calendar via the 'cpabc_ipncheck' parameter, triggering administrative and customer notification emails and disrupting operations.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T08:15:44Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/appointment-booking-calendar/tags/1.3.96/inc/cpabc_apps_go.inc.php#L14"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/appointment-booking-calendar/tags/1.3.96/inc/cpabc_apps_go.inc.php#L363"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/appointment-booking-calendar/tags/1.3.96/inc/cpabc_apps_go.inc.php#L476"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3399113%40appointment-booking-calendar&new=3399113%40appointment-booking-calendar&sfp_email=&sfph_mail="
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/638217c4-7a37-49e4-8660-5510ace692ec?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13384",
-      "title": "The CP Contact Form with PayPal plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and i",
-      "summary": "The CP Contact Form with PayPal plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 1.3.56. This is due to the plugin exposing an unauthenticated IPN-like endpoint (via the 'cp_contactformpp_ipncheck' query parameter) that processes payment confirmations without any authentication, nonce verification, or PayPal IPN signature validation. This makes it possible for unauthenticated attackers to mark form submissions as paid without making actual payments by sending forged payment notification requests with arbitrary POST data (payment_status, txn_id, payer_email).",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T08:15:44Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/cp-contact-form-with-paypal/tags/1.3.56/cp_contactformpp_functions.php#L541"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/cp-contact-form-with-paypal/tags/1.3.56/cp_contactformpp_functions.php#L877"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/cp-contact-form-with-paypal/tags/1.3.56/cp_contactformpp_functions.php#L925"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3399104%40cp-contact-form-with-paypal&new=3399104%40cp-contact-form-with-paypal&sfp_email=&sfph_mail="
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/6639c3d8-8f26-4ee5-8c4b-2efcf34668a2?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13136",
-      "title": "The GSheetConnector For Ninja Forms plugin for WordPress is vulnerable to unauthorized access of data due to a missing c",
-      "summary": "The GSheetConnector For Ninja Forms plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the 'njform-google-sheet-config ' page in all versions up to, and including, 2.0.1. This makes it possible for authenticated attackers, with Subscriber-level access and above, to retrieve information about the system.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T09:15:42Z",
-      "cvss": 4.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3399046%40gsheetconnector-ninja-forms&new=3399046%40gsheetconnector-ninja-forms&sfp_email=&sfph_mail="
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/5770cb94-8603-44d9-8cda-925175851b51?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13318",
-      "title": "The Booking Calendar Contact Form plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and",
-      "summary": "The Booking Calendar Contact Form plugin for WordPress is vulnerable to Missing Authorization in all versions up to, and including, 1.2.60. This is due to missing authorization checks and payment verification in the `dex_bccf_check_IPN_verification` function. This makes it possible for unauthenticated attackers to arbitrarily confirm bookings and bypass payment requirements via the 'dex_bccf_ipn' parameter.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T09:15:42Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/booking-calendar-contact-form/tags/1.2.59/dex_bccf.php#L1409"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/booking-calendar-contact-form/trunk/dex_bccf.php#L1409"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3399906%40booking-calendar-contact-form&new=3399906%40booking-calendar-contact-form&sfp_email=&sfph_mail="
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/83b0ae2c-6b08-4b71-a728-c60722ec20c7?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13526",
-      "title": "The OneClick Chat to Order plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to,",
-      "summary": "The OneClick Chat to Order plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 1.0.8 via the 'wa_order_thank_you_override' function due to missing validation on a user controlled key. This makes it possible for unauthenticated attackers to view sensitive customer information including names, email addresses, phone numbers, billing/shipping addresses, order contents, and payment methods by simply changing the order ID in the URL.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T11:15:48Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/oneclick-whatsapp-order/trunk/includes/buttons/wa-order-thank-you.php#L126"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset/3391625/"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/547a0c73-044e-49ba-9bec-4f80b41b8ea2?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12541",
-      "title": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T23:15:44Z",
-      "cvss": null,
-      "exploited": false,
-      "references": []
-    },
-    {
-      "cve": "CVE-2025-12561",
-      "title": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T23:15:44Z",
-      "cvss": null,
-      "exploited": false,
-      "references": []
-    },
-    {
-      "cve": "CVE-2025-13197",
-      "title": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "summary": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-22T23:15:45Z",
-      "cvss": null,
-      "exploited": false,
-      "references": []
-    },
     {
       "cve": "CVE-2025-13544",
       "title": "A weakness has been identified in ashraf-kabir travel-agency up to 1f25aa03544bc5fb7a9e846f8a7879cecdb0cad3. Affected is",
@@ -2877,6 +2636,14 @@
         },
         {
           "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23735"
+        },
+        {
+          "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23852"
+        },
+        {
+          "title": "secalert@redhat.com",
           "url": "https://access.redhat.com/security/cve/CVE-2025-13609"
         },
         {
@@ -4573,6 +4340,14 @@
         {
           "title": "secalert@redhat.com",
           "url": "https://access.redhat.com/errata/RHSA-2025:23591"
+        },
+        {
+          "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23742"
+        },
+        {
+          "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23743"
         },
         {
           "title": "secalert@redhat.com",
@@ -13910,6 +13685,10 @@
       "references": [
         {
           "title": "cna@python.org",
+          "url": "https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628"
+        },
+        {
+          "title": "cna@python.org",
           "url": "https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15"
         },
         {
@@ -13944,6 +13723,10 @@
       "cvss": 2.1,
       "exploited": false,
       "references": [
+        {
+          "title": "cna@python.org",
+          "url": "https://github.com/python/cpython/commit/5a8b19677d818fb41ee55f310233772e15aa1a2b"
+        },
         {
           "title": "cna@python.org",
           "url": "https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70"
@@ -18709,6 +18492,14 @@
         },
         {
           "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23742"
+        },
+        {
+          "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23743"
+        },
+        {
+          "title": "secalert@redhat.com",
           "url": "https://access.redhat.com/security/cve/CVE-2025-13947"
         },
         {
@@ -19785,6 +19576,22 @@
         {
           "title": "cna@python.org",
           "url": "https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4"
+        },
+        {
+          "title": "cna@python.org",
+          "url": "https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437"
+        },
+        {
+          "title": "cna@python.org",
+          "url": "https://github.com/python/cpython/commit/8d2d7bb2e754f8649a68ce4116271a4932f76907"
+        },
+        {
+          "title": "cna@python.org",
+          "url": "https://github.com/python/cpython/commit/9c9dda6625a2a90d2a06c657eee021d6be19842d"
+        },
+        {
+          "title": "cna@python.org",
+          "url": "https://github.com/python/cpython/commit/a696ba8b4d42fd632afc9bc88ad830a2e4cceed8"
         },
         {
           "title": "cna@python.org",
@@ -22927,6 +22734,14 @@
         },
         {
           "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23742"
+        },
+        {
+          "title": "secalert@redhat.com",
+          "url": "https://access.redhat.com/errata/RHSA-2025:23743"
+        },
+        {
+          "title": "secalert@redhat.com",
           "url": "https://access.redhat.com/security/cve/CVE-2025-66287"
         },
         {
@@ -23127,8 +22942,8 @@
       "cve": "CVE-2025-14015",
       "title": "A weakness has been identified in H3C Magic B0 up to 100R002. This impacts the function EditWlanMacList of the file /gof",
       "summary": "A weakness has been identified in H3C Magic B0 up to 100R002. This impacts the function EditWlanMacList of the file /goform/aspForm. This manipulation of the argument param causes buffer overflow. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
-      "vendor": "",
-      "product": "",
+      "vendor": "h3c",
+      "product": "magic b0 firmware",
       "published": "2025-12-04T19:16:03Z",
       "cvss": 7.4,
       "exploited": false,
@@ -23255,8 +23070,8 @@
       "cve": "CVE-2025-65637",
       "title": "A denial-of-service vulnerability exists in github.com/sirupsen/logrus when using Entry.Writer() to log a single-line pa",
       "summary": "A denial-of-service vulnerability exists in github.com/sirupsen/logrus when using Entry.Writer() to log a single-line payload larger than 64KB without newline characters. Due to limitations in the internal bufio.Scanner, the read fails with \"token too long\" and the writer pipe is closed, leaving Writer() unusable and causing application unavailability (DoS). This affects versions < 1.8.3, 1.9.0, and 1.9.2. The issue is fixed in 1.8.3, 1.9.1, and 1.9.3+, where the input is chunked and the writer continues to function even if an error is logged.",
-      "vendor": "",
-      "product": "",
+      "vendor": "turbopuffer",
+      "product": "logrus",
       "published": "2025-12-04T19:16:05Z",
       "cvss": 7.5,
       "exploited": false,
@@ -23335,8 +23150,8 @@
       "cve": "CVE-2025-12994",
       "title": "Medtronic CareLink Network allows an unauthenticated remote attacker to initiate a request for security questions to an ",
       "summary": "Medtronic CareLink Network allows an unauthenticated remote attacker to initiate a request for security questions to an API endpoint that could be used to determine a valid user account. This issue affects CareLink Network: before December 4, 2025.",
-      "vendor": "",
-      "product": "",
+      "vendor": "medtronic",
+      "product": "carelink network",
       "published": "2025-12-04T20:16:17Z",
       "cvss": 5.3,
       "exploited": false,
@@ -23351,8 +23166,8 @@
       "cve": "CVE-2025-12995",
       "title": "Medtronic CareLink Network allows an unauthenticated remote attacker to perform a brute force attack on an API endpoint ",
       "summary": "Medtronic CareLink Network allows an unauthenticated remote attacker to perform a brute force attack on an API endpoint that could be used to determine a valid password under certain circumstances. This issue affects CareLink Network: before December 4, 2025.",
-      "vendor": "",
-      "product": "",
+      "vendor": "medtronic",
+      "product": "carelink network",
       "published": "2025-12-04T20:16:17Z",
       "cvss": 8.1,
       "exploited": false,
@@ -23367,8 +23182,8 @@
       "cve": "CVE-2025-12996",
       "title": "Medtronic CareLink Network allows a local attacker with access to log files on an internal API server to view plaintext ",
       "summary": "Medtronic CareLink Network allows a local attacker with access to log files on an internal API server to view plaintext passwords from errors logged under certain circumstances. This issue affects CareLink Network: before December 4, 2025.",
-      "vendor": "",
-      "product": "",
+      "vendor": "medtronic",
+      "product": "carelink network",
       "published": "2025-12-04T20:16:17Z",
       "cvss": 4.1,
       "exploited": false,
@@ -23383,8 +23198,8 @@
       "cve": "CVE-2025-12997",
       "title": "Insecure Direct Object Reference vulnerability in Medtronic CareLink Network which allows an authenticated attacker with",
       "summary": "Insecure Direct Object Reference vulnerability in Medtronic CareLink Network which allows an authenticated attacker with access to specific device and user information to submit web requests to an API endpoint that would expose sensitive user information. This issue affects CareLink Network: before December 4, 2025.",
-      "vendor": "",
-      "product": "",
+      "vendor": "medtronic",
+      "product": "carelink network",
       "published": "2025-12-04T20:16:17Z",
       "cvss": 2.2,
       "exploited": false,
@@ -23491,8 +23306,8 @@
       "cve": "CVE-2025-65883",
       "title": "A vulnerability has been identified in Genexis Platinum P4410 router (Firmware P4410-V2–1.41) that allows a local networ",
       "summary": "A vulnerability has been identified in Genexis Platinum P4410 router (Firmware P4410-V2–1.41) that allows a local network attacker to achieve Remote Code Execution (RCE) with root privileges. The issue occurs due to improper session invalidation after administrator logout. When an administrator logs out, the session token remains valid. An attacker on the local network can reuse this stale token to send crafted requests via the router’s diagnostic endpoint, resulting in command execution as root.",
-      "vendor": "",
-      "product": "",
+      "vendor": "genexis",
+      "product": "platinum 4410 firmware",
       "published": "2025-12-04T20:16:19Z",
       "cvss": 8.4,
       "exploited": false,
@@ -23735,8 +23550,8 @@
       "cve": "CVE-2025-55948",
       "title": "This vulnerability fundamentally arises from yzcheng90 X-SpringBoot 6.0's implementation of role-based access control (R",
       "summary": "This vulnerability fundamentally arises from yzcheng90 X-SpringBoot 6.0's implementation of role-based access control (RBAC) through dual dependency on frontend menu systems and backend permission tables, without enforcing atomic synchronization between these components. The critical flaw manifests when frontend menu updates (such as privilege revocation) fail to propagate to the backend permission table in real-time, creating a dangerous desynchronization. While users lose access to restricted functions through the web interface (as UI elements properly disappear), the stale permission records still validate unauthorized API requests when accessed directly through tools like Postman. Attackers exploiting this inconsistency can perform privileged operations including but not limited to: creating high-permission user accounts, accessing sensitive data beyond their clearance level, and executing admin-level commands.",
-      "vendor": "",
-      "product": "",
+      "vendor": "yzcheng90",
+      "product": "x-springboot",
       "published": "2025-12-04T21:16:08Z",
       "cvss": 7.3,
       "exploited": false,
@@ -23755,8 +23570,8 @@
       "cve": "CVE-2025-63896",
       "title": "An issue in the Bluetooth Human Interface Device (HID) of JXL 9 Inch Car Android Double Din Player Android v12.0 allows ",
       "summary": "An issue in the Bluetooth Human Interface Device (HID) of JXL 9 Inch Car Android Double Din Player Android v12.0 allows attackers to inject arbitrary keystrokes via a spoofed Bluetooth HID device.",
-      "vendor": "",
-      "product": "",
+      "vendor": "jxlindia",
+      "product": "jxl 9 inch car android double din player firmware",
       "published": "2025-12-04T21:16:08Z",
       "cvss": 3.5,
       "exploited": false,
@@ -23923,8 +23738,8 @@
       "cve": "CVE-2025-66573",
       "title": "Solstice Pod API (version 5.5, 6.2) contains an unauthenticated API endpoint (`/api/config`) that exposes sensitive info",
       "summary": "Solstice Pod API (version 5.5, 6.2) contains an unauthenticated API endpoint (`/api/config`) that exposes sensitive information such as the session key, server version, product details, and display name. Unauthorized users can extract live session information by accessing this endpoint without authentication.",
-      "vendor": "",
-      "product": "",
+      "vendor": "mersive",
+      "product": "solstice pod firmware",
       "published": "2025-12-04T21:16:10Z",
       "cvss": 6.9,
       "exploited": false,
@@ -34142,8 +33957,8 @@
       "cve": "CVE-2025-26487",
       "title": "Server-Side Request Forgery (SSRF) vulnerability in Infinera MTC-9 version allows \nremote unauthenticated users to gain ",
       "summary": "Server-Side Request Forgery (SSRF) vulnerability in Infinera MTC-9 version allows \nremote unauthenticated users to gain access to other network resources \nusing HTTPS requests through the appliance used as a bridge.",
-      "vendor": "",
-      "product": "",
+      "vendor": "nokia",
+      "product": "infinera mtc-9 firmware",
       "published": "2025-12-08T09:15:46Z",
       "cvss": 8.6,
       "exploited": false,
@@ -34158,8 +33973,8 @@
       "cve": "CVE-2025-26488",
       "title": "Improper Input Validation vulnerability in Infinera MTC-9 allows remote unauthenticated users to crash the service and c",
       "summary": "Improper Input Validation vulnerability in Infinera MTC-9 allows remote unauthenticated users to crash the service and cause a \nreboot of the appliance, thus causing a DoS condition, via crafted XML \npayloads.This issue affects MTC-9: from R22.1.1.0275 before R23.0.",
-      "vendor": "",
-      "product": "",
+      "vendor": "nokia",
+      "product": "infinera mtc-9 firmware",
       "published": "2025-12-08T09:15:46Z",
       "cvss": 7.5,
       "exploited": false,
@@ -34174,8 +33989,8 @@
       "cve": "CVE-2025-26489",
       "title": "Improper input validation in the Netconf service in Infinera MTC-9 allows remote authenticated users to crash the servic",
       "summary": "Improper input validation in the Netconf service in Infinera MTC-9 allows remote authenticated users to crash the service and \nreboot the appliance, thus causing a DoS condition, via crafted XML \npayloads.This issue affects MTC-9: from R22.1.1.0275 before R23.0.",
-      "vendor": "",
-      "product": "",
+      "vendor": "nokia",
+      "product": "infinera mtc-9 firmware",
       "published": "2025-12-08T09:15:46Z",
       "cvss": 6.5,
       "exploited": false,
@@ -34458,8 +34273,8 @@
       "cve": "CVE-2025-27019",
       "title": "Remote shell service (RSH) in Infinera MTC-9 version R22.1.1.0275 allows\n an attacker to utilize password-less user acco",
       "summary": "Remote shell service (RSH) in Infinera MTC-9 version R22.1.1.0275 allows\n an attacker to utilize password-less user accounts and obtain \nsystem access by activating a reverse shell.This issue affects MTC-9: from R22.1.1.0275 before R23.0.",
-      "vendor": "",
-      "product": "",
+      "vendor": "nokia",
+      "product": "infinera mtc-9 firmware",
       "published": "2025-12-08T10:16:01Z",
       "cvss": 9.8,
       "exploited": false,
@@ -34474,8 +34289,8 @@
       "cve": "CVE-2025-27020",
       "title": "Improper configuration of the SSH service in Infinera MTC-9 allows an unauthenticated attacker to execute arbitrary comm",
       "summary": "Improper configuration of the SSH service in Infinera MTC-9 allows an unauthenticated attacker to execute arbitrary commands and access data on file system\n\n.\n\n\nThis issue affects MTC-9: from R22.1.1.0275 before R23.0.",
-      "vendor": "",
-      "product": "",
+      "vendor": "nokia",
+      "product": "infinera mtc-9 firmware",
       "published": "2025-12-08T10:16:01Z",
       "cvss": 9.8,
       "exploited": false,
@@ -34602,8 +34417,8 @@
       "cve": "CVE-2025-14244",
       "title": "A flaw has been found in GreenCMS 2.3.0603. Affected by this issue is some unknown functionality of the file /Admin/Cont",
       "summary": "A flaw has been found in GreenCMS 2.3.0603. Affected by this issue is some unknown functionality of the file /Admin/Controller/CustomController.class.php of the component Menu Management Page. This manipulation of the argument Link causes cross site scripting. The attack may be initiated remotely. The exploit has been published and may be used. This vulnerability only affects products that are no longer supported by the maintainer.",
-      "vendor": "",
-      "product": "",
+      "vendor": "njtech",
+      "product": "greencms",
       "published": "2025-12-08T12:16:03Z",
       "cvss": 4.8,
       "exploited": false,
@@ -52378,6 +52193,10 @@
         {
           "title": "meissner@suse.de",
           "url": "https://bugzilla.suse.com/show_bug.cgi?id=CVE-2025-66004"
+        },
+        {
+          "title": "af854a3a-2127-422b-91ae-364da2661108",
+          "url": "https://lists.debian.org/debian-lts-announce/2025/12/msg00027.html"
         }
       ]
     },
@@ -61622,8 +61441,8 @@
       "cve": "CVE-2024-58307",
       "title": "CSZCMS 1.3.0 contains an authenticated SQL injection vulnerability in the members view functionality that allows authent",
       "summary": "CSZCMS 1.3.0 contains an authenticated SQL injection vulnerability in the members view functionality that allows authenticated attackers to manipulate database queries. Attackers can inject malicious SQL code through the view parameter to potentially execute time-based blind SQL injection attacks and extract database information.",
-      "vendor": "",
-      "product": "",
+      "vendor": "cszcms",
+      "product": "csz cms",
       "published": "2025-12-11T22:15:52Z",
       "cvss": 9.3,
       "exploited": false,
@@ -61886,8 +61705,8 @@
       "cve": "CVE-2025-64721",
       "title": "Sandboxie is a sandbox-based isolation software for 32-bit and 64-bit Windows NT-based operating systems. In versions 1.",
       "summary": "Sandboxie is a sandbox-based isolation software for 32-bit and 64-bit Windows NT-based operating systems. In versions 1.16.6 and below, the SYSTEM-level service SbieSvc.exe exposes SbieIniServer::RC4Crypt to sandboxed processes. The handler adds a fixed header size to a caller-controlled value_len without overflow checking. A large value_len (e.g., 0xFFFFFFF0) wraps the allocation size, causing a heap overflow when attacker data is copied into the undersized buffer. This allows sandboxed processes to execute arbitrary code as SYSTEM, fully compromising the host. This issue is fixed in version 1.16.7.",
-      "vendor": "",
-      "product": "",
+      "vendor": "sandboxie-plus",
+      "product": "sandboxie",
       "published": "2025-12-11T22:15:55Z",
       "cvss": 9.9,
       "exploited": false,
@@ -64158,8 +63977,8 @@
       "cve": "CVE-2025-66492",
       "title": "Masa CMS is an open source Enterprise Content Management platform. Versions 7.2.8 and below, 7.3.1 through 7.3.13, 7.4.0",
       "summary": "Masa CMS is an open source Enterprise Content Management platform. Versions 7.2.8 and below, 7.3.1 through 7.3.13, 7.4.0-alpha.1 through 7.4.8 and 7.5.0 through 7.5.1 are vulnerable to XSS when an unsanitized value of the ajax URL query parameter is directly included within the <head> section of the HTML page. An attacker can execute arbitrary scripts in the context of the user's session, potentially leading to Session Hijacking, Data Theft, Defacement and Malware Distribution. This issue is fixed in versions 7.5.2, 7.4.9, 7.3.14, and 7.2.9. To work around this issue, configure a Web Application Firewall (WAF) rule (e.g., ModSecurity) to block requests containing common XSS payload characters in the ajax query parameter. Alternatively, implement server-side sanitization using middleware to strip or escape dangerous characters from the ajax parameter before it reaches the vulnerable rendering logic.",
-      "vendor": "",
-      "product": "",
+      "vendor": "masacms",
+      "product": "masacms",
       "published": "2025-12-12T05:16:12Z",
       "cvss": 8.2,
       "exploited": false,
@@ -64210,8 +64029,8 @@
       "cve": "CVE-2025-67724",
       "title": "Tornado is a Python web framework and asynchronous networking library. In versions 6.5.2 and below, the supplied reason ",
       "summary": "Tornado is a Python web framework and asynchronous networking library. In versions 6.5.2 and below, the supplied reason phrase is used unescaped in HTTP headers (where it could be used for header injection) or in HTML in the default error page (where it could be used for XSS) and can be exploited by passing untrusted or malicious data into the reason argument. Used by both RequestHandler.set_status and tornado.web.HTTPError, the argument is designed to allow applications to pass custom \"reason\" phrases (the \"Not Found\" in HTTP/1.1 404 Not Found) to the HTTP status line (mainly for non-standard status codes). This issue is fixed in version 6.5.3.",
-      "vendor": "",
-      "product": "",
+      "vendor": "tornadoweb",
+      "product": "tornado",
       "published": "2025-12-12T06:15:41Z",
       "cvss": 5.4,
       "exploited": false,
@@ -64234,8 +64053,8 @@
       "cve": "CVE-2025-67725",
       "title": "Tornado is a Python web framework and asynchronous networking library. In versions 6.5.2 and below, a single maliciously",
       "summary": "Tornado is a Python web framework and asynchronous networking library. In versions 6.5.2 and below, a single maliciously crafted HTTP request can block the server's event loop for an extended period, caused by the HTTPHeaders.add method. The function accumulates values using string concatenation when the same header name is repeated, causing a Denial of Service (DoS).  Due to Python string immutability, each concatenation copies the entire string, resulting in O(n²) time complexity. The severity can vary from high if max_header_size has been increased from its default, to low if it has its default value of 64KB. This issue is fixed in version 6.5.3.",
-      "vendor": "",
-      "product": "",
+      "vendor": "tornadoweb",
+      "product": "tornado",
       "published": "2025-12-12T06:15:41Z",
       "cvss": 7.5,
       "exploited": false,
@@ -64410,8 +64229,8 @@
       "cve": "CVE-2025-67726",
       "title": "Tornado is a Python web framework and asynchronous networking library. Versions 6.5.2 and below use an inefficient algor",
       "summary": "Tornado is a Python web framework and asynchronous networking library. Versions 6.5.2 and below use an inefficient algorithm when parsing parameters for HTTP header values, potentially causing a DoS. The _parseparam function in httputil.py is used to parse specific HTTP header values, such as those in multipart/form-data and repeatedly calls string.count() within a nested loop while processing quoted semicolons. If an attacker sends a request with a large number of maliciously crafted parameters in a Content-Disposition header, the server's CPU usage increases quadratically (O(n²)) during parsing. Due to Tornado's single event loop architecture, a single malicious request can cause the entire server to become unresponsive for an extended period. This issue is fixed in version 6.5.3.",
-      "vendor": "",
-      "product": "",
+      "vendor": "tornadoweb",
+      "product": "tornado",
       "published": "2025-12-12T07:15:44Z",
       "cvss": 7.5,
       "exploited": false,
@@ -64434,8 +64253,8 @@
       "cve": "CVE-2025-67727",
       "title": "Parse Server is an open source backend that can be deployed to any infrastructure that runs Node.js. In versions prior t",
       "summary": "Parse Server is an open source backend that can be deployed to any infrastructure that runs Node.js. In versions prior to 8.6.0-alpha.2, a GitHub CI workflow is triggered in a way that grants the GitHub Actions workflow elevated permissions, giving it access to GitHub secrets and write permissions which are defined in the workflow. Code from a fork or lifecycle scripts is potentially included. Only the repository's CI/CD infrastructure is affected, including any public GitHub forks with GitHub Actions enabled. This issue is fixed version 8.6.0-alpha.2 and commits 6b9f896 and e3d27fe.",
-      "vendor": "",
-      "product": "",
+      "vendor": "parseplatform",
+      "product": "parse-server",
       "published": "2025-12-12T07:15:45Z",
       "cvss": 6.9,
       "exploited": false,
@@ -64458,8 +64277,8 @@
       "cve": "CVE-2025-67728",
       "title": "Fireshare facilitates self-hosted media and link sharing. Versions 1.2.30 and below allow an authenticated user, or unau",
       "summary": "Fireshare facilitates self-hosted media and link sharing. Versions 1.2.30 and below allow an authenticated user, or unauthenticated user if the Public Uploads setting is enabled, to craft a malicious filename when uploading a video file. The malicious filename is then concatenated directly into a shell command, which can be used for uploading files to arbitrary directories via path traversal, or executing system commands for Remote Code Execution (RCE). This issue is fixed in version 1.3.0.",
-      "vendor": "",
-      "product": "",
+      "vendor": "shaneisrael",
+      "product": "fireshare",
       "published": "2025-12-12T07:15:45Z",
       "cvss": 9.8,
       "exploited": false,
@@ -67430,8 +67249,8 @@
       "cve": "CVE-2025-14582",
       "title": "A vulnerability was detected in campcodes Online Student Enrollment System 1.0. This affects an unknown function of the ",
       "summary": "A vulnerability was detected in campcodes Online Student Enrollment System 1.0. This affects an unknown function of the file /admin/index.php?page=user-profile. Performing manipulation of the argument userphoto results in unrestricted upload. The attack can be initiated remotely. The exploit is now public and may be used.",
-      "vendor": "",
-      "product": "",
+      "vendor": "campcodes",
+      "product": "online student enrollment system",
       "published": "2025-12-12T22:15:38Z",
       "cvss": 5.1,
       "exploited": false,
@@ -70027,8 +69846,8 @@
       "cve": "CVE-2025-67896",
       "title": "Exim before 4.99.1, with certain non-default rate-limit configurations, allows a remote heap-based buffer overflow becau",
       "summary": "Exim before 4.99.1, with certain non-default rate-limit configurations, allows a remote heap-based buffer overflow because database records are cast directly to internal structures without validation.",
-      "vendor": "",
-      "product": "",
+      "vendor": "exim",
+      "product": "exim",
       "published": "2025-12-14T04:15:50Z",
       "cvss": 7.0,
       "exploited": false,
@@ -70223,8 +70042,8 @@
       "cve": "CVE-2025-14647",
       "title": "A weakness has been identified in code-projects Computer Book Store 1.0. Affected is an unknown function of the file /ad",
       "summary": "A weakness has been identified in code-projects Computer Book Store 1.0. Affected is an unknown function of the file /admin_delete.php. This manipulation of the argument bookisbn causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be exploited.",
-      "vendor": "",
-      "product": "",
+      "vendor": "carmelo",
+      "product": "computer book store",
       "published": "2025-12-14T07:15:39Z",
       "cvss": 6.9,
       "exploited": false,
@@ -70255,8 +70074,8 @@
       "cve": "CVE-2025-14648",
       "title": "A security vulnerability has been detected in DedeBIZ up to 6.5.9. Affected by this vulnerability is an unknown function",
       "summary": "A security vulnerability has been detected in DedeBIZ up to 6.5.9. Affected by this vulnerability is an unknown functionality of the file /src/admin/catalog_add.php. Such manipulation leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used.",
-      "vendor": "",
-      "product": "",
+      "vendor": "dedebiz",
+      "product": "dedebiz",
       "published": "2025-12-14T07:15:39Z",
       "cvss": 5.1,
       "exploited": false,
@@ -70755,8 +70574,8 @@
       "cve": "CVE-2025-14665",
       "title": "A security flaw has been discovered in Tenda WH450 1.0.0.18. Impacted is an unknown function of the file /goform/DhcpLis",
       "summary": "A security flaw has been discovered in Tenda WH450 1.0.0.18. Impacted is an unknown function of the file /goform/DhcpListClient of the component HTTP Request Handler. The manipulation of the argument page results in stack-based buffer overflow. The attack can be executed remotely. The exploit has been released to the public and may be exploited.",
-      "vendor": "",
-      "product": "",
+      "vendor": "tenda",
+      "product": "wh450 firmware",
       "published": "2025-12-14T15:15:47Z",
       "cvss": 8.9,
       "exploited": false,
@@ -75302,6 +75121,10 @@
       "references": [
         {
           "title": "vultures@jpcert.or.jp",
+          "url": "https://epson.com/Support/wa00971"
+        },
+        {
+          "title": "vultures@jpcert.or.jp",
           "url": "https://jvn.jp/en/jp/JVN51846148/"
         },
         {
@@ -76970,8 +76793,8 @@
       "cve": "CVE-2025-65074",
       "title": "WaveView client allows users to execute restricted set of predefined commands and scripts on the connected WaveStore Ser",
       "summary": "WaveView client allows users to execute restricted set of predefined commands and scripts on the connected WaveStore Server. A malicious attacker with high-privileges is able to execute arbitrary OS commands on the server using path traversal in the showerr script.\n\nThis issue was fixed in version 6.44.44",
-      "vendor": "",
-      "product": "",
+      "vendor": "wavestore",
+      "product": "video management software server",
       "published": "2025-12-16T13:15:57Z",
       "cvss": 8.6,
       "exploited": false,
@@ -76990,8 +76813,8 @@
       "cve": "CVE-2025-65075",
       "title": "WaveView client allows users to execute restricted set of predefined commands and scripts on the connected WaveStore Ser",
       "summary": "WaveView client allows users to execute restricted set of predefined commands and scripts on the connected WaveStore Server. A malicious attacker with high-privileges is able to read or delete files, with the permissions of dvr user, on the server using path traversal in the alog script.\n\nThis issue was fixed in version 6.44.44",
-      "vendor": "",
-      "product": "",
+      "vendor": "wavestore",
+      "product": "video management software server",
       "published": "2025-12-16T13:15:58Z",
       "cvss": 5.1,
       "exploited": false,
@@ -77010,8 +76833,8 @@
       "cve": "CVE-2025-65076",
       "title": "WaveView client allows users to execute restricted set of predefined commands and scripts on the connected WaveStore Ser",
       "summary": "WaveView client allows users to execute restricted set of predefined commands and scripts on the connected WaveStore Server. A malicious attacker with high-privileges is able to read or delete any file on the server using path traversal in the ilog script. This script is being run with root privileges.\n\nThis issue was fixed in version 6.44.44",
-      "vendor": "",
-      "product": "",
+      "vendor": "wavestore",
+      "product": "video management software server",
       "published": "2025-12-16T13:15:58Z",
       "cvss": 8.6,
       "exploited": false,
@@ -82094,8 +81917,8 @@
       "cve": "CVE-2025-50398",
       "title": "Mercury D196G d196gv1-cn-up_2020-01-09_11.21.44 is vulnerable to Buffer Overflow in the function sub_404CAEDC via the pa",
       "summary": "Mercury D196G d196gv1-cn-up_2020-01-09_11.21.44 is vulnerable to Buffer Overflow in the function sub_404CAEDC via the parameter fac_password.",
-      "vendor": "",
-      "product": "",
+      "vendor": "mercurycom",
+      "product": "d196g firmware",
       "published": "2025-12-16T17:16:08Z",
       "cvss": 9.8,
       "exploited": false,
@@ -82114,8 +81937,8 @@
       "cve": "CVE-2025-50401",
       "title": "Mercury D196G d196gv1-cn-up_2020-01-09_11.21.44 is vulnerable to Buffer Overflow in the function sub_404CAEDC via the pa",
       "summary": "Mercury D196G d196gv1-cn-up_2020-01-09_11.21.44 is vulnerable to Buffer Overflow in the function sub_404CAEDC via the parameter password.",
-      "vendor": "",
-      "product": "",
+      "vendor": "mercurycom",
+      "product": "d196g firmware",
       "published": "2025-12-16T17:16:09Z",
       "cvss": 9.8,
       "exploited": false,
@@ -83713,8 +83536,8 @@
       "cve": "CVE-2025-67895",
       "title": "Edge3 Worker RPC RCE on Airflow 2.\n\nThis issue affects Apache Airflow Providers Edge3: before 2.0.0 - and only if you in",
       "summary": "Edge3 Worker RPC RCE on Airflow 2.\n\nThis issue affects Apache Airflow Providers Edge3: before 2.0.0 - and only if you installed and configured it on Airflow 2.\n\n\n\nThe Edge3 provider support in Airflow 2 has been always development-only and not officially released, however if you installed and configured Edge3 provider in Airflow 2, it implicitly enabled non-public (normally) API which was used to test Edge Provider in Airflow 2 during the development. This API allowed Dag author to perform Remote Code Execution in the webserver context, which Dag Author was not supposed to be able to do.\n\nIf you installed and configured Edge3 provider for Airflow 2, you should uninstall it and migrate to Airflow 3. The new Edge3 provider versions (>=2.0.0) has minimum version of Airflow set to 3 and the RCE-prone Airflow 2 code is removed, so it should no longer be possible to use the Edge3 provider 2.0.0+ on Airflow 2.\n\nIf you used Edge Provider in Airflow 3, you are not affected.",
-      "vendor": "",
-      "product": "",
+      "vendor": "apache",
+      "product": "apache-airflow-providers-edge3",
       "published": "2025-12-17T12:15:46Z",
       "cvss": 9.8,
       "exploited": false,
@@ -94388,8 +94211,8 @@
     },
     {
       "cve": "CVE-2025-34449",
-      "title": "Genymobile/scrcpy versions up to and including 3.3.3 and prior to commit 3e40b24 contain a global buffer overflow vulner",
-      "summary": "Genymobile/scrcpy versions up to and including 3.3.3 and prior to commit 3e40b24 contain a global buffer overflow vulnerability in the function sc_read32be, invoked via sc_device_msg_deserialize() and process_msgs(). Processing crafted device messages can cause reads beyond the bounds of a global buffer, leading to memory corruption or crashes. This vulnerability can be exploited to cause a denial of service and, under certain conditions, may be leveraged for further exploitation depending on the execution environment and available mitigations.",
+      "title": "Genymobile/scrcpy versions up to and including 3.3.3, prior to commit 3e40b24, contain a buffer overflow vulnerability i",
+      "summary": "Genymobile/scrcpy versions up to and including 3.3.3, prior to commit 3e40b24, contain a buffer overflow vulnerability in the sc_device_msg_deserialize() function. A compromised device can send crafted messages that cause out-of-bounds reads, which may result in memory corruption or a denial-of-service condition. This vulnerability may allow further exploitation on the host system.",
       "vendor": "",
       "product": "",
       "published": "2025-12-18T22:15:56Z",
@@ -96825,8 +96648,8 @@
     },
     {
       "cve": "CVE-2025-63665",
-      "title": "An issue in GT Edge AI Platform Versions before v2.0.10-dev allows attackers to execute arbitrary code via injecting a c",
-      "summary": "An issue in GT Edge AI Platform Versions before v2.0.10-dev allows attackers to execute arbitrary code via injecting a crafted JSON payload into the Prompt window.",
+      "title": "An issue in GT Edge AI Community Edition Versions before v2.0.12 allows attackers to execute arbitrary code via injectin",
+      "summary": "An issue in GT Edge AI Community Edition Versions before v2.0.12 allows attackers to execute arbitrary code via injecting a crafted JSON payload into the Prompt window.",
       "vendor": "",
       "product": "",
       "published": "2025-12-19T17:15:52Z",
@@ -96839,7 +96662,7 @@
         },
         {
           "title": "cve@mitre.org",
-          "url": "https://github.com/p80n-sec/Vulnerability-Research/blob/main/Pending"
+          "url": "https://github.com/p80n-sec/Vulnerability-Research/blob/main/CVE-2025-63665/CVE-2025-63665.md"
         }
       ]
     },
@@ -97368,6 +97191,10 @@
         {
           "title": "disclosure@vulncheck.com",
           "url": "https://www.vulncheck.com/advisories/brainycp-remote-code-execution-via-authenticated-crontab-manipulation"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.exploit-db.com/exploits/51357"
         }
       ]
     },
@@ -99110,6 +98937,2742 @@
         {
           "title": "cna@vuldb.com",
           "url": "https://vuldb.com/?submit.716084"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15004",
+      "title": "A vulnerability was identified in DedeCMS up to 5.7.118. This impacts an unknown function of the file /freelist_main.php",
+      "summary": "A vulnerability was identified in DedeCMS up to 5.7.118. This impacts an unknown function of the file /freelist_main.php. The manipulation of the argument orderby leads to sql injection. It is possible to initiate the attack remotely. The exploit is publicly available and might be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T01:16:05Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/JPq560c6F6tu"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337710"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337710"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.717316"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15005",
+      "title": "A security flaw has been discovered in CouchCMS up to 2.4. Affected is an unknown function of the file couch/config.exam",
+      "summary": "A security flaw has been discovered in CouchCMS up to 2.4. Affected is an unknown function of the file couch/config.example.php of the component reCAPTCHA Handler. The manipulation of the argument K_RECAPTCHA_SITE_KEY/K_RECAPTCHA_SECRET_KEY results in use of hard-coded cryptographic key\r . It is possible to launch the attack remotely. This attack is characterized by high complexity. The exploitability is told to be difficult. The exploit has been released to the public and may be exploited.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T01:16:06Z",
+      "cvss": 6.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/jNNcrdrNyCvl"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/jNNcrdrNyCvl#-span--strong-proof-of-concept---strong---span-"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337711"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337711"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.718998"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15006",
+      "title": "A weakness has been identified in Tenda WH450 1.0.0.18. Affected by this vulnerability is an unknown functionality of th",
+      "summary": "A weakness has been identified in Tenda WH450 1.0.0.18. Affected by this vulnerability is an unknown functionality of the file /goform/CheckTools of the component HTTP Request Handler. This manipulation of the argument ipaddress causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been made available to the public and could be exploited.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T02:16:01Z",
+      "cvss": 8.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/CheckTools/CheckTools.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/CheckTools/CheckTools.md#reproduce"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337712"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337712"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719315"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.tenda.com.cn/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15007",
+      "title": "A security vulnerability has been detected in Tenda WH450 1.0.0.18. Affected by this issue is some unknown functionality",
+      "summary": "A security vulnerability has been detected in Tenda WH450 1.0.0.18. Affected by this issue is some unknown functionality of the file /goform/L7Im of the component HTTP Request Handler. Such manipulation of the argument page leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed publicly and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T02:16:01Z",
+      "cvss": 8.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/L7Im/L7Im.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/L7Im/L7Im.md#poc"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337713"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337713"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719316"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.tenda.com.cn/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15008",
+      "title": "A vulnerability was detected in Tenda WH450 1.0.0.18. This affects an unknown part of the file /goform/L7Port of the com",
+      "summary": "A vulnerability was detected in Tenda WH450 1.0.0.18. This affects an unknown part of the file /goform/L7Port of the component HTTP Request Handler. Performing manipulation of the argument page results in stack-based buffer overflow. The attack may be initiated remotely. The exploit is now public and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T03:15:47Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/L7Prot/L7Prot.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/L7Prot/L7Prot.md#reproduce"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337714"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337714"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719317"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.tenda.com.cn/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15009",
+      "title": "A flaw has been found in liweiyi ChestnutCMS up to 1.5.8. This vulnerability affects the function FilenameUtils.getExten",
+      "summary": "A flaw has been found in liweiyi ChestnutCMS up to 1.5.8. This vulnerability affects the function FilenameUtils.getExtension of the file /dev-api/common/upload of the component Filename Handler. Executing manipulation of the argument File can lead to unrestricted upload. The attack may be launched remotely. The exploit has been published and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T03:15:47Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/yuccun/CVE/blob/main/ChestnutCMS-Arbitrary_File_Upload.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/yuccun/CVE/blob/main/ChestnutCMS-Arbitrary_File_Upload.md#vulnerability-proof"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337715"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337715"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719590"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15010",
+      "title": "A vulnerability has been found in Tenda WH450 1.0.0.18. This issue affects some unknown processing of the file /goform/S",
+      "summary": "A vulnerability has been found in Tenda WH450 1.0.0.18. This issue affects some unknown processing of the file /goform/SafeUrlFilter. The manipulation of the argument page leads to stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T04:16:00Z",
+      "cvss": 8.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/SafeUrlFilter/SafeUrlFilter.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/SafeUrlFilter/SafeUrlFilter.md#reproduce"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337716"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337716"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719219"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.tenda.com.cn/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15011",
+      "title": "A vulnerability was found in code-projects Simple Stock System 1.0. Impacted is an unknown function of the file /logout.",
+      "summary": "A vulnerability was found in code-projects Simple Stock System 1.0. Impacted is an unknown function of the file /logout.php. The manipulation of the argument uname results in sql injection. The attack can be executed remotely. The exploit has been made public and could be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T04:16:00Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://code-projects.org/"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/chunmingshanan/CVE/issues/1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337717"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337717"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719663"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15015",
+      "title": "Enterprise Cloud Database developed by Ragic has a Arbitrary File Read vulnerability, allowing unauthenticated remote at",
+      "summary": "Enterprise Cloud Database developed by Ragic has a Arbitrary File Read vulnerability, allowing unauthenticated remote attackers to exploit Relative Path Traversal to download arbitrary system files.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T04:16:00Z",
+      "cvss": 8.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "twcert@cert.org.tw",
+          "url": "https://www.twcert.org.tw/en/cp-139-10588-771e5-2.html"
+        },
+        {
+          "title": "twcert@cert.org.tw",
+          "url": "https://www.twcert.org.tw/tw/cp-132-10587-797c6-1.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15016",
+      "title": "Enterprise Cloud Database developed by Ragic has a Hard-coded Cryptographic Key vulnerability, allowing unauthenticated ",
+      "summary": "Enterprise Cloud Database developed by Ragic has a Hard-coded Cryptographic Key vulnerability, allowing unauthenticated remote attackers to exploit the fixed key to generate verification information and log into the system as any user.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T04:16:00Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "twcert@cert.org.tw",
+          "url": "https://www.twcert.org.tw/en/cp-139-10588-771e5-2.html"
+        },
+        {
+          "title": "twcert@cert.org.tw",
+          "url": "https://www.twcert.org.tw/tw/cp-132-10587-797c6-1.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-59301",
+      "title": "Delta Electronics DVP15MC11T lacks proper validation of the modbus/tcp packets and can lead to denial of service.",
+      "summary": "Delta Electronics DVP15MC11T lacks proper validation of the modbus/tcp packets and can lead to denial of service.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T04:16:00Z",
+      "cvss": 4.0,
+      "exploited": false,
+      "references": [
+        {
+          "title": "759f5e80-c8e1-4224-bead-956d7b33c98b",
+          "url": "https://filecenter.deltaww.com/news/download/doc/Delta-PCSA-2025-00020_DVP15MC11T%20Modbus%20TCP%20DoS%20Vulnerability.pdf"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-11540",
+      "title": "Path Traversal vulnerability in Sharp Display Solutions projectors allows a attacker may access and read any files withi",
+      "summary": "Path Traversal vulnerability in Sharp Display Solutions projectors allows a attacker may access and read any files within the projector.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:06Z",
+      "cvss": 9.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "psirt-info@cyber.jp.nec.com",
+          "url": "https://sharp-displays.jp.sharp/global/support/info/PJ-CVE-2025-11540.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-11541",
+      "title": "Stack-based Buffer Overflow vulnerability in Sharp Display Solutions projectors allows a attacker may execute arbitrary ",
+      "summary": "Stack-based Buffer Overflow vulnerability in Sharp Display Solutions projectors allows a attacker may execute arbitrary commands and programs.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:16Z",
+      "cvss": 9.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "psirt-info@cyber.jp.nec.com",
+          "url": "https://sharp-displays.jp.sharp/global/support/info/PJ-CVE-2025-11540.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-11542",
+      "title": "Stack-based Buffer Overflow vulnerability in Sharp Display Solutions projectors allows a attacker may execute arbitrary ",
+      "summary": "Stack-based Buffer Overflow vulnerability in Sharp Display Solutions projectors allows a attacker may execute arbitrary commands and programs.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:17Z",
+      "cvss": 8.4,
+      "exploited": false,
+      "references": [
+        {
+          "title": "psirt-info@cyber.jp.nec.com",
+          "url": "https://sharp-displays.jp.sharp/global/support/info/PJ-CVE-2025-11540.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-11543",
+      "title": "Improper Validation of Integrity Check Value vulnerability in Sharp Display Solutions projectors allows a attacker may c",
+      "summary": "Improper Validation of Integrity Check Value vulnerability in Sharp Display Solutions projectors allows a attacker may create and run unauthorized firmware.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:18Z",
+      "cvss": 9.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "psirt-info@cyber.jp.nec.com",
+          "url": "https://sharp-displays.jp.sharp/global/support/info/PJ-CVE-2025-11540.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-12049",
+      "title": "Missing Authentication for Critical Function vulnerability in Sharp Display Solutions Media Player MP-01 All Verisons al",
+      "summary": "Missing Authentication for Critical Function vulnerability in Sharp Display Solutions Media Player MP-01 All Verisons allows a attacker may access to the web interface of the affected product without authentication and change settings or perform other operations, and deliver content from the authoring software to the affected product without authentication.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:19Z",
+      "cvss": 9.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "psirt-info@cyber.jp.nec.com",
+          "url": "https://sharp-displays.jp.sharp/global/support/info/MP01-CVE-2025-12049.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15012",
+      "title": "A vulnerability was determined in code-projects Refugee Food Management System 1.0. The affected element is an unknown f",
+      "summary": "A vulnerability was determined in code-projects Refugee Food Management System 1.0. The affected element is an unknown function of the file /home/home.php. This manipulation of the argument a causes sql injection. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:19Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://code-projects.org/"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/jjjjj-zr/jjjjjzr17/issues/2"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337718"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337718"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719788"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15013",
+      "title": "A vulnerability was identified in floooh sokol up to 5d11344150973f15e16d3ec4ee7550a73fb995e0. The impacted element is t",
+      "summary": "A vulnerability was identified in floooh sokol up to 5d11344150973f15e16d3ec4ee7550a73fb995e0. The impacted element is the function _sg_validate_pipeline_desc in the library sokol_gfx.h. Such manipulation leads to stack-based buffer overflow. The attack must be carried out locally. The exploit is publicly available and might be used. This product utilizes a rolling release system for continuous delivery, and as such, version information for affected or updated releases is not disclosed. The name of the patch is b95c5245ba357967220c9a860c7578a7487937b0. It is best practice to apply a patch to resolve this issue.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:21Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/floooh/sokol/issues/1404"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/oneafter/1212/blob/main/stack1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/seyhajin/sokol/commit/b95c5245ba357967220c9a860c7578a7487937b0"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/seyhajin/sokol/pull/246"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337719"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337719"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719820"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15014",
+      "title": "A security flaw has been discovered in loganhong php loganSite up to c035fb5c3edd0b2a5e32fd4051cbbc9e61a31426. This affe",
+      "summary": "A security flaw has been discovered in loganhong php loganSite up to c035fb5c3edd0b2a5e32fd4051cbbc9e61a31426. This affects an unknown function of the file /includes/article_detail.php of the component Article Handler. Performing manipulation of the argument ID results in sql injection. It is possible to initiate the attack remotely. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T05:16:21Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/ssiled/cve/issues/1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.337720"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.337720"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.720037"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-11544",
+      "title": "Improper Validation of Integrity Check Value vulnerability in Sharp Display Solutions projectors allows a attacker may c",
+      "summary": "Improper Validation of Integrity Check Value vulnerability in Sharp Display Solutions projectors allows a attacker may create and run unauthorized firmware.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T06:15:50Z",
+      "cvss": 9.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "psirt-info@cyber.jp.nec.com",
+          "url": "https://sharp-displays.jp.sharp/global/support/info/PJ-CVE-2025-11544.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-11545",
+      "title": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Sharp Display Solutions proj",
+      "summary": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Sharp Display Solutions projectors allows a attacker may improperly access the HTTP server and execute arbitrary actions.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T06:15:50Z",
+      "cvss": 9.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "psirt-info@cyber.jp.nec.com",
+          "url": "https://sharp-displays.jp.sharp/global/support/info/PJ-CVE-2025-11545.html"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-8304",
+      "title": "An authenticated local user can obtain information that allows claiming security policy rules of another user due to sen",
+      "summary": "An authenticated local user can obtain information that allows claiming security policy rules of another user due to sensitive information being accessible in the Windows Registry keys for Check Point Identity Agent running on a Terminal Server.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T08:15:45Z",
+      "cvss": 6.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@checkpoint.com",
+          "url": "https://support.checkpoint.com/results/sk/sk184263"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-8305",
+      "title": "An authenticated local user can obtain information that allows claiming security policy rules of another user due to sen",
+      "summary": "An authenticated local user can obtain information that allows claiming security policy rules of another user due to sensitive information being printed in plaintext in Identity Agent for Terminal Services debug files.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T08:15:46Z",
+      "cvss": 6.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@checkpoint.com",
+          "url": "https://support.checkpoint.com/results/sk/sk184264"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-62094",
+      "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Voidthemes Void El",
+      "summary": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Voidthemes Void Elementor WHMCS Elements For Elementor Page Builder.This issue affects Void Elementor WHMCS Elements For Elementor Page Builder: from n/a through 2.0.1.2.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T10:16:00Z",
+      "cvss": 6.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "audit@patchstack.com",
+          "url": "https://vdp.patchstack.com/database/wordpress/plugin/void-elementor-whmcs-elements/vulnerability/wordpress-void-elementor-whmcs-elements-for-elementor-page-builder-plugin-2-0-1-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-62107",
+      "title": "Cross-Site Request Forgery (CSRF) vulnerability in PluginOps Feather Login Page allows Cross Site Request Forgery.This i",
+      "summary": "Cross-Site Request Forgery (CSRF) vulnerability in PluginOps Feather Login Page allows Cross Site Request Forgery.This issue affects Feather Login Page: from n/a through 1.1.7.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T10:16:00Z",
+      "cvss": 4.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "audit@patchstack.com",
+          "url": "https://vdp.patchstack.com/database/wordpress/plugin/feather-login-page/vulnerability/wordpress-feather-login-page-plugin-1-1-7-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-62880",
+      "title": "Cross-Site Request Forgery (CSRF) vulnerability in Kunal Nagar Custom 404 Pro allows Cross Site Request Forgery.This iss",
+      "summary": "Cross-Site Request Forgery (CSRF) vulnerability in Kunal Nagar Custom 404 Pro allows Cross Site Request Forgery.This issue affects Custom 404 Pro: from n/a through 3.12.0.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T10:16:01Z",
+      "cvss": 4.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "audit@patchstack.com",
+          "url": "https://vdp.patchstack.com/database/wordpress/plugin/custom-404-pro/vulnerability/wordpress-custom-404-pro-plugin-3-12-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-12514",
+      "title": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Centreon Infra Mon",
+      "summary": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Centreon Infra Monitoring - Open-tickets (Notification rules configuration parameters, Open tickets modules) allows \n\nSQL Injection to user with elevated privileges.This issue affects Infra Monitoring - Open-tickets: from 24.10.0 before 24.10.5, from 24.04.0 before 24.04.5, from 23.10.0 before 23.10.4.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T11:15:56Z",
+      "cvss": 7.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "bd4443e6-1eef-43f3-9886-25fc9ceeaae7",
+          "url": "https://github.com/centreon/centreon/releases"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-54890",
+      "title": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Centreon In",
+      "summary": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Centreon Infra Monitoring (Hostgroup configuration page) allows Stored \n\nXSS by users with elevated privileges.This issue affects Infra Monitoring: from 24.10.0 before 24.10.15, from 24.04.0 before 24.04.19, from 23.10.0 before 23.10.29.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T11:15:57Z",
+      "cvss": 6.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "bd4443e6-1eef-43f3-9886-25fc9ceeaae7",
+          "url": "https://github.com/centreon/centreon/releases"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-61738",
+      "title": "Under certain circumstances, attacker can capture the network key, read or write encrypted packets on the PowerG network",
+      "summary": "Under certain circumstances, attacker can capture the network key, read or write encrypted packets on the PowerG network.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T11:15:58Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-350-02"
+        },
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-61739",
+      "title": "Due to Nonce reuse, attackers can perform reply attack or decrypt captured packets.",
+      "summary": "Due to Nonce reuse, attackers can perform reply attack or decrypt captured packets.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T11:15:58Z",
+      "cvss": 7.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-350-02"
+        },
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-8460",
+      "title": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Centreon In",
+      "summary": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Centreon Infra Monitoring (Notification rules, Open tickets module) \n\nallows Stored \n\nXSS by users with elevated privileges.This issue affects Infra Monitoring: from 24.10.0 before 24.10.5, from 24.04.0 before 24.04.5, from 23.10.0 before 23.10.4.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T11:15:58Z",
+      "cvss": 6.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "bd4443e6-1eef-43f3-9886-25fc9ceeaae7",
+          "url": "https://github.com/centreon/centreon/releases"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14273",
+      "title": "Mattermost versions 11.1.x <= 11.1.0, 11.0.x <= 11.0.5, 10.12.x <= 10.12.3, 10.11.x <= 10.11.7 with the Jira plugin enab",
+      "summary": "Mattermost versions 11.1.x <= 11.1.0, 11.0.x <= 11.0.5, 10.12.x <= 10.12.3, 10.11.x <= 10.11.7 with the Jira plugin enabled and Mattermost Jira plugin versions <=4.4.0 fail to enforce authentication and issue-key path restrictions in the Jira plugin, which allows an unauthenticated attacker who knows a valid user ID to issue authenticated GET and POST requests to the Jira server via crafted plugin payloads that spoof the user ID and inject arbitrary issue key paths. Mattermost Advisory ID: MMSA-2025-00555",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T12:16:19Z",
+      "cvss": 7.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "responsibledisclosure@mattermost.com",
+          "url": "https://mattermost.com/security-updates"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-14018",
+      "title": "Unquoted Search Path or Element vulnerability in NetBT Consulting Services Inc. E-Fatura allows Leveraging/Manipulating ",
+      "summary": "Unquoted Search Path or Element vulnerability in NetBT Consulting Services Inc. E-Fatura allows Leveraging/Manipulating Configuration File Search Paths, Redirect Access to Libraries.This issue affects e-Fatura: before 1.2.15.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T14:15:59Z",
+      "cvss": 7.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "iletisim@usom.gov.tr",
+          "url": "https://www.usom.gov.tr/bildirim/tr-25-0474"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-26379",
+      "title": "Use of a weak pseudo-random number generator, which may allow an attacker to read or inject encrypted PowerG packets.",
+      "summary": "Use of a weak pseudo-random number generator, which may allow an attacker to read or inject encrypted PowerG packets.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T15:16:00Z",
+      "cvss": 7.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-350-02"
+        },
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-61740",
+      "title": "Authentication issue that does not verify the source of a packet which could allow an attacker to create a denial-of-ser",
+      "summary": "Authentication issue that does not verify the source of a packet which could allow an attacker to create a denial-of-service condition or modify the configuration of the device.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T15:16:00Z",
+      "cvss": 7.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-350-02"
+        },
+        {
+          "title": "productsecurity@jci.com",
+          "url": "https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67826",
+      "title": "An issue was discovered in K7 Ultimate Security 17.0.2045. A Local Privilege Escalation (LPE) vulnerability in the K7 Ul",
+      "summary": "An issue was discovered in K7 Ultimate Security 17.0.2045. A Local Privilege Escalation (LPE) vulnerability in the K7 Ultimate Security antivirus can be exploited by a local unprivileged user on default installations of the product. Insecure access to a named pipe allows unprivileged users to edit any registry key, leading to a full compromise as SYSTEM.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T15:16:00Z",
+      "cvss": 7.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://support.k7computing.com/index.php?/selfhelp/view-article/Advisory-issued-on-22nd-Dec-2025"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.k7computing.com/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-10021",
+      "title": "A Use of Uninitialized Variable vulnerability exists in Open Design Alliance Drawings SDK static versions (mt) before 20",
+      "summary": "A Use of Uninitialized Variable vulnerability exists in Open Design Alliance Drawings SDK static versions (mt) before 2026.12. Static object `COdaMfcAppApp theApp` may access `OdString::kEmpty` before its initialization. Due to undefined initialization order of static objects across translation units (Static Initialization Order Fiasco), the application accesses uninitialized memory. This results in application crash on startup, causing denial of service. Due to undefined behavior,  memory corruption and potential arbitrary code execution cannot be ruled out in specific exploitation scenarios.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T16:15:43Z",
+      "cvss": 7.0,
+      "exploited": false,
+      "references": [
+        {
+          "title": "8a9629cb-c5e7-4d2a-a894-111e8039b7ea",
+          "url": "https://www.opendesign.com/security-advisories"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67443",
+      "title": "Schlix CMS before v2.2.9-5 is vulnerable to Cross Site Scripting (XSS). Due to lack of javascript sanitization in the lo",
+      "summary": "Schlix CMS before v2.2.9-5 is vulnerable to Cross Site Scripting (XSS). Due to lack of javascript sanitization in the login form, incorrect login attempts in logs are triggered as XSS in the admin panel.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:15:59Z",
+      "cvss": 6.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gist.github.com/akinerkisa/b22f4517a4011d049c5fc7fd3b29c9f2"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.schlix.com/news/release/december-2025-errata-5-bug-fix-release.html#:~:text=Fixed%20XSS%20vulnerability%20bug%20when%20clicking%20New%20User%20%28thank%20you%20to%20Ak%C4%B1ner%20K%C4%B1sa%20who%20reported%20this%20security%20bug%20and%20provided%20reasonable%20time%20to%20fix%29"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68326",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/guc: Fix stack_depot usage\n\nAdd missing stac",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/guc: Fix stack_depot usage\n\nAdd missing stack_depot_init() call when CONFIG_DRM_XE_DEBUG_GUC is\nenabled to fix the following call stack:\n\n\t[] BUG: kernel NULL pointer dereference, address: 0000000000000000\n\t[] Workqueue:  drm_sched_run_job_work [gpu_sched]\n\t[] RIP: 0010:stack_depot_save_flags+0x172/0x870\n\t[] Call Trace:\n\t[]  <TASK>\n\t[]  fast_req_track+0x58/0xb0 [xe]\n\n(cherry picked from commit 64fdf496a6929a0a194387d2bb5efaf5da2b542f)",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:00Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/0e234632e39bd21dd28ffc9ba3ae8eec4deb949c"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/1966838d1c82149cbf4a652322d26a6e5aae9c4e"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68327",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: renesas_usbhs: Fix synchronous external abort ",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: renesas_usbhs: Fix synchronous external abort on unbind\n\nA synchronous external abort occurs on the Renesas RZ/G3S SoC if unbind is\nexecuted after the configuration sequence described above:\n\nmodprobe usb_f_ecm\nmodprobe libcomposite\nmodprobe configfs\ncd /sys/kernel/config/usb_gadget\nmkdir -p g1\ncd g1\necho \"0x1d6b\" > idVendor\necho \"0x0104\" > idProduct\nmkdir -p strings/0x409\necho \"0123456789\" > strings/0x409/serialnumber\necho \"Renesas.\" > strings/0x409/manufacturer\necho \"Ethernet Gadget\" > strings/0x409/product\nmkdir -p functions/ecm.usb0\nmkdir -p configs/c.1\nmkdir -p configs/c.1/strings/0x409\necho \"ECM\" > configs/c.1/strings/0x409/configuration\n\nif [ ! -L configs/c.1/ecm.usb0 ]; then\n        ln -s functions/ecm.usb0 configs/c.1\nfi\n\necho 11e20000.usb > UDC\necho 11e20000.usb > /sys/bus/platform/drivers/renesas_usbhs/unbind\n\nThe displayed trace is as follows:\n\n Internal error: synchronous external abort: 0000000096000010 [#1] SMP\n CPU: 0 UID: 0 PID: 188 Comm: sh Tainted: G M 6.17.0-rc7-next-20250922-00010-g41050493b2bd #55 PREEMPT\n Tainted: [M]=MACHINE_CHECK\n Hardware name: Renesas SMARC EVK version 2 based on r9a08g045s33 (DT)\n pstate: 604000c5 (nZCv daIF +PAN -UAO -TCO -DIT -SSBS BTYPE=--)\n pc : usbhs_sys_function_pullup+0x10/0x40 [renesas_usbhs]\n lr : usbhsg_update_pullup+0x3c/0x68 [renesas_usbhs]\n sp : ffff8000838b3920\n x29: ffff8000838b3920 x28: ffff00000d585780 x27: 0000000000000000\n x26: 0000000000000000 x25: 0000000000000000 x24: ffff00000c3e3810\n x23: ffff00000d5e5c80 x22: ffff00000d5e5d40 x21: 0000000000000000\n x20: 0000000000000000 x19: ffff00000d5e5c80 x18: 0000000000000020\n x17: 2e30303230316531 x16: 312d7968703a7968 x15: 3d454d414e5f4344\n x14: 000000000000002c x13: 0000000000000000 x12: 0000000000000000\n x11: ffff00000f358f38 x10: ffff00000f358db0 x9 : ffff00000b41f418\n x8 : 0101010101010101 x7 : 7f7f7f7f7f7f7f7f x6 : fefefeff6364626d\n x5 : 8080808000000000 x4 : 000000004b5ccb9d x3 : 0000000000000000\n x2 : 0000000000000000 x1 : ffff800083790000 x0 : ffff00000d5e5c80\n Call trace:\n usbhs_sys_function_pullup+0x10/0x40 [renesas_usbhs] (P)\n usbhsg_pullup+0x4c/0x7c [renesas_usbhs]\n usb_gadget_disconnect_locked+0x48/0xd4\n gadget_unbind_driver+0x44/0x114\n device_remove+0x4c/0x80\n device_release_driver_internal+0x1c8/0x224\n device_release_driver+0x18/0x24\n bus_remove_device+0xcc/0x10c\n device_del+0x14c/0x404\n usb_del_gadget+0x88/0xc0\n usb_del_gadget_udc+0x18/0x30\n usbhs_mod_gadget_remove+0x24/0x44 [renesas_usbhs]\n usbhs_mod_remove+0x20/0x30 [renesas_usbhs]\n usbhs_remove+0x98/0xdc [renesas_usbhs]\n platform_remove+0x20/0x30\n device_remove+0x4c/0x80\n device_release_driver_internal+0x1c8/0x224\n device_driver_detach+0x18/0x24\n unbind_store+0xb4/0xb8\n drv_attr_store+0x24/0x38\n sysfs_kf_write+0x7c/0x94\n kernfs_fop_write_iter+0x128/0x1b8\n vfs_write+0x2ac/0x350\n ksys_write+0x68/0xfc\n __arm64_sys_write+0x1c/0x28\n invoke_syscall+0x48/0x110\n el0_svc_common.constprop.0+0xc0/0xe0\n do_el0_svc+0x1c/0x28\n el0_svc+0x34/0xf0\n el0t_64_sync_handler+0xa0/0xe4\n el0t_64_sync+0x198/0x19c\n Code: 7100003f 1a9f07e1 531c6c22 f9400001 (79400021)\n ---[ end trace 0000000000000000 ]---\n note: sh[188] exited with irqs disabled\n note: sh[188] exited with preempt_count 1\n\nThe issue occurs because usbhs_sys_function_pullup(), which accesses the IP\nregisters, is executed after the USBHS clocks have been disabled. The\nproblem is reproducible on the Renesas RZ/G3S SoC starting with the\naddition of module stop in the clock enable/disable APIs. With module stop\nfunctionality enabled, a bus error is expected if a master accesses a\nmodule whose clock has been stopped and module stop activated.\n\nDisable the IP clocks at the end of remove.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:00Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/230b1bc1310edcd5c1b71dcd6b77ccba43139cb5"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/26838f147aeaa8f820ff799d72815fba5e209bd9"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/9d86bc8b188a77c8d6f7252280ec2bd24ad6fbc1"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/aa658a6d5ac21c7cde54c6d015f2d4daff32e02d"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/cd5e86e34c66a831b5cb9b720ad411a006962cc8"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/eb9ac779830b2235847b72cb15cf07c7e3333c5e"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/fd1a7bf3a8cac13f6d2d52d8c7570ba41621db9a"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68328",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirmware: stratix10-svc: fix bug in saving controll",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirmware: stratix10-svc: fix bug in saving controller data\n\nFix the incorrect usage of platform_set_drvdata and dev_set_drvdata. They\nboth are of the same data and overrides each other. This resulted in the\nrmmod of the svc driver to fail and throw a kernel panic for kthread_stop\nand fifo free.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:00Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/354fb03002da0970d337f0d3edbeb46cc4fa6f41"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/60ab1851614e6007344042b66da6e31d1cc26cb3"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/71796c91ee8e33faf4434a9e210b5063c28ea907"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/9d0a330abd9e49bcebf6307aac185081bde49a43"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/b359df793f609b1efce31dadfe6883ec73852619"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/bd226fa02ed6db6fce0fae010802f0950fd14fb9"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/d0fcf70c680e4d1669fcb3a8632f41400b9a73c2"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68329",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing: Fix WARN_ON in tracing_buffers_mmap_close ",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing: Fix WARN_ON in tracing_buffers_mmap_close for split VMAs\n\nWhen a VMA is split (e.g., by partial munmap or MAP_FIXED), the kernel\ncalls vm_ops->close on each portion. For trace buffer mappings, this\nresults in ring_buffer_unmap() being called multiple times while\nring_buffer_map() was only called once.\n\nThis causes ring_buffer_unmap() to return -ENODEV on subsequent calls\nbecause user_mapped is already 0, triggering a WARN_ON.\n\nTrace buffer mappings cannot support partial mappings because the ring\nbuffer structure requires the complete buffer including the meta page.\n\nFix this by adding a may_split callback that returns -EINVAL to prevent\nVMA splits entirely.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:00Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/45053c12c45f0fb8ef6ab95118dd928d2fec0255"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/922fdd0b755a84f9933b3ca195f60092b6bb88ee"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/b042fdf18e89a347177a49e795d8e5184778b5b6"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68330",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: accel: bmc150: Fix irq assumption regression\n\n",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: accel: bmc150: Fix irq assumption regression\n\nThe code in bmc150-accel-core.c unconditionally calls\nbmc150_accel_set_interrupt() in the iio_buffer_setup_ops,\nsuch as on the runtime PM resume path giving a kernel\nsplat like this if the device has no interrupts:\n\nUnable to handle kernel NULL pointer dereference at virtual\n  address 00000001 when read\n\nPC is at bmc150_accel_set_interrupt+0x98/0x194\nLR is at __pm_runtime_resume+0x5c/0x64\n(...)\nCall trace:\nbmc150_accel_set_interrupt from bmc150_accel_buffer_postenable+0x40/0x108\nbmc150_accel_buffer_postenable from __iio_update_buffers+0xbe0/0xcbc\n__iio_update_buffers from enable_store+0x84/0xc8\nenable_store from kernfs_fop_write_iter+0x154/0x1b4\n\nThis bug seems to have been in the driver since the beginning,\nbut it only manifests recently, I do not know why.\n\nStore the IRQ number in the state struct, as this is a common\npattern in other drivers, then use this to determine if we have\nIRQ support or not.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:00Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/3aa385a9c75c09b59dcab2ff76423439d23673ab"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/65ad4ed983fd9ee0259d86391d6a53f78203918c"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/93eaa5ddc5fc4f50ac396afad8ce261102ebd4f3"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/aad9d048a3211c48ec02efa405bf462856feb862"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/c891f504bb66604c822e7985e093cf39b97fdeb0"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/cdd4a9e98004bd7c7488311951fa6dbae38b2b80"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68331",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: uas: fix urb unmapping issue when the uas devi",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: uas: fix urb unmapping issue when the uas device is remove during ongoing data transfer\n\nWhen a UAS device is unplugged during data transfer, there is\na probability of a system panic occurring. The root cause is\nan access to an invalid memory address during URB callback handling.\nSpecifically, this happens when the dma_direct_unmap_sg() function\nis called within the usb_hcd_unmap_urb_for_dma() interface, but the\nsg->dma_address field is 0 and the sg data structure has already been\nfreed.\n\nThe SCSI driver sends transfer commands by invoking uas_queuecommand_lck()\nin uas.c, using the uas_submit_urbs() function to submit requests to USB.\nWithin the uas_submit_urbs() implementation, three URBs (sense_urb,\ndata_urb, and cmd_urb) are sequentially submitted. Device removal may\noccur at any point during uas_submit_urbs execution, which may result\nin URB submission failure. However, some URBs might have been successfully\nsubmitted before the failure, and uas_submit_urbs will return the -ENODEV\nerror code in this case. The current error handling directly calls\nscsi_done(). In the SCSI driver, this eventually triggers scsi_complete()\nto invoke scsi_end_request() for releasing the sgtable. The successfully\nsubmitted URBs, when being unlinked to giveback, call\nusb_hcd_unmap_urb_for_dma() in hcd.c, leading to exceptions during sg\nunmapping operations since the sg data structure has already been freed.\n\nThis patch modifies the error condition check in the uas_submit_urbs()\nfunction. When a UAS device is removed but one or more URBs have already\nbeen successfully submitted to USB, it avoids immediately invoking\nscsi_done() and save the cmnd to devinfo->cmnd array. If the successfully\nsubmitted URBs is completed before devinfo->resetting being set, then\nthe scsi_done() function will be called within uas_try_complete() after\nall pending URB operations are finalized. Otherwise, the scsi_done()\nfunction will be called within uas_zap_pending(), which is executed after\nusb_kill_anchored_urbs().\n\nThe error handling only takes effect when uas_queuecommand_lck() calls\nuas_submit_urbs() and returns the error value -ENODEV . In this case,\nthe device is disconnected, and the flow proceeds to uas_disconnect(),\nwhere uas_zap_pending() is invoked to call uas_try_complete().",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:00Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/26d56a9fcb2014b99e654127960aa0a48a391e3c"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/2b90a8131c83f6f2be69397d2b7d14d217d95d2f"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/426edbfc88b22601ea34a441a469092e7b301c52"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/6289fc489e94c9beb6be2b502ccc263663733d72"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/66ac05e7b0d6bbd1bee9fcf729e20fd4cce86d17"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/75f8e2643085db4f7e136fc6b368eb114dd80a64"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/e3a55221f4de080cb7a91ba10f01c4f708603f8d"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68332",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: c6xdigio: Fix invalid PNP driver unregistra",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: c6xdigio: Fix invalid PNP driver unregistration\n\nThe Comedi low-level driver \"c6xdigio\" seems to be for a parallel port\nconnected device.  When the Comedi core calls the driver's Comedi\n\"attach\" handler `c6xdigio_attach()` to configure a Comedi to use this\ndriver, it tries to enable the parallel port PNP resources by\nregistering a PNP driver with `pnp_register_driver()`, but ignores the\nreturn value.  (The `struct pnp_driver` it uses has only the `name` and\n`id_table` members filled in.)  The driver's Comedi \"detach\" handler\n`c6xdigio_detach()` unconditionally unregisters the PNP driver with\n`pnp_unregister_driver()`.\n\nIt is possible for `c6xdigio_attach()` to return an error before it\ncalls `pnp_register_driver()` and it is possible for the call to\n`pnp_register_driver()` to return an error (that is ignored).  In both\ncases, the driver should not be calling `pnp_unregister_driver()` as it\ndoes in `c6xdigio_detach()`.  (Note that `c6xdigio_detach()` will be\ncalled by the Comedi core if `c6xdigio_attach()` returns an error, or if\nthe Comedi core decides to detach the Comedi device from the driver for\nsome other reason.)\n\nThe unconditional call to `pnp_unregister_driver()` without a previous\nsuccessful call to `pnp_register_driver()` will cause\n`driver_unregister()` to issue a warning \"Unexpected driver\nunregister!\".  This was detected by Syzbot [1].\n\nAlso, the PNP driver registration and unregistration should be done at\nmodule init and exit time, respectively, not when attaching or detaching\nComedi devices to the driver.  (There might be more than one Comedi\ndevice being attached to the driver, although that is unlikely.)\n\nChange the driver to do the PNP driver registration at module init time,\nand the unregistration at module exit time.  Since `c6xdigio_detach()`\nnow only calls `comedi_legacy_detach()`, remove the function and change\nthe Comedi driver \"detach\" handler to `comedi_legacy_detach`.\n\n-------------------------------------------\n[1] Syzbot sample crash report:\nUnexpected driver unregister!\nWARNING: CPU: 0 PID: 5970 at drivers/base/driver.c:273 driver_unregister drivers/base/driver.c:273 [inline]\nWARNING: CPU: 0 PID: 5970 at drivers/base/driver.c:273 driver_unregister+0x90/0xb0 drivers/base/driver.c:270\nModules linked in:\nCPU: 0 UID: 0 PID: 5970 Comm: syz.0.17 Not tainted syzkaller #0 PREEMPT(full)\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 10/02/2025\nRIP: 0010:driver_unregister drivers/base/driver.c:273 [inline]\nRIP: 0010:driver_unregister+0x90/0xb0 drivers/base/driver.c:270\nCode: 48 89 ef e8 c2 e6 82 fc 48 89 df e8 3a 93 ff ff 5b 5d e9 c3 6d d9 fb e8 be 6d d9 fb 90 48 c7 c7 e0 f8 1f 8c e8 51 a2 97 fb 90 <0f> 0b 90 90 5b 5d e9 a5 6d d9 fb e8 e0 f4 41 fc eb 94 e8 d9 f4 41\nRSP: 0018:ffffc9000373f9a0 EFLAGS: 00010282\nRAX: 0000000000000000 RBX: ffffffff8ff24720 RCX: ffffffff817b6ee8\nRDX: ffff88807c932480 RSI: ffffffff817b6ef5 RDI: 0000000000000001\nRBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000000\nR10: 0000000000000001 R11: 0000000000000001 R12: ffffffff8ff24660\nR13: dffffc0000000000 R14: 0000000000000000 R15: ffff88814cca0000\nFS:  000055556dab1500(0000) GS:ffff8881249d9000(0000) knlGS:0000000000000000\nCS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\nCR2: 000055f77f285cd0 CR3: 000000007d871000 CR4: 00000000003526f0\nCall Trace:\n <TASK>\n comedi_device_detach_locked+0x12f/0xa50 drivers/comedi/drivers.c:207\n comedi_device_detach+0x67/0xb0 drivers/comedi/drivers.c:215\n comedi_device_attach+0x43d/0x900 drivers/comedi/drivers.c:1011\n do_devconfig_ioctl+0x1b1/0x710 drivers/comedi/comedi_fops.c:872\n comedi_unlocked_ioctl+0x165d/0x2f00 drivers/comedi/comedi_fops.c:2178\n vfs_ioctl fs/ioctl.c:51 [inline]\n __do_sys_ioctl fs/ioctl.c:597 [inline]\n __se_sys_ioctl fs/ioctl.c:583 [inline]\n __x64_sys_ioctl+0x18e/0x210 fs/ioctl.c:583\n do_syscall_x64 arch/x86/entry/syscall_64.c:63 [inline]\n do_sys\n---truncated---",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:00Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/698149d797d0178162f394c55d4ed52aa0e0b7f6"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/72262330f7b3ad2130e800cecf02adcce3c32c77"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/888f7e2847bcb9df8257e656e1e837828942c53b"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/9fd8c8ad35c8d2390ce5ca2eb523c044bebdc072"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68333",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\nsched_ext: Fix possible deadlock in the deferred_ir",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nsched_ext: Fix possible deadlock in the deferred_irq_workfn()\n\nFor PREEMPT_RT=y kernels, the deferred_irq_workfn() is executed in\nthe per-cpu irq_work/* task context and not disable-irq, if the rq\nreturned by container_of() is current CPU's rq, the following scenarios\nmay occur:\n\nlock(&rq->__lock);\n<Interrupt>\n  lock(&rq->__lock);\n\nThis commit use IRQ_WORK_INIT_HARD() to replace init_irq_work() to\ninitialize rq->scx.deferred_irq_work, make the deferred_irq_workfn()\nis always invoked in hard-irq context.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:01Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/600b4379b9a7ba41340d652211fb29699da4c629"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/a257e974210320ede524f340ffe16bf4bf0dda1e"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68334",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86/amd/pmc: Add support for Van Gogh SoC\n",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86/amd/pmc: Add support for Van Gogh SoC\n\nThe ROG Xbox Ally (non-X) SoC features a similar architecture to the\nSteam Deck. While the Steam Deck supports S3 (s2idle causes a crash),\nthis support was dropped by the Xbox Ally which only S0ix suspend.\n\nSince the handler is missing here, this causes the device to not suspend\nand the AMD GPU driver to crash while trying to resume afterwards due to\na power hang.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:01Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/9654c56b111cd1415aca7e77f0c63c109453c409"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/db4a3f0fbedb0398f77b9047e8b8bb2b49f355bb"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68335",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: pcl818: fix null-ptr-deref in pcl818_ai_can",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()\n\nSyzbot identified an issue [1] in pcl818_ai_cancel(), which stems from\nthe fact that in case of early device detach via pcl818_detach(),\nsubdevice dev->read_subdev may not have initialized its pointer to\n&struct comedi_async as intended. Thus, any such dereferencing of\n&s->async->cmd will lead to general protection fault and kernel crash.\n\nMitigate this problem by removing a call to pcl818_ai_cancel() from\npcl818_detach() altogether. This way, if the subdevice setups its\nsupport for async commands, everything async-related will be\nhandled via subdevice's own ->cancel() function in\ncomedi_device_detach_locked() even before pcl818_detach(). If no\nsupport for asynchronous commands is provided, there is no need\nto cancel anything either.\n\n[1] Syzbot crash:\nOops: general protection fault, probably for non-canonical address 0xdffffc0000000005: 0000 [#1] SMP KASAN PTI\nKASAN: null-ptr-deref in range [0x0000000000000028-0x000000000000002f]\nCPU: 1 UID: 0 PID: 6050 Comm: syz.0.18 Not tainted syzkaller #0 PREEMPT(full)\nHardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 08/18/2025\nRIP: 0010:pcl818_ai_cancel+0x69/0x3f0 drivers/comedi/drivers/pcl818.c:762\n...\nCall Trace:\n <TASK>\n pcl818_detach+0x66/0xd0 drivers/comedi/drivers/pcl818.c:1115\n comedi_device_detach_locked+0x178/0x750 drivers/comedi/drivers.c:207\n do_devconfig_ioctl drivers/comedi/comedi_fops.c:848 [inline]\n comedi_unlocked_ioctl+0xcde/0x1020 drivers/comedi/comedi_fops.c:2178\n vfs_ioctl fs/ioctl.c:51 [inline]\n __do_sys_ioctl fs/ioctl.c:597 [inline]\n...",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:01Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/5caa40e7c6a43e08e3574f990865127705c22861"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/877adccfacb32687b90714a27cfb09f444fdfa16"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/a51f025b5038abd3d22eed2ede4cd46793d89565"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/d948c53dec36dafe182631457597c49c1f1df5ea"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68336",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\nlocking/spinlock/debug: Fix data-race in do_raw_wri",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\nlocking/spinlock/debug: Fix data-race in do_raw_write_lock\n\nKCSAN reports:\n\nBUG: KCSAN: data-race in do_raw_write_lock / do_raw_write_lock\n\nwrite (marked) to 0xffff800009cf504c of 4 bytes by task 1102 on cpu 1:\n do_raw_write_lock+0x120/0x204\n _raw_write_lock_irq\n do_exit\n call_usermodehelper_exec_async\n ret_from_fork\n\nread to 0xffff800009cf504c of 4 bytes by task 1103 on cpu 0:\n do_raw_write_lock+0x88/0x204\n _raw_write_lock_irq\n do_exit\n call_usermodehelper_exec_async\n ret_from_fork\n\nvalue changed: 0xffffffff -> 0x00000001\n\nReported by Kernel Concurrency Sanitizer on:\nCPU: 0 PID: 1103 Comm: kworker/u4:1 6.1.111\n\nCommit 1a365e822372 (\"locking/spinlock/debug: Fix various data races\") has\nadressed most of these races, but seems to be not consistent/not complete.\n\n>From do_raw_write_lock() only debug_write_lock_after() part has been\nconverted to WRITE_ONCE(), but not debug_write_lock_before() part.\nDo it now.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:01Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/16b3590c0e1e615757dade098c8fbc0d4f040c76"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/396a9270a7b90886be501611b13aa636f2e8c703"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/b163a5e8c703201c905d6ec7920ed79d167e8442"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/c14ecb555c3ee80eeb030a4e46d00e679537f03a"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68337",
+      "title": "In the Linux kernel, the following vulnerability has been resolved:\n\njbd2: avoid bug_on in jbd2_journal_get_create_acces",
+      "summary": "In the Linux kernel, the following vulnerability has been resolved:\n\njbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted\n\nThere's issue when file system corrupted:\n------------[ cut here ]------------\nkernel BUG at fs/jbd2/transaction.c:1289!\nOops: invalid opcode: 0000 [#1] SMP KASAN PTI\nCPU: 5 UID: 0 PID: 2031 Comm: mkdir Not tainted 6.18.0-rc1-next\nRIP: 0010:jbd2_journal_get_create_access+0x3b6/0x4d0\nRSP: 0018:ffff888117aafa30 EFLAGS: 00010202\nRAX: 0000000000000000 RBX: ffff88811a86b000 RCX: ffffffff89a63534\nRDX: 1ffff110200ec602 RSI: 0000000000000004 RDI: ffff888100763010\nRBP: ffff888100763000 R08: 0000000000000001 R09: ffff888100763028\nR10: 0000000000000003 R11: 0000000000000000 R12: 0000000000000000\nR13: ffff88812c432000 R14: ffff88812c608000 R15: ffff888120bfc000\nCS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033\nCR2: 00007f91d6970c99 CR3: 00000001159c4000 CR4: 00000000000006f0\nCall Trace:\n <TASK>\n __ext4_journal_get_create_access+0x42/0x170\n ext4_getblk+0x319/0x6f0\n ext4_bread+0x11/0x100\n ext4_append+0x1e6/0x4a0\n ext4_init_new_dir+0x145/0x1d0\n ext4_mkdir+0x326/0x920\n vfs_mkdir+0x45c/0x740\n do_mkdirat+0x234/0x2f0\n __x64_sys_mkdir+0xd6/0x120\n do_syscall_64+0x5f/0xfa0\n entry_SYSCALL_64_after_hwframe+0x76/0x7e\n\nThe above issue occurs with us in errors=continue mode when accompanied by\nstorage failures. There have been many inconsistencies in the file system\ndata.\nIn the case of file system data inconsistency, for example, if the block\nbitmap of a referenced block is not set, it can lead to the situation where\na block being committed is allocated and used again. As a result, the\nfollowing condition will not be satisfied then trigger BUG_ON. Of course,\nit is entirely possible to construct a problematic image that can trigger\nthis BUG_ON through specific operations. In fact, I have constructed such\nan image and easily reproduced this issue.\nTherefore, J_ASSERT() holds true only under ideal conditions, but it may\nnot necessarily be satisfied in exceptional scenarios. Using J_ASSERT()\ndirectly in abnormal situations would cause the system to crash, which is\nclearly not what we want. So here we directly trigger a JBD abort instead\nof immediately invoking BUG_ON.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T17:16:01Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/986835bf4d11032bba4ab8414d18fce038c61bb4"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/a2a7f854d154a3e9232fec80782dad951655f52f"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/aa1703f3f706ea0867fb1991dcac709c9ec94cfb"
+        },
+        {
+          "title": "416baaa9-dc9f-4396-8d5f-8c081fb06d67",
+          "url": "https://git.kernel.org/stable/c/bf34c72337e40c4670cceeb79b353356933a254b"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-65270",
+      "title": "Reflected cross-site scripting (XSS) vulnerability in ClinCapture EDC 3.0 and 2.2.3, allowing an unauthenticated remote ",
+      "summary": "Reflected cross-site scripting (XSS) vulnerability in ClinCapture EDC 3.0 and 2.2.3, allowing an unauthenticated remote attacker to execute JavaScript code in the context of the victim's browser.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T18:16:16Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/xh4vm/CVE-2025-65270"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.clincapture.com/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67289",
+      "title": "An arbitrary file upload vulnerability in the Attachments module of Frappe Framework v15.89.0 allows attackers to execut",
+      "summary": "An arbitrary file upload vulnerability in the Attachments module of Frappe Framework v15.89.0 allows attackers to execute arbitrary code via uploading a crafted XML file.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T18:16:16Z",
+      "cvss": 9.6,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "http://erpnext.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "http://frappe.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/vuquyen03/CVE/blob/main/CVE-2025-67289/README.md"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68645",
+      "title": "A Local File Inclusion (LFI) vulnerability exists in the Webmail Classic UI of Zimbra Collaboration (ZCS) 10.0 and 10.1 ",
+      "summary": "A Local File Inclusion (LFI) vulnerability exists in the Webmail Classic UI of Zimbra Collaboration (ZCS) 10.0 and 10.1 because of improper handling of user-supplied request parameters in the RestFilter servlet. An unauthenticated remote attacker can craft requests to the /h/rest endpoint to influence internal request dispatching, allowing inclusion of arbitrary files from the WebRoot directory.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T18:16:17Z",
+      "cvss": 8.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://wiki.zimbra.com/wiki/Security_Center"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://wiki.zimbra.com/wiki/Zimbra_Responsible_Disclosure_Policy"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2024-25814",
+      "title": "MyNET up to v26.05 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the msg parameter.",
+      "summary": "MyNET up to v26.05 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the msg parameter.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:47Z",
+      "cvss": 6.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/am0nt31r0/Common-Vulnerabilities-and-Exposures-CVE-/blob/main/MyNet.md"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.airc.pt/solucoes-servicos/solucoes?segment=MYN"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://github.com/am0nt31r0/Common-Vulnerabilities-and-Exposures-CVE-/blob/main/MyNet.md"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2024-35321",
+      "title": "MyNET up to v26.08 was discovered to contain a Reflected cross-site scripting (XSS) vulnerability via the msgtipo parame",
+      "summary": "MyNET up to v26.08 was discovered to contain a Reflected cross-site scripting (XSS) vulnerability via the msgtipo parameter.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:48Z",
+      "cvss": 4.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/Manuel-arc/Common-Vulnerabilities-and-Exposures-CVE-/blob/main/MyNet.md"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/am0nt31r0/Common-Vulnerabilities-and-Exposures-CVE-/blob/main/MyNet.md"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.airc.pt/solucoes-servicos/solucoes?segment=MYN"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15033",
+      "title": "A vulnerability in WooCommerce 8.1 to 10.4.2 can allow logged-in customers to access order data of guest customers on si",
+      "summary": "A vulnerability in WooCommerce 8.1 to 10.4.2 can allow logged-in customers to access order data of guest customers on sites with a certain configuration. This has been fixed in WooCommerce 10.4.3, as well as all the previously affected versions through point releases, starting from 8.1, where it has been fixed in 8.1.3. It does not affect WooCommerce 8.0 or earlier.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:48Z",
+      "cvss": 6.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "contact@wpscan.com",
+          "url": "https://wpscan.com/vulnerability/f55fd7d3-7fbe-474f-9406-f47f8aee5e57/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-26787",
+      "title": "An error in the SignServer container startup logic was found in Keyfactor SignServer versions prior to 7.2. The Admin CL",
+      "summary": "An error in the SignServer container startup logic was found in Keyfactor SignServer versions prior to 7.2. The Admin CLI command used to configure Certificate access to the initial startup of the container sets a property of \"allowany\" to allow any user with a valid and trusted client auth certificate to connect. Admins can then set more restricted access to specific certificates. A logic error caused this admin CLI command to be run on each restart of the container instead of only the first startup as intended resetting the configuration to \"allowany\".",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:48Z",
+      "cvss": 4.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://docs.keyfactor.com/signserver/latest/signserver-7-2-release-notes"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://support.keyfactor.com/hc/en-us/articles/33997706776987-SignServer-security-advisory-Container-vulnerability-CVE-2025-26787-fixed-in-version-7-2"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-63662",
+      "title": "Insecure permissions in the /api/v1/agents API of GT Edge AI Platform before v2.0.10-dev allows unauthorized attackers t",
+      "summary": "Insecure permissions in the /api/v1/agents API of GT Edge AI Platform before v2.0.10-dev allows unauthorized attackers to access sensitive information.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:49Z",
+      "cvss": null,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gist.github.com/p80n-sec/48ce34c929e8b946f0ad25f76e7b8cef"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/p80n-sec/Vulnerability-Research/blob/main/Pending"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-63663",
+      "title": "Incorrect access control in the /api/v1/conversations/*/files API of GT Edge AI Platform before v2.0.10 allows unauthori",
+      "summary": "Incorrect access control in the /api/v1/conversations/*/files API of GT Edge AI Platform before v2.0.10 allows unauthorized attackers to access other users' uploaded files.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:49Z",
+      "cvss": 7.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gist.github.com/p80n-sec/f3ca933480157cb4e18c387d92f4d0c2"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/p80n-sec/Vulnerability-Research/blob/main/Pending"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-63664",
+      "title": "Incorrect access control in the /api/v1/conversations/*/messages API of GT Edge AI Platform before v2.0.10-dev allows un",
+      "summary": "Incorrect access control in the /api/v1/conversations/*/messages API of GT Edge AI Platform before v2.0.10-dev allows unauthorized attackers to access other users' message history with AI agents.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:49Z",
+      "cvss": 7.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gist.github.com/p80n-sec/0a0a71a2190d5e6f8083bf6069e7b5f2"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/p80n-sec/Vulnerability-Research/blob/main/Pending"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67288",
+      "title": "An arbitrary file upload vulnerability in Umbraco CMS v16.3.3 allows attackers to execute arbitrary code via uploading a",
+      "summary": "An arbitrary file upload vulnerability in Umbraco CMS v16.3.3 allows attackers to execute arbitrary code via uploading a crafted PDF file.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T19:15:49Z",
+      "cvss": 10.0,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "http://umbraco.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/vuquyen03/CVE/tree/main/CVE-2025-67288"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2024-25812",
+      "title": "MyNET up to v26.05 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the src parameter.",
+      "summary": "MyNET up to v26.05 was discovered to contain a reflected cross-site scripting (XSS) vulnerability via the src parameter.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T20:15:43Z",
+      "cvss": 6.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/am0nt31r0/Common-Vulnerabilities-and-Exposures-CVE-/blob/main/MyNet.md"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.airc.pt/solucoes-servicos/solucoes?segment=MYN"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2024-27708",
+      "title": "Iframe injection vulnerability in airc.pt/solucoes-servicos.solucoes MyNET v.26.06 and before allows a remote attacker t",
+      "summary": "Iframe injection vulnerability in airc.pt/solucoes-servicos.solucoes MyNET v.26.06 and before allows a remote attacker to execute arbitrary code via the src parameter.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T20:15:43Z",
+      "cvss": 9.6,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/esquim0/Common_Vulnerabilities_and_Exposures_CVE/blob/main/2024/MyNet.md"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.airc.pt/solucoes-servicos/solucoes?segment=MYN"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-65790",
+      "title": "A reflected cross-site scripting (XSS) vulnerability exists in FuguHub 8.1 when serving SVG files through the /fs/ file ",
+      "summary": "A reflected cross-site scripting (XSS) vulnerability exists in FuguHub 8.1 when serving SVG files through the /fs/ file manager interface. FuguHub does not sanitize or restrict script execution inside SVG content. When a victim opens a crafted SVG containing an inline <script> element, the browser executes the attacker-controlled JavaScript.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T20:15:44Z",
+      "cvss": 6.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://fuguhub.com/"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/hunterxxx/FuguHub-8.1-Reflected-SVG-XSS-CVE-2025-65790"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-65837",
+      "title": "PublicCMS V5.202506.b is vulnerable to Cross Site Scripting (XSS) in the Content Search module.",
+      "summary": "PublicCMS V5.202506.b is vulnerable to Cross Site Scripting (XSS) in the Content Search module.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T20:15:44Z",
+      "cvss": 5.4,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/Hyperkopite/PublicCMS_Vulns/blob/main/XSS_1.md"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/sanluan/PublicCMS/issues/100"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://github.com/Hyperkopite/PublicCMS_Vulns/blob/main/XSS_1.md"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67290",
+      "title": "A stored cross-site scripting (XSS) vulnerability in the Page Settings module of Piranha CMS v12.1 allows attackers to e",
+      "summary": "A stored cross-site scripting (XSS) vulnerability in the Page Settings module of Piranha CMS v12.1 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Excerpt field.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T20:15:45Z",
+      "cvss": 6.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "http://piranha.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/vuquyen03/CVE/tree/main/CVE-2025-67290"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67291",
+      "title": "A stored cross-site scripting (XSS) vulnerability in the Media module of Piranha CMS v12.1 allows attackers to execute a",
+      "summary": "A stored cross-site scripting (XSS) vulnerability in the Media module of Piranha CMS v12.1 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name field.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T20:15:45Z",
+      "cvss": 6.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "http://piranha.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/vuquyen03/CVE/tree/main/CVE-2025-67291"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67418",
+      "title": "ClipBucket 5.5.2 is affected by an improper access control issue where the product is shipped or deployed with hardcoded",
+      "summary": "ClipBucket 5.5.2 is affected by an improper access control issue where the product is shipped or deployed with hardcoded default administrative credentials. An unauthenticated remote attacker can log in to the administrative panel using these default credentials, resulting in full administrative control of the application.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T20:15:45Z",
+      "cvss": 9.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "http://clipbucket.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://medium.com/@arpit03sharma2003/cve-2025-67418-when-default-credentials-become-a-remote-root-button-03be5ee4b927"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-65817",
+      "title": "LSC Smart Connect Indoor IP Camera 1.4.13 contains a RCE vulnerability in start_app.sh.",
+      "summary": "LSC Smart Connect Indoor IP Camera 1.4.13 contains a RCE vulnerability in start_app.sh.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T21:15:44Z",
+      "cvss": 8.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/Istaarkk/CVE-2025-65817/blob/main/README.md"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://github.com/Istaarkk/CVE-2025-65817/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-66735",
+      "title": "youlai-boot V2.21.1 is vulnerable to Incorrect Access Control. The getRoleForm function in SysRoleController.java does n",
+      "summary": "youlai-boot V2.21.1 is vulnerable to Incorrect Access Control. The getRoleForm function in SysRoleController.java does not perform permission checks, which may allow non-root users to directly access root roles.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T21:15:44Z",
+      "cvss": 7.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gist.github.com/old6ma/dc9e6e4a693d12c1a35fd4e1d21d4743"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gitee.com/youlaiorg/youlai-boot/commit/9197065102f92264ded814a9d3e9f2a4ff0da121"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gitee.com/youlaiorg/youlai-boot/issues/ICH8FR"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-66736",
+      "title": "youlai-boot V2.21.1 is vulnerable to Incorrect Access Control. The importUsers function in SysUserController.java does n",
+      "summary": "youlai-boot V2.21.1 is vulnerable to Incorrect Access Control. The importUsers function in SysUserController.java does not perform a permission check on the current user's identity, which may allow regular users to import user data into the database, resulting in an authorization bypass vulnerability.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T21:15:44Z",
+      "cvss": 7.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gist.github.com/old6ma/be1d4a5373ee2de901ed4c8d81485046"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gitee.com/youlaiorg/youlai-boot/commit/9197065102f92264ded814a9d3e9f2a4ff0da121"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gitee.com/youlaiorg/youlai-boot/issues/ICH8FV"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2021-47713",
+      "title": "Hasura GraphQL 1.3.3 contains a denial of service vulnerability that allows attackers to overwhelm the service by crafti",
+      "summary": "Hasura GraphQL 1.3.3 contains a denial of service vulnerability that allows attackers to overwhelm the service by crafting malicious GraphQL queries with excessive nested fields. Attackers can send repeated requests with extremely long query strings and multiple threads to consume server resources and potentially crash the GraphQL endpoint.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:58Z",
+      "cvss": 8.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/hasura/graphql-engine"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/49789"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/hasura-graphql-denial-of-service-via-malicious-graphql-query"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2021-47714",
+      "title": "Hasura GraphQL 1.3.3 contains a local file read vulnerability that allows attackers to access system files through SQL i",
+      "summary": "Hasura GraphQL 1.3.3 contains a local file read vulnerability that allows attackers to access system files through SQL injection in the query endpoint. Attackers can exploit the pg_read_file() PostgreSQL function by crafting malicious SQL queries to read arbitrary files on the server.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:58Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/hasura/graphql-engine"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/49790"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/hasura-graphql-local-file-read-via-sql-injection"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2021-47715",
+      "title": "Hasura GraphQL 1.3.3 contains a server-side request forgery vulnerability that allows attackers to inject arbitrary remo",
+      "summary": "Hasura GraphQL 1.3.3 contains a server-side request forgery vulnerability that allows attackers to inject arbitrary remote schema URLs through the add_remote_schema endpoint. Attackers can exploit the vulnerability by sending crafted POST requests to the /v1/query endpoint with malicious URL definitions to potentially access internal network resources.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:59Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/hasura/graphql-engine"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/49791"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/hasura-graphql-server-side-request-forgery-via-remote-schema-injection"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2022-50687",
+      "title": "Cobian Backup 11 Gravity 11.2.0.582 contains a denial of service vulnerability in the FTP password input field that allo",
+      "summary": "Cobian Backup 11 Gravity 11.2.0.582 contains a denial of service vulnerability in the FTP password input field that allows attackers to crash the application. Attackers can generate a specially crafted 800-byte buffer and paste it into the password field to trigger an application crash.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:59Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.cobiansoft.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/50790"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/cobian-backup-gravity-local-denial-of-service-via-password-field"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.exploit-db.com/exploits/50790"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2022-50688",
+      "title": "Cobian Backup Gravity 11.2.0.582 contains an unquoted service path vulnerability that allows local users to potentially ",
+      "summary": "Cobian Backup Gravity 11.2.0.582 contains an unquoted service path vulnerability that allows local users to potentially execute arbitrary code with elevated system privileges. Attackers can exploit the unquoted service path in the CobianBackup11 service to inject malicious code that would execute with LocalSystem privileges during service startup.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:59Z",
+      "cvss": 8.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.cobiansoft.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/50791"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/cobian-backup-gravity-unquoted-service-path-privilege-escalation"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2022-50689",
+      "title": "Cobian Reflector 0.9.93 RC1 contains a denial of service vulnerability that allows attackers to crash the application by",
+      "summary": "Cobian Reflector 0.9.93 RC1 contains a denial of service vulnerability that allows attackers to crash the application by overflowing the password input field. Attackers can paste a large 8000-byte buffer into the password field to trigger an application crash during SFTP task configuration.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:59Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.cobiansoft.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/50789"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/cobian-reflector-rc-local-denial-of-service-via-password-field"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.exploit-db.com/exploits/50789"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2022-50690",
+      "title": "Wondershare MirrorGo 2.0.11.346 contains a local privilege escalation vulnerability due to incorrect file permissions on",
+      "summary": "Wondershare MirrorGo 2.0.11.346 contains a local privilege escalation vulnerability due to incorrect file permissions on executable files. Unprivileged local users can replace the ElevationService.exe with a malicious file to execute arbitrary code with LocalSystem privileges.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:59Z",
+      "cvss": 8.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/50787"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/wondershare-mirrorgo-local-privilege-escalation-via-insecure-file-permissions"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.wondershare.com/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53955",
+      "title": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an insecure direct object reference vulnerability that allows attackers to b",
+      "summary": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an insecure direct object reference vulnerability that allows attackers to bypass authorization and access hidden system resources. Attackers can exploit the vulnerability by manipulating user-supplied input to execute privileged functionalities without proper authentication.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:15:59Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51169"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-impactfirstpulseeco-x-authorization-bypass-via-insecure-object-references"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5723.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5723.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53960",
+      "title": "SOUND4 IMPACT/FIRST/PULSE/Eco version 2.x contains an SQL injection vulnerability in the 'index.php' authentication mech",
+      "summary": "SOUND4 IMPACT/FIRST/PULSE/Eco version 2.x contains an SQL injection vulnerability in the 'index.php' authentication mechanism that allows attackers to manipulate login credentials. Attackers can inject malicious SQL code through the 'password' POST parameter to bypass authentication and potentially gain unauthorized access to the system.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:00Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51171"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-impactfirstpulseeco-x-sql-injection-via-authentication-bypass"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5726.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5726.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53961",
+      "title": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains a cross-site request forgery vulnerability that allows attackers to perform ",
+      "summary": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains a cross-site request forgery vulnerability that allows attackers to perform administrative actions without user consent. Attackers can craft malicious web pages that submit HTTP requests to the radio processing interface, triggering unintended administrative operations when a logged-in user visits the page.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:00Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51168"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-impactfirstpulseeco-x-cross-site-request-forgery"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5722.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.exploit-db.com/exploits/51168"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5722.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53962",
+      "title": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an unauthenticated directory traversal vulnerability that allows remote atta",
+      "summary": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an unauthenticated directory traversal vulnerability that allows remote attackers to write arbitrary files through the 'upgfile' parameter in upload.cgi. Attackers can exploit the vulnerability by sending crafted multipart form-data POST requests with directory traversal sequences to write files to unintended system locations.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:00Z",
+      "cvss": 8.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51172"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-impactfirstpulseeco-x-unauthenticated-directory-traversal-file-write"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5730.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5730.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53963",
+      "title": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an unauthenticated OS command injection vulnerability that allows remote att",
+      "summary": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an unauthenticated OS command injection vulnerability that allows remote attackers to execute arbitrary shell commands through the 'password' parameter. Attackers can exploit the login.php and index.php scripts by injecting shell commands via the 'password' POST parameter to execute commands with web server privileges.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:00Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51173"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-impactfirstpulseeco-x-unauthenticated-remote-command-injection"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5738.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5738.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53964",
+      "title": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an unauthenticated vulnerability in the /usr/cgi-bin/restorefactory.cgi endp",
+      "summary": "SOUND4 IMPACT/FIRST/PULSE/Eco v2.x contains an unauthenticated vulnerability in the /usr/cgi-bin/restorefactory.cgi endpoint that allows remote attackers to reset device configuration. Attackers can send a POST request to the endpoint with specific data to trigger a factory reset and bypass authentication, gaining full system control.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:00Z",
+      "cvss": 8.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51174"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-impactfirstpulseeco-x-unauthenticated-factory-reset-vulnerability"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5742.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5742.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53965",
+      "title": "SOUND4 Server Service 4.1.102 contains an unquoted service path vulnerability that allows local non-privileged users to ",
+      "summary": "SOUND4 Server Service 4.1.102 contains an unquoted service path vulnerability that allows local non-privileged users to potentially execute code with elevated system privileges. Attackers can exploit the unquoted binary path by inserting malicious code in the system root path that could execute with LocalSystem privileges during service startup.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:01Z",
+      "cvss": 8.6,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51167"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-server-service-local-privilege-escalation-via-unquoted-service-path"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5721.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2022-5721.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53966",
+      "title": "SOUND4 LinkAndShare Transmitter 1.1.2 contains a format string vulnerability that allows attackers to trigger memory sta",
+      "summary": "SOUND4 LinkAndShare Transmitter 1.1.2 contains a format string vulnerability that allows attackers to trigger memory stack overflows through maliciously crafted environment variables. Attackers can manipulate the username environment variable with format string payloads to potentially execute arbitrary code and crash the application.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:01Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://web.archive.org/web/20221207074555/https://www.sound4.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51259"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/sound-linkandshare-transmitter-format-string-stack-buffer-overflow"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5744.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5744.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53967",
+      "title": "Screen SFT DAB 600/C firmware 1.9.3 contains an authentication bypass vulnerability that allows attackers to change the ",
+      "summary": "Screen SFT DAB 600/C firmware 1.9.3 contains an authentication bypass vulnerability that allows attackers to change the admin password without requiring the current credentials. Attackers can exploit the userManager.cgx API endpoint by sending a crafted POST request with a new MD5-hashed password to directly modify the admin account's authentication.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:01Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com/products/radio/sft-dab-series-compact-air/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51458"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/screen-sft-dab-c-firmware-authentication-bypass-admin-password-change"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5774.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5774.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53968",
+      "title": "Screen SFT DAB 600/C Firmware 1.9.3 contains a session management vulnerability that allows attackers to bypass authenti",
+      "summary": "Screen SFT DAB 600/C Firmware 1.9.3 contains a session management vulnerability that allows attackers to bypass authentication controls by exploiting IP address session binding. Attackers can reuse the same IP address and issue unauthorized requests to the userManager API to remove user accounts without proper authentication.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:01Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com/products/radio/sft-dab-series-compact-air/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51457"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/screen-sft-dab-c-firmware-authentication-bypass-erase-account"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5773.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5773.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53969",
+      "title": "Screen SFT DAB 600/C firmware 1.9.3 contains a session management vulnerability that allows attackers to bypass authenti",
+      "summary": "Screen SFT DAB 600/C firmware 1.9.3 contains a session management vulnerability that allows attackers to bypass authentication controls by exploiting IP address session binding. Attackers can reuse the same IP address and issue unauthorized requests to the userManager API to change user passwords without proper authentication.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:01Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com/products/radio/sft-dab-series-compact-air/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51456"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/screen-sft-dab-c-firmware-authentication-bypass-password-change"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5772.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5772.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53970",
+      "title": "Screen SFT DAB 600/C Firmware 1.9.3 contains a weak session management vulnerability that allows attackers to bypass aut",
+      "summary": "Screen SFT DAB 600/C Firmware 1.9.3 contains a weak session management vulnerability that allows attackers to bypass authentication controls by reusing IP-bound session identifiers. Attackers can exploit the vulnerable deviceManagement API endpoint to reset device configurations by sending crafted POST requests with manipulated session parameters.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:01Z",
+      "cvss": 8.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dbbroadcast.com/products/radio/sft-dab-series-compact-air/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51459"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/screen-sft-dab-c-firmware-authentication-bypass-reset-board-config"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5775.php"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.zeroscience.mk/en/vulnerabilities/ZSL-2023-5775.php"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53971",
+      "title": "WebTareas 2.4 contains a file upload vulnerability that allows authenticated users to upload malicious PHP files through",
+      "summary": "WebTareas 2.4 contains a file upload vulnerability that allows authenticated users to upload malicious PHP files through the chat photo upload functionality. Attackers can upload a PHP file with arbitrary code to the /files/Messages/ directory and execute it directly through the generated file path.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:02Z",
+      "cvss": 8.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://sourceforge.net/projects/webtareas/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51089"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/webtareas-authenticated-remote-code-execution-via-file-upload"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53972",
+      "title": "WebTareas 2.4 contains a SQL injection vulnerability in the webTareasSID cookie parameter that allows unauthenticated at",
+      "summary": "WebTareas 2.4 contains a SQL injection vulnerability in the webTareasSID cookie parameter that allows unauthenticated attackers to manipulate database queries. Attackers can exploit error-based and time-based blind SQL injection techniques to extract database information and potentially access sensitive system data.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:02Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://sourceforge.net/projects/webtareas/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51087"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/webtareas-unauthenticated-sql-injection-via-session-cookie-parameter"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53973",
+      "title": "Zillya Total Security 3.0.2367.0 contains a privilege escalation vulnerability that allows low-privileged users to copy ",
+      "summary": "Zillya Total Security 3.0.2367.0 contains a privilege escalation vulnerability that allows low-privileged users to copy files to unauthorized system locations using the quarantine module. Attackers can leverage symbolic link techniques to restore quarantined files to restricted directories, potentially enabling system-level access through techniques like DLL hijacking.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:02Z",
+      "cvss": 8.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51151"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/zillya-total-security-local-privilege-escalation-via-quarantine-module"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://zillya.com/"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.exploit-db.com/exploits/51151"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53974",
+      "title": "D-Link DSL-124 ME_1.00 contains a configuration file disclosure vulnerability that allows unauthenticated attackers to r",
+      "summary": "D-Link DSL-124 ME_1.00 contains a configuration file disclosure vulnerability that allows unauthenticated attackers to retrieve router settings through a POST request. Attackers can send a specific POST request to the router's configuration endpoint to download a complete backup file containing sensitive network credentials and system configurations.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:02Z",
+      "cvss": 8.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://dlinkmea.com/index.php/product/details?det=dU1iNFc4cWRsdUpjWEpETFlSeFlZdz09"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.dlink.com"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51129"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/d-link-dsl-me-backup-configuration-file-disclosure-via-unauthenticated-request"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.exploit-db.com/exploits/51129"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53975",
+      "title": "Atom CMS 2.0 contains an unauthenticated SQL injection vulnerability that allows remote attackers to manipulate database",
+      "summary": "Atom CMS 2.0 contains an unauthenticated SQL injection vulnerability that allows remote attackers to manipulate database queries through unvalidated parameters. Attackers can inject malicious SQL code in the 'id' parameter of the admin index page to execute time-based blind SQL injection attacks.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:02Z",
+      "cvss": 9.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/thedigicraft/Atom.CMS"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51086"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/atom-cms-unauthenticated-sql-injection-via-admin-index-page"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53976",
+      "title": "myBB Forums 1.8.26 contains a stored cross-site scripting vulnerability in the template management system that allows au",
+      "summary": "myBB Forums 1.8.26 contains a stored cross-site scripting vulnerability in the template management system that allows authenticated administrators to inject malicious scripts when creating new templates. Attackers can exploit this vulnerability by inserting script payloads in the template title field when adding new templates through the 'Templates and Style' > 'Templates' > 'Manage Templates' > 'Global Templates' interface, causing arbitrary JavaScript to execute when the template is viewed.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:03Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://mybb.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51136"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/mybb-forums-stored-cross-site-scripting-via-template-management"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53977",
+      "title": "myBB Forums 1.8.26 contains a stored cross-site scripting vulnerability in the forum management system that allows authe",
+      "summary": "myBB Forums 1.8.26 contains a stored cross-site scripting vulnerability in the forum management system that allows authenticated administrators to inject malicious scripts when creating new forums. Attackers can exploit this vulnerability by inserting script payloads in the forum title field when adding new forums through the 'Forums and Posts' > 'Forum Management' interface, causing arbitrary JavaScript to execute when the forum listing is viewed.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:03Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://mybb.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51136"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/mybb-forums-stored-cross-site-scripting-via-forum-management"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53978",
+      "title": "myBB Forums 1.8.26 contains a stored cross-site scripting vulnerability in the forum announcement system that allows aut",
+      "summary": "myBB Forums 1.8.26 contains a stored cross-site scripting vulnerability in the forum announcement system that allows authenticated administrators to inject malicious scripts when creating announcements. Attackers can exploit this vulnerability by inserting script payloads in the announcement title field when adding announcements through the 'Forums and Posts' > 'Forum Announcements' interface, causing arbitrary JavaScript to execute when the announcement is displayed on the forum.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:03Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://mybb.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51136"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/mybb-forums-stored-cross-site-scripting-via-forum-announcements"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53979",
+      "title": "MyBB 1.8.32 contains a chained vulnerability that allows authenticated administrators to bypass avatar upload restrictio",
+      "summary": "MyBB 1.8.32 contains a chained vulnerability that allows authenticated administrators to bypass avatar upload restrictions and execute arbitrary code. Attackers can modify upload path settings, upload a malicious PHP-embedded image file, and execute commands through the language configuration editing interface.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:03Z",
+      "cvss": 8.6,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://fdlucifer.github.io/2023/01/17/mybb1-8-32-LFI-RCE/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://mybb.com/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51213"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/mybb-authenticated-remote-code-execution-via-chained-vulnerabilities"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53980",
+      "title": "ProjectSend r1605 contains a remote code execution vulnerability that allows attackers to upload malicious files by mani",
+      "summary": "ProjectSend r1605 contains a remote code execution vulnerability that allows attackers to upload malicious files by manipulating file extensions. Attackers can upload shell scripts with disguised extensions through the upload.process.php endpoint to execute arbitrary commands on the server.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:03Z",
+      "cvss": 8.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51238"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.projectsend.org/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/projectsend-remote-code-execution-via-file-extension-manipulation"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://www.exploit-db.com/exploits/51238"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2023-53981",
+      "title": "PhotoShow 3.0 contains a remote code execution vulnerability that allows authenticated administrators to inject maliciou",
+      "summary": "PhotoShow 3.0 contains a remote code execution vulnerability that allows authenticated administrators to inject malicious commands through the exiftran path configuration. Attackers can exploit the ffmpeg configuration settings by base64 encoding a reverse shell command and executing it through a crafted video upload process.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:03Z",
+      "cvss": 8.6,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/thibaud-rohmer/PhotoShow"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://lscp.llc/index.php/2021/07/19/how-white-box-hacking-works-remote-code-execution-and-stored-xss-in-photoshow-3-0/"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.exploit-db.com/exploits/51236"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/photoshow-remote-code-execution-via-exiftran-path-injection"
+        },
+        {
+          "title": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "url": "https://lscp.llc/index.php/2021/07/19/how-white-box-hacking-works-remote-code-execution-and-stored-xss-in-photoshow-3-0/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-34457",
+      "title": "wb2osz/direwolf (Dire Wolf) versions up to and including 1.8, prior to commit 694c954, contain a stack-based buffer over",
+      "summary": "wb2osz/direwolf (Dire Wolf) versions up to and including 1.8, prior to commit 694c954, contain a stack-based buffer overflow vulnerability in the function kiss_rec_byte() located in src/kiss_frame.c. When processing crafted KISS frames that reach the maximum allowed frame length (MAX_KISS_LEN), the function appends a terminating FEND byte without reserving sufficient space in the stack buffer. This results in an out-of-bounds write followed by an out-of-bounds read during the subsequent call to kiss_unwrap(), leading to stack memory corruption or application crashes. This vulnerability may allow remote unauthenticated attackers to trigger a denial-of-service condition.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:04Z",
+      "cvss": 8.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/marlinkcyber/advisories/blob/main/advisories/MCSAID-2025-010-direwolf-stack-buffer-overflow-kiss-frame.md"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/wb2osz/direwolf/commit/694c954"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/wb2osz/direwolf/issues/617"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/wb2osz-direwolf-stack-based-buffer-overflow-dos"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-34458",
+      "title": "wb2osz/direwolf (Dire Wolf) versions up to and including 1.8, prior to commit 3658a87, contain a reachable assertion vul",
+      "summary": "wb2osz/direwolf (Dire Wolf) versions up to and including 1.8, prior to commit 3658a87, contain a reachable assertion vulnerability in the APRS MIC-E decoder function aprs_mic_e() located in src/decode_aprs.c. When processing a specially crafted AX.25 frame containing a MIC-E message with an empty or truncated comment field, the application triggers an unhandled assertion checking for a non-empty comment. This assertion failure causes immediate process termination, allowing a remote, unauthenticated attacker to cause a denial of service by sending malformed APRS traffic.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:04Z",
+      "cvss": 8.7,
+      "exploited": false,
+      "references": [
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/marlinkcyber/advisories/blob/main/advisories/MCSAID-2025-010-direwolf-stack-buffer-overflow-kiss-frame.md"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/wb2osz/direwolf/commit/3658a87"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://github.com/wb2osz/direwolf/issues/618"
+        },
+        {
+          "title": "disclosure@vulncheck.com",
+          "url": "https://www.vulncheck.com/advisories/wb2osz-direwolf-reachable-assertion-dos"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-65856",
+      "title": "Authentication bypass vulnerability in Xiongmai XM530 IP cameras on Firmware V5.00.R02.000807D8.10010.346624.S.ONVIF 21.",
+      "summary": "Authentication bypass vulnerability in Xiongmai XM530 IP cameras on Firmware V5.00.R02.000807D8.10010.346624.S.ONVIF 21.06 allows unauthenticated remote attackers to access sensitive device information and live video streams. The ONVIF implementation fails to enforce authentication on 31 critical endpoints, enabling direct unauthorized video stream access.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:08Z",
+      "cvss": 9.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "http://hangzhou.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "http://ip.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://luismirandaacebedo.github.io/CVE-2025-65856/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-65857",
+      "title": "An issue was discovered in Xiongmai XM530 IP cameras on firmware V5.00.R02.000807D8.10010.346624.S.ONVIF 21.06. The GetS",
+      "summary": "An issue was discovered in Xiongmai XM530 IP cameras on firmware V5.00.R02.000807D8.10010.346624.S.ONVIF 21.06. The GetStreamUri exposes RTSP URIs containing hardcoded credentials enabling direct unauthorized video stream access.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:08Z",
+      "cvss": 7.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "http://hangzhou.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "http://ip.com"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://luismirandaacebedo.github.io/CVE-2025-65857/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-67436",
+      "title": "Authenticated Remote Code Execution (RCE) in PluXml CMS 5.8.22 allows an attacker with administrator panel access to inj",
+      "summary": "Authenticated Remote Code Execution (RCE) in PluXml CMS 5.8.22 allows an attacker with administrator panel access to inject a malicious PHP webshell into a theme file (e.g., home.php).",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:08Z",
+      "cvss": 6.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/RajChowdhury240/CVE-2025-67435/"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/pluxml/PluXml"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68475",
+      "title": "Fedify is a TypeScript library for building federated server apps powered by ActivityPub. Prior to versions 1.6.13, 1.7.",
+      "summary": "Fedify is a TypeScript library for building federated server apps powered by ActivityPub. Prior to versions 1.6.13, 1.7.14, 1.8.15, and 1.9.2, a Regular Expression Denial of Service (ReDoS) vulnerability exists in Fedify's document loader. The HTML parsing regex at packages/fedify/src/runtime/docloader.ts:259 contains nested quantifiers that cause catastrophic backtracking when processing maliciously crafted HTML responses. This issue has been patched in versions 1.6.13, 1.7.14, 1.8.15, and 1.9.2.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:09Z",
+      "cvss": 7.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/fedify-dev/fedify/commit/2bdcb24d7d6d5886e0214ed504b63a6dc5488779"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/fedify-dev/fedify/commit/bf2f0783634efed2663d1b187dc55461ee1f987a"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/fedify-dev/fedify/releases/tag/1.6.13"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/fedify-dev/fedify/releases/tag/1.7.14"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/fedify-dev/fedify/releases/tag/1.8.15"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/fedify-dev/fedify/releases/tag/1.9.2"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/fedify-dev/fedify/security/advisories/GHSA-rchf-xwx2-hm93"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68476",
+      "title": "KEDA is a Kubernetes-based Event Driven Autoscaling component. Prior to versions 2.17.3 and 2.18.3, an Arbitrary File Re",
+      "summary": "KEDA is a Kubernetes-based Event Driven Autoscaling component. Prior to versions 2.17.3 and 2.18.3, an Arbitrary File Read vulnerability has been identified in KEDA, potentially affecting any KEDA resource that uses TriggerAuthentication to configure HashiCorp Vault authentication. The vulnerability stems from an incorrect or insufficient path validation when loading the Service Account Token specified in spec.hashiCorpVault.credential.serviceAccount. An attacker with permissions to create or modify a TriggerAuthentication resource can exfiltrate the content of any file from the node's filesystem (where the KEDA pod resides) by directing the file's content to a server under their control, as part of the Vault authentication request. The potential impact includes the exfiltration of sensitive system information, such as secrets, keys, or the content of files like /etc/passwd. This issue has been patched in versions 2.17.3 and 2.18.3.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:09Z",
+      "cvss": 8.2,
+      "exploited": false,
+      "references": [
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/kedacore/keda/commit/15c5677f65f809b9b6b59a52f4cf793db0a510fd"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/kedacore/keda/security/advisories/GHSA-c4p6-qg4m-9jmr"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68480",
+      "title": "Marshmallow is a lightweight library for converting complex objects to and from simple Python datatypes. In versions fro",
+      "summary": "Marshmallow is a lightweight library for converting complex objects to and from simple Python datatypes. In versions from 3.0.0rc1 to before 3.26.2 and from 4.0.0 to before 4.1.2, Schema.load(data, many=True) is vulnerable to denial of service attacks. A moderately sized request can consume a disproportionate amount of CPU time. This issue has been patched in version 3.26.2 and 4.1.2.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-22T22:16:09Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/marshmallow-code/marshmallow/commit/d24a0c9df061c4daa92f71cf85aca25b83eee508"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/marshmallow-code/marshmallow/security/advisories/GHSA-428g-f7cq-pgp5"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68614",
+      "title": "LibreNMS is an auto-discovering PHP/MySQL/SNMP based network monitoring tool. Prior to version 25.12.0, the Alert Rule A",
+      "summary": "LibreNMS is an auto-discovering PHP/MySQL/SNMP based network monitoring tool. Prior to version 25.12.0, the Alert Rule API is vulnerable to stored cross-site scripting. Alert rules can be created or updated via LibreNMS API. The alert rule name is not properly sanitized, and can be used to inject HTML code. This issue has been patched in version 25.12.0.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-23T00:15:43Z",
+      "cvss": 4.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/librenms/librenms/commit/ebe6c79bf4ce0afeb575c1285afe3934e44001f1"
+        },
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/librenms/librenms/security/advisories/GHSA-c89f-8g7g-59wj"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68615",
+      "title": "net-snmp is a SNMP application library, tools and daemon. Prior to versions 5.9.5 and 5.10.pre2, a specially crafted pac",
+      "summary": "net-snmp is a SNMP application library, tools and daemon. Prior to versions 5.9.5 and 5.10.pre2, a specially crafted packet to an net-snmp snmptrapd daemon can cause a buffer overflow and the daemon to crash. This issue has been patched in versions 5.9.5 and 5.10.pre2.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-23T00:15:43Z",
+      "cvss": 9.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "security-advisories@github.com",
+          "url": "https://github.com/net-snmp/net-snmp/security/advisories/GHSA-4389-rwqf-q9gq"
         }
       ]
     }
