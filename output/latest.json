@@ -1,762 +1,6 @@
 {
-  "generatedAt": "2025-12-28T00:34:49Z",
+  "generatedAt": "2025-12-29T00:33:45Z",
   "items": [
-    {
-      "cve": "CVE-2025-58294",
-      "title": "Permission control vulnerability in the print module.\nImpact: Successful exploitation of this vulnerability may affect s",
-      "summary": "Permission control vulnerability in the print module.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:15:59Z",
-      "cvss": 6.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58303",
-      "title": "UAF vulnerability in the screen recording framework module.\nImpact: Successful exploitation of this vulnerability may af",
-      "summary": "UAF vulnerability in the screen recording framework module.\nImpact: Successful exploitation of this vulnerability may affect availability.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:15:59Z",
-      "cvss": 8.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58307",
-      "title": "UAF vulnerability in the screen recording framework module.\nImpact: Successful exploitation of this vulnerability may af",
-      "summary": "UAF vulnerability in the screen recording framework module.\nImpact: Successful exploitation of this vulnerability may affect availability.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:15:59Z",
-      "cvss": 6.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58309",
-      "title": "Permission control vulnerability in the startup recovery module.\nImpact: Successful exploitation of this vulnerability w",
-      "summary": "Permission control vulnerability in the startup recovery module.\nImpact: Successful exploitation of this vulnerability will affect availability and confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:15:59Z",
-      "cvss": 6.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58310",
-      "title": "Permission control vulnerability in the distributed component.\nImpact: Successful exploitation of this vulnerability may",
-      "summary": "Permission control vulnerability in the distributed component.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:15:59Z",
-      "cvss": 8.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58312",
-      "title": "Permission control vulnerability in the App Lock module.\nImpact: Successful exploitation of this vulnerability may affec",
-      "summary": "Permission control vulnerability in the App Lock module.\nImpact: Successful exploitation of this vulnerability may affect availability.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:15:59Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58314",
-      "title": "Vulnerability of accessing invalid memory in the component driver module.\nImpact: Successful exploitation of this vulner",
-      "summary": "Vulnerability of accessing invalid memory in the component driver module.\nImpact: Successful exploitation of this vulnerability will affect availability and confidentiality.",
-      "vendor": "huawei",
-      "product": "emui",
-      "published": "2025-11-28T03:16:00Z",
-      "cvss": 6.6,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58315",
-      "title": "Permission control vulnerability in the Wi-Fi module.\nImpact: Successful exploitation of this vulnerability may affect s",
-      "summary": "Permission control vulnerability in the Wi-Fi module.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:16:00Z",
-      "cvss": 5.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58316",
-      "title": "DoS vulnerability in the video-related system service module.\nImpact: Successful exploitation of this vulnerability may ",
-      "summary": "DoS vulnerability in the video-related system service module.\nImpact: Successful exploitation of this vulnerability may affect availability.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:16:00Z",
-      "cvss": 7.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64311",
-      "title": "Permission control vulnerability in the Notepad module.\nImpact: Successful exploitation of this vulnerability may affect",
-      "summary": "Permission control vulnerability in the Notepad module.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:16:00Z",
-      "cvss": 5.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64313",
-      "title": "Denial of service (DoS) vulnerability in the office service.\nImpact: Successful exploitation of this vulnerability may a",
-      "summary": "Denial of service (DoS) vulnerability in the office service.\nImpact: Successful exploitation of this vulnerability may affect availability.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:16:00Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64314",
-      "title": "Permission control vulnerability in the memory management module.\nImpact: Successful exploitation of this vulnerability ",
-      "summary": "Permission control vulnerability in the memory management module.\nImpact: Successful exploitation of this vulnerability may affect confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:16:00Z",
-      "cvss": 9.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/cn/support/bulletinlaptops/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64315",
-      "title": "Configuration defect vulnerability in the file management module.\nImpact: Successful exploitation of this vulnerability ",
-      "summary": "Configuration defect vulnerability in the file management module.\nImpact: Successful exploitation of this vulnerability may affect app data confidentiality and integrity.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T03:16:01Z",
-      "cvss": 4.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/cn/support/bulletinlaptops/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13737",
-      "title": "The Nextend Social Login and Register plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions u",
-      "summary": "The Nextend Social Login and Register plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.1.21. This is due to missing or incorrect nonce validation on the 'unlinkUser' function. This makes it possible for unauthenticated attackers to unlink the user's social login via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T04:16:00Z",
-      "cvss": 4.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/browser/nextend-facebook-connect/tags/3.1.21/includes/provider.php#L772"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://plugins.trac.wordpress.org/changeset/3404174/nextend-facebook-connect/trunk/includes/provider.php"
-        },
-        {
-          "title": "security@wordfence.com",
-          "url": "https://www.wordfence.com/threat-intel/vulnerabilities/id/9c6b747e-d267-4fd3-a4fd-022aa657c796?source=cve"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58302",
-      "title": "Permission control vulnerability in the Settings module.\nImpact: Successful exploitation of this vulnerability may affec",
-      "summary": "Permission control vulnerability in the Settings module.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "emui",
-      "published": "2025-11-28T04:16:00Z",
-      "cvss": 8.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58304",
-      "title": "Permission control vulnerability in the file management module.\nImpact: Successful exploitation of this vulnerability ma",
-      "summary": "Permission control vulnerability in the file management module.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T04:16:00Z",
-      "cvss": 4.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58305",
-      "title": "Identity authentication bypass vulnerability in the Gallery app.\nImpact: Successful exploitation of this vulnerability m",
-      "summary": "Identity authentication bypass vulnerability in the Gallery app.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T04:16:00Z",
-      "cvss": 6.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58308",
-      "title": "Vulnerability of improper criterion security check in the call module.\nImpact: Successful exploitation of this vulnerabi",
-      "summary": "Vulnerability of improper criterion security check in the call module.\nImpact: Successful exploitation of this vulnerability may cause features to perform abnormally.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T04:16:00Z",
-      "cvss": 7.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-58311",
-      "title": "UAF vulnerability in the USB driver module.\nImpact: Successful exploitation of this vulnerability will affect availabili",
-      "summary": "UAF vulnerability in the USB driver module.\nImpact: Successful exploitation of this vulnerability will affect availability and confidentiality.",
-      "vendor": "huawei",
-      "product": "emui",
-      "published": "2025-11-28T04:16:00Z",
-      "cvss": 5.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-64312",
-      "title": "Permission control vulnerability in the file management module.\nImpact: Successful exploitation of this vulnerability ma",
-      "summary": "Permission control vulnerability in the file management module.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
-      "vendor": "huawei",
-      "product": "harmonyos",
-      "published": "2025-11-28T04:16:00Z",
-      "cvss": 4.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@huawei.com",
-          "url": "https://consumer.huawei.com/en/support/bulletin/2025/11/"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-66370",
-      "title": "Kivitendo before 3.9.2 allows XXE injection. By uploading an electronic invoice in the ZUGFeRD format, it is possible to",
-      "summary": "Kivitendo before 3.9.2 allows XXE injection. By uploading an electronic invoice in the ZUGFeRD format, it is possible to read and exfiltrate files from the server's filesystem.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T04:16:01Z",
-      "cvss": 5.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://blog.kivitendo.de/?p=1415"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/kivitendo/kivitendo-erp/blob/fd3f993fc731cbcaa5eb87d55df7c82df4df9c09/doc/changelog"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/kivitendo/kivitendo-erp/commit/1286dee72f9919166178d0cdb5f52f13b0f7d4de"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/kivitendo/kivitendo-erp/commit/f6ba56bd8d22a428534057589baace6b7bfdf2e9"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-66371",
-      "title": "Peppol-py before 1.1.1 allows XXE attacks because of the Saxon configuration. When validating XML-based invoices, the XM",
-      "summary": "Peppol-py before 1.1.1 allows XXE attacks because of the Saxon configuration. When validating XML-based invoices, the XML parser could read files from the filesystem and expose their content to a remote host.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T04:16:01Z",
-      "cvss": 5.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/iterasdev/peppol-py/pull/16"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/iterasdev/peppol-py/releases/tag/1.1.1"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-66372",
-      "title": "Mustang before 2.16.3 allows exfiltrating files via XXE attacks.",
-      "summary": "Mustang before 2.16.3 allows exfiltrating files via XXE attacks.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T04:16:01Z",
-      "cvss": 2.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ZUGFeRD/mustangproject/issues/685"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ZUGFeRD/mustangproject/pull/725"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/ZUGFeRD/mustangproject/releases/tag/core-2.16.3"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-66382",
-      "title": "In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing ",
-      "summary": "In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time.",
-      "vendor": "libexpat project",
-      "product": "libexpat",
-      "published": "2025-11-28T07:15:57Z",
-      "cvss": 2.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/libexpat/libexpat/issues/1076"
-        },
-        {
-          "title": "af854a3a-2127-422b-91ae-364da2661108",
-          "url": "http://www.openwall.com/lists/oss-security/2025/12/02/1"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-66384",
-      "title": "app/Controller/EventsController.php in MISP before 2.5.24 has invalid logic in checking for uploaded file validity, rela",
-      "summary": "app/Controller/EventsController.php in MISP before 2.5.24 has invalid logic in checking for uploaded file validity, related to tmp_name.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T07:15:59Z",
-      "cvss": 8.2,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/MISP/MISP/compare/v2.5.23...v2.5.24"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/misp/misp/commit/6867f0d3157a1959154bdad9ddac009dec6a19f5"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-66385",
-      "title": "UsersController::edit in Cerebrate before 1.30 allows an authenticated non-privileged user to escalate their privileges ",
-      "summary": "UsersController::edit in Cerebrate before 1.30 allows an authenticated non-privileged user to escalate their privileges (e.g., obtain a higher role such as admin) via the user-edit endpoint by supplying or modifying role_id or organisation_id fields in the edit request.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T07:15:59Z",
-      "cvss": 9.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/cerebrate-project/cerebrate/commit/c9bfa90abc85d4a20a9cc2f282959b72bef829bb"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/cerebrate-project/cerebrate/compare/v1.29...v1.30"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://vulnerability.circl.lu/api/vulnerability/gcve-1-2025-0017"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-66386",
-      "title": "app/Model/EventReport.php in MISP before 2.5.27 allows path traversal in view picture for a site-admin.",
-      "summary": "app/Model/EventReport.php in MISP before 2.5.27 allows path traversal in view picture for a site-admin.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T07:15:59Z",
-      "cvss": 4.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/MISP/MISP/commit/7f4a0386d38672eddc139f5735d71c3b749623ce"
-        },
-        {
-          "title": "cve@mitre.org",
-          "url": "https://github.com/MISP/MISP/compare/v2.5.26...v2.5.27"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13768",
-      "title": "WebITR developed by Uniong has an Authentication Bypass vulnerability, allowing authenticated remote attackers to log in",
-      "summary": "WebITR developed by Uniong has an Authentication Bypass vulnerability, allowing authenticated remote attackers to log into the system as any user by modifying a specific parameter. Attackers must first obtain a user ID to exploit this vulnerability.",
-      "vendor": "uniong",
-      "product": "webitr",
-      "published": "2025-11-28T08:15:52Z",
-      "cvss": 7.7,
-      "exploited": false,
-      "references": [
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/en/cp-139-10539-21f45-2.html"
-        },
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/tw/cp-132-10538-6a26d-1.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13769",
-      "title": "WebITR developed by Uniong has a SQL Injection vulnerability, allowing authenticated remote attackers to inject arbitrar",
-      "summary": "WebITR developed by Uniong has a SQL Injection vulnerability, allowing authenticated remote attackers to inject arbitrary SQL commands to read database contents.",
-      "vendor": "uniong",
-      "product": "webitr",
-      "published": "2025-11-28T08:15:53Z",
-      "cvss": 7.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/en/cp-139-10539-21f45-2.html"
-        },
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/tw/cp-132-10538-6a26d-1.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13770",
-      "title": "WebITR developed by Uniong has a SQL Injection vulnerability, allowing authenticated remote attackers to inject arbitrar",
-      "summary": "WebITR developed by Uniong has a SQL Injection vulnerability, allowing authenticated remote attackers to inject arbitrary SQL commands to read database contents.",
-      "vendor": "uniong",
-      "product": "webitr",
-      "published": "2025-11-28T08:15:53Z",
-      "cvss": 7.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/en/cp-139-10539-21f45-2.html"
-        },
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/tw/cp-132-10538-6a26d-1.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13771",
-      "title": "WebITR developed by Uniong has an Arbitrary File Read vulnerability, allowing authenticated remote attackers to exploit ",
-      "summary": "WebITR developed by Uniong has an Arbitrary File Read vulnerability, allowing authenticated remote attackers to exploit Relative Path Traversal to download arbitrary system files.",
-      "vendor": "uniong",
-      "product": "webitr",
-      "published": "2025-11-28T08:15:54Z",
-      "cvss": 7.1,
-      "exploited": false,
-      "references": [
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/en/cp-139-10539-21f45-2.html"
-        },
-        {
-          "title": "twcert@cert.org.tw",
-          "url": "https://www.twcert.org.tw/tw/cp-132-10538-6a26d-1.html"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12143",
-      "title": "Stack-based Buffer Overflow vulnerability in ABB Terra AC wallbox.This issue affects Terra AC wallbox: through 1.8.33.",
-      "summary": "Stack-based Buffer Overflow vulnerability in ABB Terra AC wallbox.This issue affects Terra AC wallbox: through 1.8.33.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T12:16:03Z",
-      "cvss": 6.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cybersecurity@ch.abb.com",
-          "url": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108471A8107&LanguageCode=en&DocumentPartId=&Action=Launch"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-11156",
-      "title": "Netskope was notified about a potential gap in its agent (NS Client) on Windows systems.  If this gap is successfully ex",
-      "summary": "Netskope was notified about a potential gap in its agent (NS Client) on Windows systems.  If this gap is successfully exploited, a local, authenticated user with Administrator privileges can improperly load the driver as a generic kernel service. This triggers the flaw, causing a system crash (Blue-Screen-of-Death) and resulting in a Denial of Service (DoS) for the affected machine.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T15:15:59Z",
-      "cvss": 5.9,
-      "exploited": false,
-      "references": [
-        {
-          "title": "psirt@netskope.com",
-          "url": "https://www.netskope.com/company/security-compliance-and-assurance/security-advisories-and-disclosures/netskope-security-advisory-nskpsa-2025-005"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12638",
-      "title": "Keras version 3.11.3 is affected by a path traversal vulnerability in the keras.utils.get_file() function when extractin",
-      "summary": "Keras version 3.11.3 is affected by a path traversal vulnerability in the keras.utils.get_file() function when extracting tar archives. The vulnerability arises because the function uses Python's tarfile.extractall() method without the security-critical filter='data' parameter. Although Keras attempts to filter unsafe paths using filter_safe_paths(), this filtering occurs before extraction, and a PATH_MAX symlink resolution bug triggers during extraction. This bug causes symlink resolution to fail due to path length limits, resulting in a security bypass that allows files to be written outside the intended extraction directory. This can lead to arbitrary file writes outside the cache directory, enabling potential system compromise or malicious code execution. The vulnerability affects Keras installations that process tar archives with get_file() and does not affect versions where this extraction method is secured with the appropriate filter parameter.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T15:16:00Z",
-      "cvss": 8.0,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@huntr.dev",
-          "url": "https://huntr.com/bounties/f94f5beb-54d8-4e6a-8bac-86d9aee103f4"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-51733",
-      "title": "Cross-Site Request Forgery (CSRF) vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "summary": "Cross-Site Request Forgery (CSRF) vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "vendor": "hcltech",
-      "product": "unica",
-      "published": "2025-11-28T15:16:01Z",
-      "cvss": 5.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/ikpehlivan/4361fa808e04d884e4771be88e891ec2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-51734",
-      "title": "Cross-site scripting (XSS) vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "summary": "Cross-site scripting (XSS) vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "vendor": "hcltech",
-      "product": "unica",
-      "published": "2025-11-28T15:16:01Z",
-      "cvss": 5.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/ikpehlivan/4361fa808e04d884e4771be88e891ec2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-51735",
-      "title": "CSV formula injection vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "summary": "CSV formula injection vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "vendor": "hcltech",
-      "product": "unica",
-      "published": "2025-11-28T15:16:01Z",
-      "cvss": 7.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/ikpehlivan/4361fa808e04d884e4771be88e891ec2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-51736",
-      "title": "File upload vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "summary": "File upload vulnerability in HCL Technologies Ltd. Unica 12.0.0.",
-      "vendor": "hcltech",
-      "product": "unica",
-      "published": "2025-11-28T15:16:01Z",
-      "cvss": 6.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "cve@mitre.org",
-          "url": "https://gist.github.com/ikpehlivan/4361fa808e04d884e4771be88e891ec2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59790",
-      "title": "Improper Privilege Management vulnerability in Apache Kvrocks.\n\nThis issue affects Apache Kvrocks: from v2.9.0 through v",
-      "summary": "Improper Privilege Management vulnerability in Apache Kvrocks.\n\nThis issue affects Apache Kvrocks: from v2.9.0 through v2.13.0.\n\nUsers are recommended to upgrade to version 2.14.0, which fixes the issue.",
-      "vendor": "apache",
-      "product": "kvrocks",
-      "published": "2025-11-28T15:16:02Z",
-      "cvss": 5.4,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@apache.org",
-          "url": "https://lists.apache.org/thread/dlbz5hmm4ts3npzqnvhofxmqg9w9zt0o"
-        },
-        {
-          "title": "af854a3a-2127-422b-91ae-364da2661108",
-          "url": "http://www.openwall.com/lists/oss-security/2025/11/28/2"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-59792",
-      "title": "Reveals plaintext credentials in the MONITOR command vulnerability in Apache Kvrocks.\n\nThis issue affects Apache Kvrocks",
-      "summary": "Reveals plaintext credentials in the MONITOR command vulnerability in Apache Kvrocks.\n\nThis issue affects Apache Kvrocks: from 1.0.0 through 2.13.0.\n\nUsers are recommended to upgrade to version 2.14.0, which fixes the issue.",
-      "vendor": "apache",
-      "product": "kvrocks",
-      "published": "2025-11-28T15:16:03Z",
-      "cvss": 5.3,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@apache.org",
-          "url": "https://lists.apache.org/thread/h2pcvr5p9otc7dnj2dt2nr4b3omghddw"
-        },
-        {
-          "title": "af854a3a-2127-422b-91ae-364da2661108",
-          "url": "http://www.openwall.com/lists/oss-security/2025/11/28/3"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-12183",
-      "title": "Out-of-bounds memory operations in org.lz4:lz4-java 1.8.0 and earlier allow remote attackers to cause denial of service ",
-      "summary": "Out-of-bounds memory operations in org.lz4:lz4-java 1.8.0 and earlier allow remote attackers to cause denial of service and read adjacent memory via untrusted compressed input.",
-      "vendor": "",
-      "product": "",
-      "published": "2025-11-28T16:15:51Z",
-      "cvss": 8.8,
-      "exploited": false,
-      "references": [
-        {
-          "title": "103e4ec9-0a87-450b-af77-479448ddef11",
-          "url": "https://github.com/yawkat/lz4-java/releases/tag/v1.8.1"
-        },
-        {
-          "title": "103e4ec9-0a87-450b-af77-479448ddef11",
-          "url": "https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183"
-        },
-        {
-          "title": "af854a3a-2127-422b-91ae-364da2661108",
-          "url": "http://www.openwall.com/lists/oss-security/2025/12/01/5"
-        }
-      ]
-    },
-    {
-      "cve": "CVE-2025-13683",
-      "title": "Exposure of credentials in unintended requests in Devolutions Server, Remote Desktop Manager on Windows.This issue affec",
-      "summary": "Exposure of credentials in unintended requests in Devolutions Server, Remote Desktop Manager on Windows.This issue affects Devolutions Server: through 2025.3.8.0; Remote Desktop Manager: through 2025.3.23.0.",
-      "vendor": "devolutions",
-      "product": "devolutions server",
-      "published": "2025-11-28T17:16:08Z",
-      "cvss": 6.5,
-      "exploited": false,
-      "references": [
-        {
-          "title": "security@devolutions.net",
-          "url": "https://devolutions.net/security/advisories/DEVO-2025-0017/"
-        }
-      ]
-    },
     {
       "cve": "CVE-2025-64715",
       "title": "Cilium is a networking, observability, and security solution with an eBPF-based dataplane. Prior to versions 1.16.17, 1.",
@@ -86658,8 +85902,8 @@
     },
     {
       "cve": "CVE-2025-14954",
-      "title": "A vulnerability has been found in Open5GS up to 2.7.5. Affected is the function ogs_pfcp_pdr_find_or_add/ogs_pfcp_far_fi",
-      "summary": "A vulnerability has been found in Open5GS up to 2.7.5. Affected is the function ogs_pfcp_pdr_find_or_add/ogs_pfcp_far_find_or_add/ogs_pfcp_urr_find_or_add/ogs_pfcp_qer_find_or_add in the library lib/pfcp/context.c of the component QER/FAR/URR/PDR. The manipulation leads to reachable assertion. It is possible to initiate the attack remotely. The attack's complexity is rated as high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The identifier of the patch is 442369dcd964f03d95429a6a01a57ed21f7779b7. Applying a patch is the recommended action to fix this issue.",
+      "title": "A vulnerability has been found in Open5GS up to 2.7.6. Affected is the function ogs_pfcp_pdr_find_or_add/ogs_pfcp_far_fi",
+      "summary": "A vulnerability has been found in Open5GS up to 2.7.6. Affected is the function ogs_pfcp_pdr_find_or_add/ogs_pfcp_far_find_or_add/ogs_pfcp_urr_find_or_add/ogs_pfcp_qer_find_or_add in the library lib/pfcp/context.c of the component QER/FAR/URR/PDR. The manipulation leads to reachable assertion. It is possible to initiate the attack remotely. The attack's complexity is rated as high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The identifier of the patch is 442369dcd964f03d95429a6a01a57ed21f7779b7. Applying a patch is the recommended action to fix this issue.",
       "vendor": "open5gs",
       "product": "open5gs",
       "published": "2025-12-19T16:15:55Z",
@@ -111943,6 +111187,1306 @@
         {
           "title": "cve@mitre.org",
           "url": "https://news.ycombinator.com/item?id=46404339"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15116",
+      "title": "A security flaw has been discovered in OpenCart up to 4.1.0.3. Affected by this issue is some unknown functionality of t",
+      "summary": "A security flaw has been discovered in OpenCart up to 4.1.0.3. Affected by this issue is some unknown functionality of the component Single-Use Coupon Handler. Performing manipulation results in race condition. The attack may be initiated remotely. The attack's complexity is rated as high. The exploitation is known to be difficult. The exploit has been released to the public and may be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T03:15:40Z",
+      "cvss": 6.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://gist.github.com/KhanMarshaI/a55f125a55de1c0d4f41e66236027e01"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://gist.github.com/KhanMarshaI/a55f125a55de1c0d4f41e66236027e01#steps-to-reproduce"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338494"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338494"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711745"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15117",
+      "title": "A weakness has been identified in Dromara Sa-Token up to 1.44.0. This affects the function ObjectInputStream.readObject ",
+      "summary": "A weakness has been identified in Dromara Sa-Token up to 1.44.0. This affects the function ObjectInputStream.readObject of the file SaJdkSerializer.java. Executing manipulation can lead to deserialization. The attack may be launched remotely. This attack is characterized by high complexity. It is indicated that the exploitability is difficult. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T03:15:41Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Yohane-Mashiro/Sa-Token-cve"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338495"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338495"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711750"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15118",
+      "title": "A security vulnerability has been detected in macrozheng mall up to 1.0.3. This vulnerability affects unknown code of th",
+      "summary": "A security vulnerability has been detected in macrozheng mall up to 1.0.3. This vulnerability affects unknown code of the file /member/address/update/ of the component Member Endpoint. The manipulation leads to improper authorization. Remote exploitation of the attack is possible. The exploit has been disclosed publicly and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T04:16:03Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/31"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338496"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338496"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711758"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15119",
+      "title": "A vulnerability was detected in JeecgBoot up to 3.9.0. This issue affects the function queryPageList of the file /sys/sy",
+      "summary": "A vulnerability was detected in JeecgBoot up to 3.9.0. This issue affects the function queryPageList of the file /sys/sysDepartRole/list. The manipulation of the argument deptId results in improper authorization. The attack can be executed remotely. A high complexity level is associated with this attack. The exploitability is assessed as difficult. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T04:16:04Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/32"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338497"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338497"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711771"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15120",
+      "title": "A flaw has been found in JeecgBoot up to 3.9.0. Impacted is the function getDeptRoleList of the file /sys/sysDepartRole/",
+      "summary": "A flaw has been found in JeecgBoot up to 3.9.0. Impacted is the function getDeptRoleList of the file /sys/sysDepartRole/getDeptRoleList. This manipulation of the argument departId causes improper authorization. The attack is possible to be carried out remotely. A high degree of complexity is needed for the attack. The exploitability is considered difficult. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T05:15:56Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/33"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338498"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338498"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711772"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15121",
+      "title": "A vulnerability has been found in JeecgBoot up to 3.9.0. The affected element is the function getDeptRoleByUserId of the",
+      "summary": "A vulnerability has been found in JeecgBoot up to 3.9.0. The affected element is the function getDeptRoleByUserId of the file /sys/sysDepartRole/getDeptRoleByUserId. Such manipulation of the argument departId leads to information disclosure. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T05:16:04Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/34"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338499"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338499"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711773"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15122",
+      "title": "A vulnerability was found in JeecgBoot up to 3.9.0. The impacted element is the function loadDatarule of the file /sys/s",
+      "summary": "A vulnerability was found in JeecgBoot up to 3.9.0. The impacted element is the function loadDatarule of the file /sys/sysDepartRole/datarule/. Performing manipulation of the argument departId/roleId results in improper authorization. It is possible to initiate the attack remotely. The attack is considered to have high complexity. The exploitability is regarded as difficult. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T05:16:05Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/35"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338500"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338500"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711774"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15123",
+      "title": "A vulnerability was determined in JeecgBoot up to 3.9.0. This affects an unknown function of the file /sys/sysDepartPerm",
+      "summary": "A vulnerability was determined in JeecgBoot up to 3.9.0. This affects an unknown function of the file /sys/sysDepartPermission/datarule/. Executing manipulation can lead to improper authorization. It is possible to launch the attack remotely. The attack requires a high level of complexity. The exploitability is reported as difficult. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T07:15:52Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/36"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338501"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338501"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711775"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15124",
+      "title": "A vulnerability was identified in JeecgBoot up to 3.9.0. This impacts the function getParameterMap of the file /sys/sysD",
+      "summary": "A vulnerability was identified in JeecgBoot up to 3.9.0. This impacts the function getParameterMap of the file /sys/sysDepartPermission/list. The manipulation of the argument departId leads to improper authorization. The attack can be initiated remotely. The attack's complexity is rated as high. The exploitability is said to be difficult. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T07:15:53Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/37"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338502"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338502"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711776"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15125",
+      "title": "A security flaw has been discovered in JeecgBoot up to 3.9.0. Affected is the function queryDepartPermission of the file",
+      "summary": "A security flaw has been discovered in JeecgBoot up to 3.9.0. Affected is the function queryDepartPermission of the file /sys/permission/queryDepartPermission. The manipulation of the argument departId results in improper authorization. The attack can be launched remotely. This attack is characterized by high complexity. The exploitability is told to be difficult. The exploit has been released to the public and may be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T07:15:53Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/38"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338503"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338503"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711777"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15126",
+      "title": "A weakness has been identified in JeecgBoot up to 3.9.0. Affected by this vulnerability is the function getPositionUserL",
+      "summary": "A weakness has been identified in JeecgBoot up to 3.9.0. Affected by this vulnerability is the function getPositionUserList of the file /sys/position/getPositionUserList. This manipulation of the argument positionId causes improper authorization. The attack may be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T08:15:45Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Hwwg/cve/issues/39"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338504"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338504"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711782"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15127",
+      "title": "A security vulnerability has been detected in FantasticLBP Hotels_Server up to 67b44df162fab26df209bd5d5d542875fcbec1d0.",
+      "summary": "A security vulnerability has been detected in FantasticLBP Hotels_Server up to 67b44df162fab26df209bd5d5d542875fcbec1d0. Affected by this issue is some unknown functionality of the file /controller/api/Room.php. Such manipulation of the argument hotelId leads to sql injection. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. This product operates on a rolling release basis, ensuring continuous delivery. Consequently, there are no version details for either affected or updated releases. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T08:15:45Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/liangmingpku/CVE/issues/1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338505"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338505"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711809"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15128",
+      "title": "A vulnerability was detected in ZKTeco BioTime up to 9.0.3/9.0.4/9.5.2. This affects an unknown part of the file /base/s",
+      "summary": "A vulnerability was detected in ZKTeco BioTime up to 9.0.3/9.0.4/9.5.2. This affects an unknown part of the file /base/safe_setting/ of the component Endpoint. Performing manipulation of the argument backup_encryption_password_decrypt/export_encryption_password_decrypt results in unprotected storage of credentials. Remote exploitation of the attack is possible. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T09:15:40Z",
+      "cvss": 5.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/ionutluca888/IDOR-POC-ZKBio-Time/tree/main"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338506"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338506"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.711813"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15129",
+      "title": "A flaw has been found in ChenJinchuang Lin-CMS-TP5 up to 0.3.3. This vulnerability affects the function Upload of the fi",
+      "summary": "A flaw has been found in ChenJinchuang Lin-CMS-TP5 up to 0.3.3. This vulnerability affects the function Upload of the file application/lib/file/LocalUploader.php of the component File Upload Handler. Executing manipulation of the argument File can lead to code injection. The attack can be executed remotely. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T09:15:41Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/ChenJinchuang/lin-cms-tp5/issues/65"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338507"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338507"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.712754"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15130",
+      "title": "A vulnerability has been found in shanyu SyCms up to a242ef2d194e8bb249dc175e7c49f2c1673ec921. This issue affects the fu",
+      "summary": "A vulnerability has been found in shanyu SyCms up to a242ef2d194e8bb249dc175e7c49f2c1673ec921. This issue affects the function addPost of the file Application/Admin/Controller/FileManageController.class.php of the component Administrative Panel. The manipulation leads to code injection. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used. This product adopts a rolling release strategy to maintain continuous delivery The project was informed of the problem early through an issue report but has not responded yet. This vulnerability only affects products that are no longer supported by the maintainer.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T10:15:40Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://gitee.com/shanyu/SyCms/issues/IDCEWG"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338508"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338508"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.712813"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15131",
+      "title": "A vulnerability was found in ZSPACE Z4Pro+ 1.0.0440024. Impacted is the function zfilev2_api_SafeStatus of the file /v2/",
+      "summary": "A vulnerability was found in ZSPACE Z4Pro+ 1.0.0440024. Impacted is the function zfilev2_api_SafeStatus of the file /v2/file/safe/status of the component HTTP POST Request Handler. The manipulation results in command injection. The attack may be performed from remote. The exploit has been made public and could be used. The vendor was contacted early about this disclosure.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T10:15:41Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/LX-66-LX/cve/issues/1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338509"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338509"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.713874"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15132",
+      "title": "A vulnerability was determined in ZSPACE Z4Pro+ 1.0.0440024. The affected element is the function zfilev2_api_open of th",
+      "summary": "A vulnerability was determined in ZSPACE Z4Pro+ 1.0.0440024. The affected element is the function zfilev2_api_open of the file /v2/file/safe/open of the component HTTP POST Request Handler. This manipulation causes command injection. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T11:15:40Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/LX-66-LX/cve/issues/2"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338510"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338510"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.713885"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15133",
+      "title": "A vulnerability was identified in ZSPACE Z4Pro+ 1.0.0440024. The impacted element is the function zfilev2_api_CloseSafe ",
+      "summary": "A vulnerability was identified in ZSPACE Z4Pro+ 1.0.0440024. The impacted element is the function zfilev2_api_CloseSafe of the file /v2/file/safe/close of the component HTTP POST Request Handler. Such manipulation leads to command injection. It is possible to launch the attack remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T11:15:41Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/LX-66-LX/cve/issues/3"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338511"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338511"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.713887"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15134",
+      "title": "A security flaw has been discovered in yourmaileyes MOOC up to 1.17. This affects the function subreview of the file moo",
+      "summary": "A security flaw has been discovered in yourmaileyes MOOC up to 1.17. This affects the function subreview of the file mooc/controller/MainController.java of the component Submission Handler. Performing manipulation of the argument review results in cross site scripting. The attack can be initiated remotely. The exploit has been released to the public and may be exploited. The project was informed of the problem early through an issue report but has not responded yet.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T12:15:40Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/yourmaileyes/MOOC/issues/12"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/yourmaileyes/MOOC/issues/12#issue-3722197285"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338512"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338512"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.713955"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15135",
+      "title": "A weakness has been identified in joey-zhou xiaozhi-esp32-server-java up to 3.0.0. This impacts the function tryAuthenti",
+      "summary": "A weakness has been identified in joey-zhou xiaozhi-esp32-server-java up to 3.0.0. This impacts the function tryAuthenticateWithCookies of the file AuthenticationInterceptor.java of the component Cookie Handler. Executing manipulation can lead to improper authentication. The attack can be launched remotely. The exploit has been made available to the public and could be exploited. Upgrading to version 4.0.0 will fix this issue. It is recommended to upgrade the affected component.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T12:15:41Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java/issues/143"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java/issues/143#issue-3722315701"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java/issues/143#issuecomment-3666534810"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/joey-zhou/xiaozhi-esp32-server-java/releases/tag/v4.0.0"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338513"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338513"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.713990"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15136",
+      "title": "A security vulnerability has been detected in TRENDnet TEW-800MB 1.0.1.0. Affected is the function do_setWizard_asp of t",
+      "summary": "A security vulnerability has been detected in TRENDnet TEW-800MB 1.0.1.0. Affected is the function do_setWizard_asp of the file /goform/wizardset of the component Management Interface. The manipulation of the argument WizardConfigured leads to command injection. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T13:15:39Z",
+      "cvss": 7.4,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://pentagonal-time-3a7.notion.site/TRENDnet-TEW-800MB-2c7e5dd4c5a58067bc81e530bf3191c0"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338514"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338514"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.714042"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15137",
+      "title": "A vulnerability was detected in TRENDnet TEW-800MB 1.0.1.0. Affected by this vulnerability is the function sub_F934  of ",
+      "summary": "A vulnerability was detected in TRENDnet TEW-800MB 1.0.1.0. Affected by this vulnerability is the function sub_F934  of the file NTPSyncWithHost.cgi. The manipulation results in command injection. The attack may be launched remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T14:16:26Z",
+      "cvss": 7.4,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://pentagonal-time-3a7.notion.site/TRENDnet-TEW-800MB-NTP-2c7e5dd4c5a580f999adcaff2c31978b"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338515"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338515"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.714241"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15138",
+      "title": "A flaw has been found in prasathmani TinyFileManager up to 2.6. Affected by this issue is some unknown functionality of ",
+      "summary": "A flaw has been found in prasathmani TinyFileManager up to 2.6. Affected by this issue is some unknown functionality of the file tinyfilemanager.php. This manipulation of the argument fullpath causes path traversal. Remote exploitation of the attack is possible. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T14:16:27Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://mesquite-dream-86b.notion.site/tinyfilemanager-File-Upload-RCE-Report-2c7512562197800d86b3e68534a56a91"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338516"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338516"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.714177"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15139",
+      "title": "A vulnerability has been found in TRENDnet TEW-822DRE 1.00B21/1.01B06. This affects the function sub_43ACF4  of the file",
+      "summary": "A vulnerability has been found in TRENDnet TEW-822DRE 1.00B21/1.01B06. This affects the function sub_43ACF4  of the file /boafrm/formWsc. Such manipulation of the argument peerPin leads to command injection. The attack can be executed remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T14:16:27Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://pentagonal-time-3a7.notion.site/TRENDnet-TEW-822DRE-Command-Injection-2c9e5dd4c5a580f190e9c411ad627e9a#2c9e5dd4c5a5801dae7ad20828639d4b"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338517"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338517"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.715131"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15140",
+      "title": "A vulnerability was found in saiftheboss7 onlinemcqexam up to 0e56806132971e49721db3ef01868098c7b42ada. This vulnerabili",
+      "summary": "A vulnerability was found in saiftheboss7 onlinemcqexam up to 0e56806132971e49721db3ef01868098c7b42ada. This vulnerability affects unknown code of the file /admin/quesadd.php. Performing manipulation of the argument ans1/ans2 results in sql injection. The attack is possible to be carried out remotely. The exploit has been made public and could be used. This product adopts a rolling release strategy to maintain continuous delivery The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T15:15:41Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/Anti1i/cve/issues/4"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338518"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338518"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.715219"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.715463"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15141",
+      "title": "A vulnerability was determined in Halo up to 2.21.10. This issue affects some unknown processing of the file /actuator o",
+      "summary": "A vulnerability was determined in Halo up to 2.21.10. This issue affects some unknown processing of the file /actuator of the component Configuration Handler. Executing manipulation can lead to information disclosure. The attack may be performed from remote. This attack is characterized by high complexity. The exploitability is assessed as difficult. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T15:15:41Z",
+      "cvss": 2.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/SECWG/cve/issues/9"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338519"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338519"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.715235"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15142",
+      "title": "A vulnerability was identified in 9786 phpok3w up to 901d96a06809fb28b17f3a4362c59e70411c933c. Impacted is an unknown fu",
+      "summary": "A vulnerability was identified in 9786 phpok3w up to 901d96a06809fb28b17f3a4362c59e70411c933c. Impacted is an unknown function of the file show.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit is publicly available and might be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The project was informed of the problem early through an issue report but has not responded yet.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T16:15:50Z",
+      "cvss": 6.9,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://gitee.com/9786/phpok3w/issues/IDD1IZ"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338520"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338520"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.715574"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15143",
+      "title": "A security flaw has been discovered in EyouCMS up to 1.7.6. The affected element is an unknown function of the file /app",
+      "summary": "A security flaw has been discovered in EyouCMS up to 1.7.6. The affected element is an unknown function of the file /application/admin/logic/FilemanagerLogic.php of the component Backend Template Management. The manipulation of the argument content results in sql injection. It is possible to launch the attack remotely. The exploit has been released to the public and may be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T16:15:51Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/XfINjg5i25Ud"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338521"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338521"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.716078"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15144",
+      "title": "A weakness has been identified in dayrui XunRuiCMS up to 4.7.1. The impacted element is the function dr_show_error/dr_ex",
+      "summary": "A weakness has been identified in dayrui XunRuiCMS up to 4.7.1. The impacted element is the function dr_show_error/dr_exit_msg of the file /dayrui/Fcms/Init.php of the component JSONP Callback Handler. This manipulation of the argument callback causes cross site scripting. The attack can be initiated remotely. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T17:16:00Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/gbCf35DJ3los"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338522"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338522"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.716122"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15145",
+      "title": "A security vulnerability has been detected in SohuTV CacheCloud up to 3.2.0. This affects the function doTotalList of th",
+      "summary": "A security vulnerability has been detected in SohuTV CacheCloud up to 3.2.0. This affects the function doTotalList of the file src/main/java/com/sohu/cache/web/controller/TotalManageController.java. Such manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed publicly and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T17:16:01Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/sohutv/cachecloud/issues/365"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/sohutv/cachecloud/issues/365#issue-3733522215"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338523"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338523"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.716301"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-68973",
+      "title": "In GnuPG through 2.4.8, armor_filter in g10/armor.c has two increments of an index variable where one is intended, leadi",
+      "summary": "In GnuPG through 2.4.8, armor_filter in g10/armor.c has two increments of an index variable where one is intended, leading to an out-of-bounds write for crafted input.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T17:16:01Z",
+      "cvss": 7.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/gpg/gnupg/blob/ff30683418695f5d2cc9e6cf8c9418e09378ebe4/g10/armor.c#L1305-L1306"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://github.com/gpg/gnupg/commit/115d138ba599328005c5321c0ef9f00355838ca9"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://gpg.fail/memcpy"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://news.ycombinator.com/item?id=46403200"
+        },
+        {
+          "title": "cve@mitre.org",
+          "url": "https://www.openwall.com/lists/oss-security/2025/12/28/5"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15146",
+      "title": "A vulnerability was detected in SohuTV CacheCloud up to 3.2.0. This impacts the function doUserList of the file src/main",
+      "summary": "A vulnerability was detected in SohuTV CacheCloud up to 3.2.0. This impacts the function doUserList of the file src/main/java/com/sohu/cache/web/controller/UserManageController.java. Performing manipulation results in cross site scripting. The attack may be initiated remotely. The exploit is now public and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T18:15:47Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/sohutv/cachecloud/issues/366"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/sohutv/cachecloud/issues/366#issue-3733542570"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338524"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338524"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.716302"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15148",
+      "title": "A flaw has been found in CmsEasy up to 7.7.7. Affected is the function savetemp_action in the library /lib/admin/templat",
+      "summary": "A flaw has been found in CmsEasy up to 7.7.7. Affected is the function savetemp_action in the library /lib/admin/template_admin.php of the component Backend Template Management Page. Executing manipulation of the argument content/tempdata can lead to code injection. The attack may be launched remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T18:15:47Z",
+      "cvss": 5.1,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/msJH69Y06ZlS"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338525"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338525"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.716303"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15149",
+      "title": "A vulnerability has been found in rawchen ecms up to b59d7feaa9094234e8aa6c8c6b290621ca575ded. Affected by this vulnerab",
+      "summary": "A vulnerability has been found in rawchen ecms up to b59d7feaa9094234e8aa6c8c6b290621ca575ded. Affected by this vulnerability is the function updateProductServlet of the file src/servlet/product/updateProductServlet.java of the component Add New Product Page. The manipulation of the argument productName leads to cross site scripting. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T19:15:48Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/zyhzheng500-maker/cve/blob/main/%E5%AD%98%E5%82%A8%E5%9E%8BXss.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338526"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338526"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.716583"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15150",
+      "title": "A vulnerability was found in PX4 PX4-Autopilot up to 1.16.0. Affected by this issue is the function MavlinkLogHandler::s",
+      "summary": "A vulnerability was found in PX4 PX4-Autopilot up to 1.16.0. Affected by this issue is the function MavlinkLogHandler::state_listing/MavlinkLogHandler::log_entry_from_id of the file src/modules/mavlink/mavlink_log_handler.cpp. The manipulation results in stack-based buffer overflow. The attack is only possible with local access. The patch is identified as 338595edd1d235efd885fd5e9f45e7f9dcf4013d. It is best practice to apply a patch to resolve this issue.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T19:15:48Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/26118"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/PX4/PX4-Autopilot/pull/26124"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/PX4/PX4-Autopilot/pull/26124/commits/338595edd1d235efd885fd5e9f45e7f9dcf4013d"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338527"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338527"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.717323"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15151",
+      "title": "A vulnerability was determined in TaleLin Lin-CMS up to 0.6.0. This affects an unknown part of the file /tests/config.py",
+      "summary": "A vulnerability was determined in TaleLin Lin-CMS up to 0.6.0. This affects an unknown part of the file /tests/config.py of the component Tests Folder. This manipulation of the argument username/password causes password in configuration file. The attack is possible to be carried out remotely. The complexity of an attack is rather high. It is indicated that the exploitability is difficult. The exploit has been publicly disclosed and may be utilized.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T20:15:40Z",
+      "cvss": 6.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/m3ngx1ng/cve/blob/4690d4020a4a642af4c50912f762937292228641/lin-cms.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338528"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338528"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.721893"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15152",
+      "title": "A vulnerability was identified in h-moses moga-mall up to 392d631a5ef15962a9bddeeb9f1269b9085473fa. This vulnerability a",
+      "summary": "A vulnerability was identified in h-moses moga-mall up to 392d631a5ef15962a9bddeeb9f1269b9085473fa. This vulnerability affects the function addProduct of the file src/main/java/com/ms/product/controller/PmsProductController.java. Such manipulation of the argument objectName leads to unrestricted upload. The attack may be performed from remote. This product utilizes a rolling release system for continuous delivery, and as such, version information for affected or updated releases is not disclosed.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T20:15:40Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/zyhzheng500-maker/cve/blob/main/moga-mall%E4%BB%BB%E6%84%8F%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338529"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338529"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.721988"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15153",
+      "title": "A weakness has been identified in PbootCMS up to 3.2.12. Impacted is an unknown function of the file /data/pbootcms.db o",
+      "summary": "A weakness has been identified in PbootCMS up to 3.2.12. Impacted is an unknown function of the file /data/pbootcms.db of the component SQLite Database. Executing manipulation can lead to files or directories accessible. It is possible to launch the attack remotely. Attacks of this nature are highly complex. The exploitability is considered difficult. The exploit has been made available to the public and could be exploited. Modifying the configuration settings is advised.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T21:15:54Z",
+      "cvss": 6.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/ALC1iSa8J56A"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338531"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338531"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719814"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15154",
+      "title": "A security vulnerability has been detected in PbootCMS up to 3.2.12. The affected element is the function get_user_ip of",
+      "summary": "A security vulnerability has been detected in PbootCMS up to 3.2.12. The affected element is the function get_user_ip of the file core/function/handle.php of the component Header Handler. The manipulation of the argument X-Forwarded-For leads to use of less trusted source. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T21:15:54Z",
+      "cvss": 5.5,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://note-hxlab.wetolink.com/share/JyBNgF8JagWQ"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338532"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338532"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719818"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15155",
+      "title": "A vulnerability was detected in floooh sokol up to 16cbcc864012898793cd2bc57f802499a264ea40. The impacted element is the",
+      "summary": "A vulnerability was detected in floooh sokol up to 16cbcc864012898793cd2bc57f802499a264ea40. The impacted element is the function _sg_pipeline_desc_defaults in the library sokol_gfx.h. The manipulation results in stack-based buffer overflow. The attack requires a local approach. The exploit is now public and may be used. This product does not use versioning. This is why information about affected and unaffected releases are unavailable. The patch is identified as 5d11344150973f15e16d3ec4ee7550a73fb995e0. It is advisable to implement a patch to correct this issue.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T22:15:43Z",
+      "cvss": 4.8,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/floooh/sokol/commit/5d11344150973f15e16d3ec4ee7550a73fb995e0"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/floooh/sokol/issues/1405"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/floooh/sokol/issues/1406#issuecomment-3649548096"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/oneafter/1212/blob/main/hbf1"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338533"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338533"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719823"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15156",
+      "title": "A flaw has been found in omec-project UPF up to 2.1.3-dev. This affects the function handleSessionEstablishmentRequest o",
+      "summary": "A flaw has been found in omec-project UPF up to 2.1.3-dev. This affects the function handleSessionEstablishmentRequest of the file /pfcpiface/pfcpiface/messages_session.go of the component PFCP Session Establishment Request Handler. This manipulation causes null pointer dereference. The attack may be initiated remotely. The exploit has been published and may be used. The project was informed of the problem early through an issue report but has not responded yet.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T22:15:43Z",
+      "cvss": 5.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/omec-project/upf/issues/979"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338534"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338534"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.719824"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15160",
+      "title": "A vulnerability has been found in Tenda WH450 1.0.0.18. This impacts an unknown function of the file /goform/PPTPServer.",
+      "summary": "A vulnerability has been found in Tenda WH450 1.0.0.18. This impacts an unknown function of the file /goform/PPTPServer. Such manipulation of the argument ip1 leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T23:15:52Z",
+      "cvss": 7.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/PPTPServer/PPTPServer.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338535"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338535"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.720886"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.tenda.com.cn/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15161",
+      "title": "A vulnerability was found in Tenda WH450 1.0.0.18. Affected is an unknown function of the file /goform/PPTPUserSetting. ",
+      "summary": "A vulnerability was found in Tenda WH450 1.0.0.18. Affected is an unknown function of the file /goform/PPTPUserSetting. Performing manipulation of the argument delno results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been made public and could be used.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-28T23:15:52Z",
+      "cvss": 7.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/PPTPUserSetting/PPTPUserSetting.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338536"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338536"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.720887"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.tenda.com.cn/"
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2025-15162",
+      "title": "A vulnerability was determined in Tenda WH450 1.0.0.18. Affected by this vulnerability is an unknown functionality of th",
+      "summary": "A vulnerability was determined in Tenda WH450 1.0.0.18. Affected by this vulnerability is an unknown functionality of the file /goform/RouteStatic. Executing manipulation of the argument page can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been publicly disclosed and may be utilized.",
+      "vendor": "",
+      "product": "",
+      "published": "2025-12-29T00:15:51Z",
+      "cvss": 7.3,
+      "exploited": false,
+      "references": [
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://github.com/z472421519/BinaryAudit/blob/main/PoC/BOF/Tenda_WH450/RouteStatic/RouteStatic.md"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?ctiid.338537"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?id.338537"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://vuldb.com/?submit.721210"
+        },
+        {
+          "title": "cna@vuldb.com",
+          "url": "https://www.tenda.com.cn/"
         }
       ]
     }
